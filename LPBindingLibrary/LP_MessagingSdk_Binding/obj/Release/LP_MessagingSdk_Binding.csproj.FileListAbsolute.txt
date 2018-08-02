@@ -1,0 +1,10 @@
+C:\Xamarin\Projects\LPBindingLibrary\LP_MessagingSdk_Binding\bin\Release\LP_MessagingSdk_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_MessagingSdk_Binding\bin\Release\LP_MessagingSdk_Binding.pdb
+C:\Xamarin\Projects\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_MessagingSdk_Binding\bin\Release\LP_MessagingSdk_Binding.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_MessagingSdk_Binding\bin\Release\LP_MessagingSdk_Binding.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_MessagingSdk_Binding\obj\Release\LP_MessagingSdk_Binding.pdb

@@ -1,0 +1,234 @@
+using System;
+using System.Collections.Generic;
+using Android.Runtime;
+
+namespace Com.Liveperson.Infra.Database.Tables {
+
+	// Metadata.xml XPath class reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']"
+	[global::Android.Runtime.Register ("com/liveperson/infra/database/tables/MessagesTable", DoNotGenerateAcw=true)]
+	public partial class messagesTable : global::Java.Lang.Object, global::Com.Liveperson.Infra.Database.Tables.IBaseTable {
+
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='ENCRYPTION_VERSION_CURSOR_AS_VALUE']"
+		[Register ("ENCRYPTION_VERSION_CURSOR_AS_VALUE")]
+		public const string EncryptionVersionCursorAsValue = (string) "message_encryptVer";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_CONTENT_TYPE']"
+		[Register ("KEY_CONTENT_TYPE")]
+		public const string KeyContentType = (string) "contentType";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_CONVERSATION_ID']"
+		[Register ("KEY_CONVERSATION_ID")]
+		public const string KeyConversationId = (string) "convID";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_ENCRYPTION_VERSION']"
+		[Register ("KEY_ENCRYPTION_VERSION")]
+		public const string KeyEncryptionVersion = (string) "encryptVer";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_EVENT_ID']"
+		[Register ("KEY_EVENT_ID")]
+		public const string KeyEventId = (string) "eventId";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_MESSAGE_TYPE']"
+		[Register ("KEY_MESSAGE_TYPE")]
+		public const string KeyMessageType = (string) "type";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_ORIGINATOR_ID']"
+		[Register ("KEY_ORIGINATOR_ID")]
+		public const string KeyOriginatorId = (string) "originatorId";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_SERVER_SEQUENCE']"
+		[Register ("KEY_SERVER_SEQUENCE")]
+		public const string KeyServerSequence = (string) "serverSequence";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_STATUS']"
+		[Register ("KEY_STATUS")]
+		public const string KeyStatus = (string) "status";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_TEXT']"
+		[Register ("KEY_TEXT")]
+		public const string KeyText = (string) "text";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='KEY_TIMESTAMP']"
+		[Register ("KEY_TIMESTAMP")]
+		public const string KeyTimestamp = (string) "timeStamp";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='MESSAGES_TABLE']"
+		[Register ("MESSAGES_TABLE")]
+		public const string MessagesTable = (string) "messages";
+
+		public static class InterfaceConsts {
+
+			// The following are fields from: com.liveperson.infra.database.tables.BaseTable
+
+			// Metadata.xml XPath field reference: path="/api/package[@name='com.liveperson.infra.database.tables']/interface[@name='BaseTable']/field[@name='KEY_ID']"
+			[Register ("KEY_ID")]
+			public const string KeyId = (string) "_id";
+		}
+
+		internal static new IntPtr java_class_handle;
+		internal static new IntPtr class_ref {
+			get {
+				return JNIEnv.FindClass ("com/liveperson/infra/database/tables/MessagesTable", ref java_class_handle);
+			}
+		}
+
+		protected override IntPtr ThresholdClass {
+			get { return class_ref; }
+		}
+
+		protected override global::System.Type ThresholdType {
+			get { return typeof (messagesTable); }
+		}
+
+		protected messagesTable (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
+
+		static IntPtr id_ctor;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/constructor[@name='MessagesTable' and count(parameter)=0]"
+		[Register (".ctor", "()V", "")]
+		public unsafe messagesTable ()
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				if (((object) this).GetType () != typeof (messagesTable)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "()V"),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "()V");
+					return;
+				}
+
+				if (id_ctor == IntPtr.Zero)
+					id_ctor = JNIEnv.GetMethodID (class_ref, "<init>", "()V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor);
+			} finally {
+			}
+		}
+
+		static Delegate cb_getCreateSQL;
+#pragma warning disable 0169
+		static Delegate GetGetCreateSQLHandler ()
+		{
+			if (cb_getCreateSQL == null)
+				cb_getCreateSQL = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr>) n_GetCreateSQL);
+			return cb_getCreateSQL;
+		}
+
+		static IntPtr n_GetCreateSQL (IntPtr jnienv, IntPtr native__this)
+		{
+			global::Com.Liveperson.Infra.Database.Tables.messagesTable __this = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Infra.Database.Tables.messagesTable> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			return JNIEnv.NewString (__this.CreateSQL);
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_getCreateSQL;
+		public virtual unsafe string CreateSQL {
+			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/method[@name='getCreateSQL' and count(parameter)=0]"
+			[Register ("getCreateSQL", "()Ljava/lang/String;", "GetGetCreateSQLHandler")]
+			get {
+				if (id_getCreateSQL == IntPtr.Zero)
+					id_getCreateSQL = JNIEnv.GetMethodID (class_ref, "getCreateSQL", "()Ljava/lang/String;");
+				try {
+
+					if (((object) this).GetType () == ThresholdType)
+						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getCreateSQL), JniHandleOwnership.TransferLocalRef);
+					else
+						return JNIEnv.GetString (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getCreateSQL", "()Ljava/lang/String;")), JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
+			}
+		}
+
+		static Delegate cb_getName;
+#pragma warning disable 0169
+		static Delegate GetGetNameHandler ()
+		{
+			if (cb_getName == null)
+				cb_getName = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr>) n_GetName);
+			return cb_getName;
+		}
+
+		static IntPtr n_GetName (IntPtr jnienv, IntPtr native__this)
+		{
+			global::Com.Liveperson.Infra.Database.Tables.messagesTable __this = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Infra.Database.Tables.messagesTable> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			return JNIEnv.NewString (__this.Name);
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_getName;
+		public virtual unsafe string Name {
+			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/method[@name='getName' and count(parameter)=0]"
+			[Register ("getName", "()Ljava/lang/String;", "GetGetNameHandler")]
+			get {
+				if (id_getName == IntPtr.Zero)
+					id_getName = JNIEnv.GetMethodID (class_ref, "getName", "()Ljava/lang/String;");
+				try {
+
+					if (((object) this).GetType () == ThresholdType)
+						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getName), JniHandleOwnership.TransferLocalRef);
+					else
+						return JNIEnv.GetString (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getName", "()Ljava/lang/String;")), JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
+			}
+		}
+
+		static IntPtr id_getProjection;
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/method[@name='getProjection' and count(parameter)=0]"
+		[Register ("getProjection", "()[Ljava/lang/String;", "")]
+		public static unsafe string[] GetProjection ()
+		{
+			if (id_getProjection == IntPtr.Zero)
+				id_getProjection = JNIEnv.GetStaticMethodID (class_ref, "getProjection", "()[Ljava/lang/String;");
+			try {
+				return (string[]) JNIEnv.GetArray (JNIEnv.CallStaticObjectMethod  (class_ref, id_getProjection), JniHandleOwnership.TransferLocalRef, typeof (string));
+			} finally {
+			}
+		}
+
+		static Delegate cb_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II;
+#pragma warning disable 0169
+		static Delegate GetOnTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_IIHandler ()
+		{
+			if (cb_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II == null)
+				cb_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II = JNINativeWrapper.CreateDelegate ((Action<IntPtr, IntPtr, IntPtr, int, int>) n_OnTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II);
+			return cb_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II;
+		}
+
+		static void n_OnTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II (IntPtr jnienv, IntPtr native__this, IntPtr native_p0, int p1, int p2)
+		{
+			global::Com.Liveperson.Infra.Database.Tables.messagesTable __this = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Infra.Database.Tables.messagesTable> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			global::Android.Database.Sqlite.SQLiteDatabase p0 = global::Java.Lang.Object.GetObject<global::Android.Database.Sqlite.SQLiteDatabase> (native_p0, JniHandleOwnership.DoNotTransfer);
+			__this.OnTableUpgrade (p0, p1, p2);
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II;
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/method[@name='onTableUpgrade' and count(parameter)=3 and parameter[1][@type='android.database.sqlite.SQLiteDatabase'] and parameter[2][@type='int'] and parameter[3][@type='int']]"
+		[Register ("onTableUpgrade", "(Landroid/database/sqlite/SQLiteDatabase;II)V", "GetOnTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_IIHandler")]
+		public virtual unsafe void OnTableUpgrade (global::Android.Database.Sqlite.SQLiteDatabase p0, int p1, int p2)
+		{
+			if (id_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II == IntPtr.Zero)
+				id_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II = JNIEnv.GetMethodID (class_ref, "onTableUpgrade", "(Landroid/database/sqlite/SQLiteDatabase;II)V");
+			try {
+				JValue* __args = stackalloc JValue [3];
+				__args [0] = new JValue (p0);
+				__args [1] = new JValue (p1);
+				__args [2] = new JValue (p2);
+
+				if (((object) this).GetType () == ThresholdType)
+					JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onTableUpgrade_Landroid_database_sqlite_SQLiteDatabase_II, __args);
+				else
+					JNIEnv.CallNonvirtualVoidMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "onTableUpgrade", "(Landroid/database/sqlite/SQLiteDatabase;II)V"), __args);
+			} finally {
+			}
+		}
+
+	}
+}

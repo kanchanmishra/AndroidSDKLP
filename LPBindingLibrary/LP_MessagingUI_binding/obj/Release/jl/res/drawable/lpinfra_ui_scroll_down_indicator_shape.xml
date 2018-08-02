@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/scroll_down_indicator_background_color"/>
+    <corners
+        android:bottomLeftRadius="@dimen/scroll_down_indicator_radius"
+        android:topLeftRadius="@dimen/scroll_down_indicator_radius"/>
+
+</shape>

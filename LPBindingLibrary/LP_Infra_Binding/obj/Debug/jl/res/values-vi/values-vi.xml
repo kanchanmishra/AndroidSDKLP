@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Dữ liệu cá nhân của bạn đã được che chắn để bảo vệ tính bảo mật. Chỉ người đại diện mới có thể đọc được.</string>
+    <string name="lp_system_message_real_time_masked">Dữ liệu cá nhân của bạn đã được che chắn để bảo vệ tính bảo mật và người đại diện không thể đọc được.</string>
+</resources>

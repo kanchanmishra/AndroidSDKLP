@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d LUKEMATON VIESTI"</item>
+       <item quantity="other">"%1$d LUKEMATTOMAT VIESTIT"</item>
+   </plurals>
+    <string name="downloading_image">Ladataan kuvaa…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Asiakaspalvelija ratkaisi keskustelunt\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Keskusteun ratkaissut %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Ratkaisit keskustelun\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Tiedoston lataus epäonnistui</string>
+    <string name="lp_failed_upload_toast_message">Tiedoston lähetys epäonnistui</string>
+    <string name="lp_first_message">Kuinka voin auttaa sinua tänään?</string>
+    <string name="lp_loading_message">Ladataan...</string>
+    <string name="lp_new_message">Luo viesti</string>
+    <string name="lp_resend_failed_conversation_closed">Keskustelu on jo ratkaistu.</string>
+    <string name="lp_resend_failed_masked_message">Viestin lähettäminen epäonnistui. Syötä viesti uudelleen ja lähetä uudelleen.</string>
+    <string name="lp_still_loading_message">Ladataan yhä keskustelua…</string>
+    <string name="uploading_image">Lähetetään kuvaa…</string>
+</resources>

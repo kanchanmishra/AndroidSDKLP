@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="csds_qa_url">hc1n.dev.lprnd.net</string>
+    <string name="csds_url">adminlogin.liveperson.net</string>
+    <string name="get_engagement_url">http://%1$s/api/account/%2$s/app/%3$s/engagement?v=1.0</string>
+    <string name="send_sde_url">http://%1$s/api/account/%2$s/app/%3$s/report?v=1.0</string>
+</resources>

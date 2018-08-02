@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>»Poslano«</item>
+        <item>»Dostavljeno«</item>
+        <item>»Prebrano«</item>
+        <item>»Ni dostavljeno«</item>
+        <item>»Sending«</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">»%1$s dni«</item>
+        <item quantity="other">" %1$s dni"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">»%1$s ur«</item>
+        <item quantity="other">" %1$s ur"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">»%1$s minut(a/i/e)«</item>
+        <item quantity="other">" %1$s minut"</item>
+    </plurals>
+    <string name="brand_name">Moja znamka</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Ikona agenta</string>
+    <string name="lp_accessibility_agent_is_typing">Zastopnik tipka</string>
+    <string name="lp_accessibility_attachment_menu">Menu prilog</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Polna slika</string>
+    <string name="lp_accessibility_gallery">Galerija</string>
+    <string name="lp_accessibility_image">Slika</string>
+    <string name="lp_accessibility_image_caption">Napis na slici</string>
+    <string name="lp_accessibility_is_typing">%1$s tipka</string>
+    <string name="lp_accessibility_new_agent_message">Novo sporočilo agenta:</string>
+    <string name="lp_accessibility_new_system_message">Novo sporočilo agenta: </string>
+    <string name="lp_accessibility_photo">foto</string>
+    <string name="lp_accessibility_photo_preview">Predogled foto</string>
+    <string name="lp_accessibility_received">prejete</string>
+    <string name="lp_accessibility_resend">Ponovno poslati</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">pomaknite se navzdol</string>
+    <string name="lp_accessibility_selected">izbrane</string>
+    <string name="lp_accessibility_you">Vi</string>
+    <string name="lp_add_a_caption">Dodajte napis</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galerija</string>
+    <string name="lp_cancel">Prekliči</string>
+    <string name="lp_clear_history_dialog_message">Vaša celotna obstoječa zgodovina pogovorov bo izgubljena. Ali ste prepričani?</string>
+    <string name="lp_clear_history_dialog_positive_button">Počisti</string>
+    <string name="lp_clear_history_dialog_title">Počisti zgodovino</string>
+    <string name="lp_clear_history_menu_text">Počisti zgodovino</string>
+    <string name="lp_connection_status_connecting">Povezovanje…</string>
+    <string name="lp_connection_status_failed_to_connect">Nije uspjelo povezivanje s poslužiteljem. <u>Ponovno pokušajte</u></string>
+    <string name="lp_connection_status_no_connection">Ni povezave. Preverite povezavo.</string>
+    <string name="lp_connection_status_trying_to_connect">Poskuša povezati…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Prekliči nujno stanje</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Prekliči\n nujno stanje</string>
+    <string name="lp_dismiss_urgent_dialog_header">Ali ste prepričani, da želite ta pogovor označiti kot nujen?</string>
+    <string name="lp_dismiss_urgent_dialog_message">To pomeni, da bo pogovor dobil običajno prednost.</string>
+    <string name="lp_done">Končano</string>
+    <string name="lp_end">Konec</string>
+    <string name="lp_end_conversation">Razreši pogovor</string>
+    <string name="lp_end_conversation_first">Najprej razrešite pogovor.</string>
+    <string name="lp_failed_download_toast_message">Preuzimanje datoteke ni uspjelo</string>
+    <string name="lp_failed_upload_toast_message">Podizanje datoteke ni uspjelo</string>
+    <string name="lp_feedback_1">Zelo nezadovoljen(-na)</string>
+    <string name="lp_feedback_2">Nezadovoljen(-na)</string>
+    <string name="lp_feedback_3">Niti zadovoljen(-na) niti nezadovoljen(-na)</string>
+    <string name="lp_feedback_4">Zadovoljen(-na)</string>
+    <string name="lp_feedback_5">Zelo zadovoljen(-na)</string>
+    <string name="lp_feedback_question">Kako bi ocenili povezavo z našim zastopnikom?</string>
+    <string name="lp_feedback_submit">Pošlji</string>
+    <string name="lp_feedback_submit_message">Vaše povratne informacije nam omogočajo, da vam v prihodnje služimo bolje.\nTeh informacij ne bo videl noben predstavnik službe za stranke.</string>
+    <string name="lp_feedback_thank_you">Anketo ste uspešno oddali.\nHvala!</string>
+    <string name="lp_feedback_yesno_negative_title">Ne</string>
+    <string name="lp_feedback_yesno_positive_title">Da</string>
+    <string name="lp_feedback_yesno_question">Ali smo danes razrešili vašo težavo?</string>
+    <string name="lp_is_typing">tipka...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Ali ste prepričani, da je ta tema razrešena?</string>
+    <string name="lp_mark_as_resolved_menu_text">Označi kot razrešeno</string>
+    <string name="lp_mark_as_urgent_dialog_header">Ali ste prepričani, da želite ta pogovor označiti kot nujen?</string>
+    <string name="lp_mark_as_urgent_dialog_message">To pomeni, da bo pogovor dobil najvišjo prednost.</string>
+    <string name="lp_mark_as_urgent_menu_text">Označi kot nujno</string>
+    <string name="lp_menu_copy">Kopiraj</string>
+    <string name="lp_menu_send_image">Poslati</string>
+    <string name="lp_new_messages">nova sporočila</string>
+    <string name="lp_no_action_not_available_toast_message">Dejanje ni na voljo – ni odprtih pogovor</string>
+    <string name="lp_no_network_toast_message">Ni internetne povezave. Preverite svojo povezavo in poskusite znova.</string>
+    <string name="lp_ok">V redu</string>
+    <string name="lp_send">Pošlji</string>
+    <string name="lp_skip">Preskoči</string>
+    <string name="lp_tap_to_add_a_caption">Dotaknite se, da dodate napis</string>
+    <string name="lp_today">»Danes«</string>
+    <string name="lp_ttr_message_no_timestamp">Asistent vam bo odgovoril v kratkem</string>
+    <string name="lp_ttr_message_off_hours_message">Hvala za vaše sporočilo. Spet bomo na voljo %1$s ob %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Hvala za vaše sporočilo. Spet bomo na voljo danes ob %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Hvala za vaše sporočilo. Spet bomo na voljo jutri ob %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Asistent vam bo odgovoril v naslednjem(-ih) %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Izpolni obrazec</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">OSTANI</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">V redu</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Ko zapustite varen obrazec, do njega več ne boste mogli dostopati.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Ali ste prepričani?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Pri odpiranju obrazca se je pojavila težava. Agenta prosite, da vam obrazec ponovno pošlje.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Varen obrazec je potekel. Agenta prosite, da vam obrazec ponovno pošlje.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Ta obrazec je bil poslan in ga zaradi varnosti ni možno ponovno odpreti.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">To je varni obrazec Vnesene informacije so zaščitene. Ko jih oddate, niso nedostopne nikomur.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Ta obrazec ste si že ogledali. Agenta prosite, da vam obrazec ponovno pošlje.</string>
+</resources>

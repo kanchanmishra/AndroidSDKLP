@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">為了保護您的機密安全，您的個人資料已進行遮蔽處理。僅有專員才可讀取。</string>
+    <string name="lp_system_message_real_time_masked">為了保護您的機密安全不讓專員讀取，您的個人資料已進行遮蔽處理。</string>
+</resources>

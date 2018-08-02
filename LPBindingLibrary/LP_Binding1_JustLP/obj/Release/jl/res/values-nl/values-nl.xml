@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Uw persoonlijke gegevens zijn afgeschermd om uw veiligheid te garanderen. Alleen de medewerker kan ze lezen.</string>
+    <string name="lp_system_message_real_time_masked">Uw persoonlijke gegevens zijn afgeschermd om uw veiligheid te garanderen. De gegevens kunnen niet door de medewerker worden gelezen.</string>
+</resources>

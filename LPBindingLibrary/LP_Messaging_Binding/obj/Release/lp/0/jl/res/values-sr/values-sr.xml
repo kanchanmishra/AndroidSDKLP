@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Vaši lični podaci su sakriveni radi zaštite vaše bezbednosti. Moći će da ih pročita samo agent.</string>
+    <string name="lp_system_message_real_time_masked">Vaši lični podaci su sakriveni radi zaštite vaše bezbednosti, pa agent neće moći da ih pročita.</string>
+</resources>

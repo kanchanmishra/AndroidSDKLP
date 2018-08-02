@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Teie isiklikud andmed on teie turvalisuse mõttes peidetud. Neid saab lugeda ainult agent.</string>
+    <string name="lp_system_message_real_time_masked">Teie isiklikud andmed on turvalisuse mõttes peidetud ja agent ei saa neid lugeda.</string>
+</resources>

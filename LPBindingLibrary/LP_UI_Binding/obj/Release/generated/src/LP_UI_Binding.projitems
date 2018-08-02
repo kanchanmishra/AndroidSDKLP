@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Adapter.BaseRecyclerViewCursorAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Adapter.StickyHeaderRecyclerViewCursorAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Caching.HeaderViewCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Caching.IHeaderProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Calculation.DimensionCalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.HeaderPositionCalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.IStickyRecyclerHeadersAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Rendering.HeaderRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.StickyRecyclerHeadersDecoration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Util.IOrientationProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Header.Util.LinearLayoutOrientationProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Resources.ResourceHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Resources.ResourceManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Screen.BaseFragment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.UI.CustomButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.UI.CustomEditText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.UI.CustomTextView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.UI.TooltipWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.UI.touchImageView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Uicomponents.ICloseMenuListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Uicomponents.IConnectionChangedCustomView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Uicomponents.IConversationProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Uicomponents.IOverflowMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Utils.ImageUrlUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Utils.ItemsView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.UI.View.Utils.UIUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

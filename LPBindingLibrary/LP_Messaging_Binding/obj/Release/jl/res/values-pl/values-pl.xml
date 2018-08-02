@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+           <item quantity="one">"%1$d NIEPRZECZYTANA WIADOMOŚĆ"</item>
+           <item quantity="other">"NIEPRZECZYTANE WIADOMOŚCI: %1$d"</item>
+       </plurals>
+    <string name="downloading_image">Pobieranie obrazu...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Rozmowa przeprowadzona przez agenta\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Rozmowa rozwiązana przez %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Rozmowa przeprowadzona przez Ciebie\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Nie można pobrać pliku</string>
+    <string name="lp_failed_upload_toast_message">Nie można przesłać pliku</string>
+    <string name="lp_first_message">Jak mogę Ci dzisiaj pomóc?</string>
+    <string name="lp_loading_message">Ładowanie…</string>
+    <string name="lp_resend_failed_conversation_closed">Ta rozmowa została już przeprowadzona.</string>
+    <string name="lp_resend_failed_masked_message">Nie udało się wysłać wiadomości. Ponownie wpisz i wyślij wiadomość.</string>
+    <string name="lp_still_loading_message">Nadal trwa ładowanie konwersacji…</string>
+    <string name="uploading_image">Przesyłanie obrazu...</string>
+</resources>

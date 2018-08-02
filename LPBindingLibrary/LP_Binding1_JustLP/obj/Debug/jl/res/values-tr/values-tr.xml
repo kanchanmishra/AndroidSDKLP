@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Kişisel verileriniz güvenliğinizi korumak için maskelendi. Sadece temsilci tarafından okunabilir.</string>
+    <string name="lp_system_message_real_time_masked">Kişisel verileriniz güvenliğinizi korumak için maskelendi ve temsilci tarafından okunamıyor.</string>
+</resources>

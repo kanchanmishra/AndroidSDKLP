@@ -1,0 +1,15 @@
+C:\Xamarin\Projects\LPBindingLibrary\LP_Infra_Binding\bin\Release\LP_Infra_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Infra_Binding\bin\Release\LP_Infra_Binding.pdb
+C:\Xamarin\Projects\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\LP_Infra_Binding.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\LP_Infra_Binding.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\Square.OkHttp.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\Square.OkHttp3.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\Square.OkIO.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\bin\Release\Square.Picasso.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\LP_Infra_Binding.csproj.CopyComplete

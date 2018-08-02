@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">आपके निजी डेटा को आपकी सुरक्षा के लिए मास्क कर दिया गया है इसे केवल एजेंट द्वारा पढ़ा जा सकता है।</string>
+    <string name="lp_system_message_real_time_masked">आपके निजी डेटा को आपकी सुरक्षा के लिए मास्क कर दिया गया है और इसे एजेंट द्वारा पढ़ा नहीं जा सकता है।</string>
+</resources>

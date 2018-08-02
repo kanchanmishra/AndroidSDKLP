@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lpmessaging_ui_background_color_selector"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="@dimen/margin_half">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="75%">
+
+        <ImageView
+            android:id="@+id/lpui_agent_bubbleAvatar"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@+id/lpui_message_text"
+            android:layout_marginLeft="@dimen/avatar_margin_leading"
+            android:layout_marginRight="@dimen/avatar_margin_trailing"
+            android:contentDescription="@string/lp_accessibility_agent_icon"
+            android:background="@drawable/lpinfra_ui_avatar_bubble_shape"/>
+
+        <com.liveperson.infra.ui.view.ui.CustomTextView
+            android:id="@+id/lpui_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/lpui_agent_bubbleAvatar"
+            android:background="@drawable/lpinfra_ui_chat_bubble_start"
+            android:layerType="software"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            android:textColor="@color/agent_bubble_message_text_color"
+            android:textColorLink="@color/agent_bubble_message_link_text_color"
+            android:importantForAccessibility="no"
+            android:textSize="@dimen/regular_text_size"
+            app:font_name="@string/custom_font_name_conversation_feed" />
+
+        <com.liveperson.infra.ui.view.ui.CustomTextView
+            android:id="@+id/lpui_message_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/lpui_message_text"
+            android:layout_below="@id/lpui_message_text"
+            android:layout_marginTop="@dimen/margin_half"
+            android:text="10:10"
+            android:textColor="@color/agent_bubble_timestamp_text_color"
+            android:textSize="@dimen/small_text_size"
+            app:font_name="@string/custom_font_name_conversation_feed"/>
+
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

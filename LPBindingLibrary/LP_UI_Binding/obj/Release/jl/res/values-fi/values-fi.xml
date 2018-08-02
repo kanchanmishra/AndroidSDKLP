@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Liitteen valikkopainike kaatunut</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Liitteen valikkopainike laajentunut</string>
+    <string name="lp_accessibility_chat_message">Keskusteluviesti</string>
+    <string name="lp_accessibility_message_preview_close_description">Sulje</string>
+    <string name="lp_enter_message">Kirjoita viesti</string>
+    <string name="lp_message_time_min_ago">%1$s sitten</string>
+    <string name="lp_message_time_now">Nyt</string>
+    <string name="lp_message_time_now_with_state">Nyt</string>
+    <string name="lp_no_network_toast_message">Ei Internet-yhteyttä. Tarkista yhteytesi ja yritä uudelleen.</string>
+    <string name="lp_send">Lähetä</string>
+    <string name="lp_today">"Tänään"</string>
+    <string name="lp_yesterday">Eilen</string>
+</resources>

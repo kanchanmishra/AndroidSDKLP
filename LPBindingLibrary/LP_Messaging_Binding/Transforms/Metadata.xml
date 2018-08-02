@@ -1,0 +1,50 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  
+  <!--LP Infra-->
+  <remove-node path="/api/package[@name='com.liveperson.api.request']/class[@name='AbstractRequest']" />
+
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FilePublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormSubmissionPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.String</attr>
+     <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='message']" name="managedReturn">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.String</attr>-->
+
+
+  <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='BasePublishMessage']" />
+  <remove-node path="/api/package[@name='com.liveperson.api.response']/class[@name='AbstractResponse']" />
+  
+  <!--LP Messaging -->
+
+  <remove-node path="/api/package[@name='com.liveperson.api.request']/class[@name='AbstractRequest']" />
+
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FilePublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormSubmissionPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.String</attr>
+     <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='message']" name="managedReturn">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage']" name="managedReturn">Java.Lang.String</attr>-->
+
+
+  <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='BasePublishMessage']" />
+  <remove-node path="/api/package[@name='com.liveperson.api.response']/class[@name='AbstractResponse']" />
+
+  <!-- Messaging UI-->
+
+  <remove-node path="/api/package[@name='com.liveperson.infra.messaging_ui.fragment']/interface[@name='IConnectable']" ></remove-node>
+  <attr path="/api/package[@name='com.liveperson.infra.ui.view.ui']/class[@name='CustomTextView']" name="visibility">public</attr>
+
+<!--UI-->
+  <attr path="/api/package[@name='com.liveperson.infra.ui.view.ui']/class[@name='TouchImageView']" name="managedName">touchImageView</attr>
+
+
+</metadata>

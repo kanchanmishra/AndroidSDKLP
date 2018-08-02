@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">ข้อมูลส่วนตัวของคุณจะถูกแสดงเป็นเครื่องหมายไว้เพื่อป้องกันความปลอดภัยของคุณ อ่านได้เฉพาะเจ้าหน้าที่เท่านั้น</string>
+    <string name="lp_system_message_real_time_masked">ข้อมูลส่วนตัวของคุณจะถูกแสดงเป็นเครื่องหมายไว้เพื่อป้องกันความปลอดภัยของคุณและเจ้าหน้าที่ไม่สามารถอ่านได้</string>
+</resources>

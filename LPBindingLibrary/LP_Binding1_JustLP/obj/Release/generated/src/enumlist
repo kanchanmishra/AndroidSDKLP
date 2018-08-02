@@ -1,0 +1,12 @@
+com.liveperson.infra.Infra:Com.Liveperson.Infra:Infra
+com.liveperson.infra.LPAuthenticationParams$LPAuthenticationType:Com.Liveperson.Infra:LPAuthenticationParams.LPAuthenticationType
+com.liveperson.infra.LPConversationHistoryMaxDaysDateType:Com.Liveperson.Infra:LPConversationHistoryMaxDaysDateType
+com.liveperson.infra.LPConversationsHistoryStateToDisplay:Com.Liveperson.Infra:LPConversationsHistoryStateToDisplay
+com.liveperson.infra.configuration.ConfigurableResource$ResourceType:Com.Liveperson.Infra.Configuration:ConfigurableResource.ResourceType
+com.liveperson.infra.configuration.LptagEnvironment$Env:Com.Liveperson.Infra.Configuration:LptagEnvironment.Env
+com.liveperson.infra.database.tables.FilesTable$LoadStatus:Com.Liveperson.Infra.Database.Tables:FilesTable.LoadStatus
+com.liveperson.infra.model.types.ChatState:Com.Liveperson.Infra.Model.Types:ChatState
+com.liveperson.infra.network.socket.SocketState:Com.Liveperson.Infra.Network.Socket:SocketState
+com.liveperson.infra.utils.EncryptionVersion:Com.Liveperson.Infra.Utils:EncryptionVersion
+com.liveperson.infra.utils.ImageUtils$ImageFolderType:Com.Liveperson.Infra.Utils:ImageUtils.ImageFolderType
+com.liveperson.infra.utils.LPAudioUtils$LPRecorderStatus:Com.Liveperson.Infra.Utils:LPAudioUtils.LPRecorderStatus

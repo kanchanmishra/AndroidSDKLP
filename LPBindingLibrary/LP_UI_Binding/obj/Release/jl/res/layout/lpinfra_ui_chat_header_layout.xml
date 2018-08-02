@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lpui_header_raw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lpinfra_ui_bg_recycler_header"
+    android:layout_marginTop="@dimen/sticky_timestamp_margin_top">
+
+       <com.liveperson.infra.ui.view.ui.CustomTextView
+        android:id="@+id/lpui_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/lpinfra_ui_chat_header_rect"
+        android:text="TODAY 01:34 PM"
+        android:textColor="@color/lp_header_text_color"
+        android:textSize="@dimen/sticky_timestamp_text_size"
+        app:font_name="@string/custom_font_name_conversation_feed" />
+
+</RelativeLayout>

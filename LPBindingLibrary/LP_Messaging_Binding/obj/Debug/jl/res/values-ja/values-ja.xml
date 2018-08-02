@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+               <item quantity="one">"未読メッセージ %1$d 件"</item>
+               <item quantity="other">"未読メッセージ %1$d 件"</item>
+           </plurals>
+    <string name="downloading_image">画像をダウンロード中…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"担当者が会話を終了しました。\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"%1$s が会話を終了しました。\n %2$s"</string>
+    <string name="lp_conversation_ended_by_you">"会話を終了しました。\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">ファイルをダウンロードできませんでした。</string>
+    <string name="lp_failed_upload_toast_message">ファイルをアップロードできませんでした。</string>
+    <string name="lp_first_message">ご用件は何でしょうか?</string>
+    <string name="lp_loading_message">読み込み中…</string>
+    <string name="lp_new_message"> 新しいメッセージ</string>
+    <string name="lp_resend_failed_conversation_closed">この会話は既に終了しました。</string>
+    <string name="lp_resend_failed_masked_message">メッセージは送信されませんでした。もう一度送信してください。</string>
+    <string name="lp_still_loading_message"> … を読み込み中です</string>
+    <string name="uploading_image">画像をアップロード中…</string>
+</resources>

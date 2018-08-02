@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Sendt"</item>
+        <item>"Levert"</item>
+        <item>"Lest"</item>
+        <item>"Ikke levert"</item>
+        <item>"Sender"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s dag"</item>
+        <item quantity="other">" %1$s dager"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s time"</item>
+        <item quantity="other">" %1$s timer"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minutt"</item>
+        <item quantity="other">" %1$s minutter"</item>
+    </plurals>
+    <string name="brand_name">Mitt merke</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Agent-ikon</string>
+    <string name="lp_accessibility_agent_is_typing">Konsulenten taster</string>
+    <string name="lp_accessibility_attachment_menu">Vedleggmeny</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Hele bildet</string>
+    <string name="lp_accessibility_gallery">Galleri</string>
+    <string name="lp_accessibility_image">Bilde</string>
+    <string name="lp_accessibility_image_caption">Bildetekst</string>
+    <string name="lp_accessibility_is_typing">%1$s taster</string>
+    <string name="lp_accessibility_new_agent_message">Ny agentmelding: </string>
+    <string name="lp_accessibility_new_system_message">y systemmelding: </string>
+    <string name="lp_accessibility_photo">bilde</string>
+    <string name="lp_accessibility_photo_preview">Forhåndsvisning av bilde</string>
+    <string name="lp_accessibility_received">mottatt</string>
+    <string name="lp_accessibility_resend">Send på nytt</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">rull ned</string>
+    <string name="lp_accessibility_selected">valgt</string>
+    <string name="lp_accessibility_you">Du</string>
+    <string name="lp_add_a_caption">Legg til bildetekst</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galleri</string>
+    <string name="lp_cancel">Avbryt</string>
+    <string name="lp_clear_history_dialog_message">All eksisterende samtalehistorikk forsvinner. Er du sikker?</string>
+    <string name="lp_clear_history_dialog_positive_button">Tøm</string>
+    <string name="lp_clear_history_dialog_title">Slett historikk</string>
+    <string name="lp_clear_history_menu_text">Slett historikk</string>
+    <string name="lp_connection_status_connecting">Kobler til …</string>
+    <string name="lp_connection_status_failed_to_connect">Kunne ikke koble til serveren. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Ingen forbindelse. Sjekk forbindelsen din.</string>
+    <string name="lp_connection_status_trying_to_connect">Prøver å koble til …</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Haster ikke lenger</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Haster\nikke lenger</string>
+    <string name="lp_dismiss_urgent_dialog_header">Er du sikker på at du vil markere samtalen som ingen hast lenger?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Dette betyr at samtalen får normal prioritet.</string>
+    <string name="lp_done">Avslutt</string>
+    <string name="lp_end">Avslutt</string>
+    <string name="lp_end_conversation">Avslutt samtale</string>
+    <string name="lp_end_conversation_first">Vennligst avslutt samtalen først.</string>
+    <string name="lp_failed_download_toast_message"> Kunne ikke laste ned filen </string>
+    <string name="lp_failed_upload_toast_message">Kunne ikke laste opp filen</string>
+    <string name="lp_feedback_1">Veldig missfornøyd</string>
+    <string name="lp_feedback_2">Missfornøyd</string>
+    <string name="lp_feedback_3">Hverken eller</string>
+    <string name="lp_feedback_4">Fornøyd</string>
+    <string name="lp_feedback_5">Veldig fornøyd</string>
+    <string name="lp_feedback_question">Hvordan vil du rangeretilkoblingen med agenten vår?</string>
+    <string name="lp_feedback_submit">Send</string>
+    <string name="lp_feedback_submit_message">Din tilbakemelding hjelper oss med å bli bedre til å hjelpe deg.\nDette vil ikke deles med andre medarbeidere i kundetjenesten.</string>
+    <string name="lp_feedback_thank_you">Undersøkelsen ble sendt.\nTakk!</string>
+    <string name="lp_feedback_yesno_negative_title">Nei</string>
+    <string name="lp_feedback_yesno_positive_title">Ja</string>
+    <string name="lp_feedback_yesno_question">Løste du problemet ditt idag?</string>
+    <string name="lp_is_typing">fyller inn …</string>
+    <string name="lp_mark_as_resolved_dialog_message">Er du sikker på at dette evnet er avsluttet?</string>
+    <string name="lp_mark_as_resolved_menu_text">Merk som løst</string>
+    <string name="lp_mark_as_urgent_dialog_header">Er du sikker på at du vil merke samtalen som hastesak?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Dette betyr at samtalen får høyeste prioritet.</string>
+    <string name="lp_mark_as_urgent_menu_text">Merk som hastesak</string>
+    <string name="lp_menu_copy">Kopier</string>
+    <string name="lp_menu_send_image">Send</string>
+    <string name="lp_new_messages">nye meldinger</string>
+    <string name="lp_no_action_not_available_toast_message">Handling utilgjengelig – ingen åpne samtaler</string>
+    <string name="lp_no_network_toast_message">Ingen internettilkobling. Sjekk tilkoblingen og prøv igjen.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Send</string>
+    <string name="lp_skip">Hopp over</string>
+    <string name="lp_tap_to_add_a_caption">Trykk for å legge til bildetekst</string>
+    <string name="lp_today">Idag</string>
+    <string name="lp_ttr_message_no_timestamp">En agent vil snart svare</string>
+    <string name="lp_ttr_message_off_hours_message">Takk for din melding. Vi vil være tilbake på nett på %1$s, kl. %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Takk for din melding. Vi vil være tilbake på nett idag kl. %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Takk for din melding. Vi vil være tilbake på nett i morgen kl. %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">En agent vil svare innen de neste %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Fyll ut skjema</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">BLI</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Du vil ikke lenger ha tilgang til det sikre skjema etter du forlater det.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Er du sikker?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Det oppstod et problem under åpningen av dette skjemaet. Vennligst be agenten om å sende skjemaet på nytt.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Sikkert skjema utgikk på tid. Vennligst be agenten om å sende skjemaet på nytt.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Dette skjemaet er allerede innsendt og kan ikke åpnes på nytt på grunn av sikkerhetsgrunner.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Dette er et sikkert skjema. Opplysningene du oppgir her er beskyttet og kan ikke vises etter de er innsendt.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Skjema er allerede vist. Vennligst be agenten om å sende skjemaet på nytt.</string>
+</resources>

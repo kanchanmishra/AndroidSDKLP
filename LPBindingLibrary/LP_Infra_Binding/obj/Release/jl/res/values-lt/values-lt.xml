@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Jūsų asmeniniai duomenys buvo užmaskuoti, siekiant užtikrinti jūsų saugumą. Juos skaityti gali tik agentas.</string>
+    <string name="lp_system_message_real_time_masked">Jūsų asmeniniai duomenys buvo užmaskuoti, siekiant užtikrinti jūsų saugumą. Agentas negali jų perskaityti.</string>
+</resources>

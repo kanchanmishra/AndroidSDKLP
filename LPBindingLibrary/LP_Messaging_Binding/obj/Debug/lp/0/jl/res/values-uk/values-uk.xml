@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Ваші особисті дані приховано, щоб захистити вас.. Тільки агент зможе їх прочитати.</string>
+    <string name="lp_system_message_real_time_masked">Ваші особисті дані приховано, щоб захистити вас. Агент не зможе їх прочитати.</string>
+</resources>

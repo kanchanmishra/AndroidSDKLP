@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Botón del menú de adjuntos colapsado</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Botón del menú de adjuntos expandido</string>
+    <string name="lp_accessibility_chat_message">Mensaje de chat</string>
+    <string name="lp_accessibility_message_preview_close_description">Cerrar</string>
+    <string name="lp_enter_message">Escriba un mensaje</string>
+    <string name="lp_message_time_min_ago">Hace %1$s minutos</string>
+    <string name="lp_message_time_now">Ahora</string>
+    <string name="lp_message_time_now_with_state">Ahora</string>
+    <string name="lp_no_network_toast_message">No hay conexión a Internet. Compruebe su conexión e inténtelo de nuevo.</string>
+    <string name="lp_send">Enviar</string>
+    <string name="lp_today">"Hoy"</string>
+    <string name="lp_yesterday">Ayer</string>
+</resources>

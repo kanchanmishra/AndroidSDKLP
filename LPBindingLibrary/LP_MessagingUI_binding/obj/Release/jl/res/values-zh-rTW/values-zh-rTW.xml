@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>「已傳送」</item>
+        <item>「已交付」</item>
+        <item>「已讀取」</item>
+        <item>「未交付」</item>
+        <item>「正在傳送」</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s 天"</item>
+        <item quantity="other">「 %1$s 天」</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s 小時"</item>
+        <item quantity="other">「 %1$s 小時」</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s 分鐘"</item>
+        <item quantity="other">「 %1$s 分鐘」</item>
+    </plurals>
+    <string name="brand_name">我的品牌</string>
+    <string name="lp_accessibility_agent">專員</string>
+    <string name="lp_accessibility_agent_icon">專員圖示</string>
+    <string name="lp_accessibility_agent_is_typing">代表正在输入</string>
+    <string name="lp_accessibility_attachment_menu">附件功能表</string>
+    <string name="lp_accessibility_camera">相機</string>
+    <string name="lp_accessibility_full_image">完整圖片</string>
+    <string name="lp_accessibility_gallery">圖庫</string>
+    <string name="lp_accessibility_image">圖片</string>
+    <string name="lp_accessibility_image_caption">圖片標題</string>
+    <string name="lp_accessibility_is_typing">%1$s正在输入</string>
+    <string name="lp_accessibility_new_agent_message">新專員訊息：</string>
+    <string name="lp_accessibility_new_system_message">新系統訊息：</string>
+    <string name="lp_accessibility_photo">相片</string>
+    <string name="lp_accessibility_photo_preview">相片預覽</string>
+    <string name="lp_accessibility_received">已收到</string>
+    <string name="lp_accessibility_resend">重新傳送</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">向下捲動</string>
+    <string name="lp_accessibility_selected">已選取</string>
+    <string name="lp_accessibility_you">您</string>
+    <string name="lp_add_a_caption">新增標題</string>
+    <string name="lp_attachment_menu_camera_item_text">相機</string>
+    <string name="lp_attachment_menu_gallery_item_text">圖庫</string>
+    <string name="lp_cancel">取消</string>
+    <string name="lp_clear_history_dialog_message">將會失去全部的現有對話記錄。您確定嗎？</string>
+    <string name="lp_clear_history_dialog_positive_button">清除</string>
+    <string name="lp_clear_history_dialog_title">清除記錄</string>
+    <string name="lp_clear_history_menu_text">清除記錄</string>
+    <string name="lp_connection_status_connecting">正在連線…</string>
+    <string name="lp_connection_status_failed_to_connect">連線伺服器失敗。<u>重試</u></string>
+    <string name="lp_connection_status_no_connection">無連線。請檢查您的連線。</string>
+    <string name="lp_connection_status_trying_to_connect">正在嘗試連線…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">關閉緊急狀態</string>
+    <string name="lp_dismiss_as_urgent_two_lines">關閉\n緊急狀態</string>
+    <string name="lp_dismiss_urgent_dialog_header">您確定要將此對話標示為非緊急？</string>
+    <string name="lp_dismiss_urgent_dialog_message">這表示對談將取得一般優先順序。</string>
+    <string name="lp_done">完成</string>
+    <string name="lp_end">結束</string>
+    <string name="lp_end_conversation">解決對話</string>
+    <string name="lp_end_conversation_first">請先解決對話。</string>
+    <string name="lp_failed_download_toast_message">檔案下載失敗</string>
+    <string name="lp_failed_upload_toast_message">檔案上傳失敗</string>
+    <string name="lp_feedback_1">非常失望</string>
+    <string name="lp_feedback_2">失望</string>
+    <string name="lp_feedback_3">以上皆非</string>
+    <string name="lp_feedback_4">滿意</string>
+    <string name="lp_feedback_5">非常滿意</string>
+    <string name="lp_feedback_question">您針對與敝專員進行的對談評等為何？</string>
+    <string name="lp_feedback_submit">提交</string>
+    <string name="lp_feedback_submit_message">您的寶貴意見可協助我們提供更優質的服務。\n 將不會與任何客戶服務代表分享。</string>
+    <string name="lp_feedback_thank_you">已成功傳送問卷調查。\n 多謝！</string>
+    <string name="lp_feedback_yesno_negative_title">否</string>
+    <string name="lp_feedback_yesno_positive_title">是</string>
+    <string name="lp_feedback_yesno_question">我們今日是否已確實解決您的問題？</string>
+    <string name="lp_is_typing">輸入...</string>
+    <string name="lp_mark_as_resolved_dialog_message">您確定此主題已解決？</string>
+    <string name="lp_mark_as_resolved_menu_text">標示為已處理完成</string>
+    <string name="lp_mark_as_urgent_dialog_header">您確定要將此對談標示為緊急？</string>
+    <string name="lp_mark_as_urgent_dialog_message">這表示對談將取得最高優先順序。</string>
+    <string name="lp_mark_as_urgent_menu_text">標示為緊急狀態</string>
+    <string name="lp_menu_copy">複製</string>
+    <string name="lp_menu_send_image">傳送</string>
+    <string name="lp_new_messages">新訊息</string>
+    <string name="lp_no_action_not_available_toast_message">動作不適用 - 找不到開啟的對話</string>
+    <string name="lp_no_network_toast_message">無網際網路連線。請檢查連線然後再試一次。</string>
+    <string name="lp_ok">好</string>
+    <string name="lp_send">傳送</string>
+    <string name="lp_skip">跳過</string>
+    <string name="lp_tap_to_add_a_caption">點選新增標題</string>
+    <string name="lp_today">「今天」</string>
+    <string name="lp_ttr_message_no_timestamp">專員將會盡快回應</string>
+    <string name="lp_ttr_message_off_hours_message">感謝您的訊息。我們將會在%1$s %2$s 重返線上服務</string>
+    <string name="lp_ttr_message_off_hours_message_today">感謝您的訊息。我們將會於今日的 at %1$s 重返線上服務</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">感謝您的訊息。我們將會於明日的 %1$s 重返線上服務</string>
+    <string name="lp_ttr_message_with_timestamp">專員將會在接下來的 %1$s 內回應</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">填寫表單</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">維持</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">好</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">離開安全表單後，即無法再存取該表單。</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">您確定嗎？</string>
+    <string name="lpmessaging_ui_secure_form_error_message">開啟此表單時發生問題。請要求專員重新傳送表單。</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">安全表單已過期。請要求專員重新傳送表單。</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">此表單已送出，且基於安全性原因無法重新開啟。</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">此為安全表單。在此處輸入的資訊會受到保護，且一旦送出即無法存取。</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">此表單已檢視。請要求專員重新傳送表單。</string>
+</resources>

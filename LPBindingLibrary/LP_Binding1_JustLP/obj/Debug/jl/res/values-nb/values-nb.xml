@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Personlige data er sensurert for din egen beskyttelse. Bare agenten kan lese det.</string>
+    <string name="lp_system_message_real_time_masked">Personlige data er sensurert for din egen beskyttelse og kan ikke leses av agenten.</string>
+</resources>

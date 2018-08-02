@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="structured_content_width_percent" type="dimen">40%</item>
+</resources>

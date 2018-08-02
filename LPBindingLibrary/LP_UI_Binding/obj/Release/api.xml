@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.liveperson.infra.ui">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.liveperson.infra.ui.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.liveperson.infra.ui&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="320" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;3.2.0.404&quot;" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.adapter">
+<class abstract="true" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.Adapter" extends-generic-aware="android.support.v7.widget.RecyclerView.Adapter&lt;android.support.v7.widget.RecyclerView.ViewHolder&gt;" final="false" name="BaseRecyclerViewCursorAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+<typeParameter name="V">
+<genericConstraints>
+<genericConstraint type="android.support.v7.widget.RecyclerView.ViewHolder"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="BaseRecyclerViewCursorAdapter" static="false" type="com.liveperson.infra.ui.view.adapter.BaseRecyclerViewCursorAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.database.Cursor">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="changeCursor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.database.Cursor">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="extractFromCursor" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.database.Cursor">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCursor" native="false" return="android.database.Cursor" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getItemViewType" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getObjectAt" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isCursorValid" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onAccessibilityEventAvailable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="V">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onBind" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="V">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView.ViewHolder">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onCreate" native="false" return="V" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="onCreateViewHolder" native="false" return="android.support.v7.widget.RecyclerView.ViewHolder" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSelectedPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="swapCursor" native="false" return="android.database.Cursor" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.database.Cursor">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mContext" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mCount" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mCursor" static="false" transient="false" type="android.database.Cursor" type-generic-aware="android.database.Cursor" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mResourse" static="false" transient="false" type="android.content.res.Resources" type-generic-aware="android.content.res.Resources" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mRowIdColumn" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mSelectedPosition" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="com.liveperson.infra.ui.view.adapter.BaseRecyclerViewCursorAdapter" extends-generic-aware="com.liveperson.infra.ui.view.adapter.BaseRecyclerViewCursorAdapter&lt;T, V&gt;" final="false" name="StickyHeaderRecyclerViewCursorAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+<typeParameter name="V">
+<genericConstraints>
+<genericConstraint type="android.support.v7.widget.RecyclerView.ViewHolder"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<implements name="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersAdapter" name-generic-aware="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersAdapter&lt;com.liveperson.infra.ui.view.adapter.viewholder.BaseViewHolder&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="StickyHeaderRecyclerViewCursorAdapter" static="false" type="com.liveperson.infra.ui.view.adapter.StickyHeaderRecyclerViewCursorAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.database.Cursor">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeaderId" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onBindHeaderViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.adapter.viewholder.BaseViewHolder">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCreateHeaderViewHolder" native="false" return="com.liveperson.infra.ui.view.adapter.viewholder.BaseViewHolder" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.adapter.viewholder">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseViewHolder.1" static="true" visibility="">
+<implements name="android.text.util.Linkify.TransformFilter" name-generic-aware="android.text.util.Linkify.TransformFilter">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="true" name="transformUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.regex.Matcher">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseViewHolder.2" static="true" visibility="">
+<implements name="android.text.util.Linkify.MatchFilter" name-generic-aware="android.text.util.Linkify.MatchFilter">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="true" name="acceptMatch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseViewHolder.3" static="true" visibility="">
+<implements name="android.text.util.Linkify.MatchFilter" name-generic-aware="android.text.util.Linkify.MatchFilter">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="true" name="acceptMatch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.header">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HeaderPositionCalculator" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="HeaderPositionCalculator" static="false" type="com.liveperson.infra.ui.view.header.HeaderPositionCalculator" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersAdapter">
+</parameter>
+<parameter name="p1" type="com.liveperson.infra.ui.view.header.caching.HeaderProvider">
+</parameter>
+<parameter name="p2" type="com.liveperson.infra.ui.view.header.util.OrientationProvider">
+</parameter>
+<parameter name="p3" type="com.liveperson.infra.ui.view.header.calculation.DimensionCalculator">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="hasNewHeader" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="hasStickyHeader" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="initHeaderBounds" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Rect">
+</parameter>
+<parameter name="p1" type="android.support.v7.widget.RecyclerView">
+</parameter>
+<parameter name="p2" type="android.view.View">
+</parameter>
+<parameter name="p3" type="android.view.View">
+</parameter>
+<parameter name="p4" type="boolean">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="StickyRecyclerHeadersAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="VH">
+<genericConstraints>
+<genericConstraint type="android.support.v7.widget.RecyclerView.ViewHolder"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<method abstract="true" deprecated="not deprecated" final="false" name="getHeaderId" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onBindHeaderViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="VH">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onCreateHeaderViewHolder" native="false" return="VH" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.ItemDecoration" extends-generic-aware="android.support.v7.widget.RecyclerView.ItemDecoration" final="false" name="StickyRecyclerHeadersDecoration" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="StickyRecyclerHeadersDecoration" static="false" type="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersDecoration" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="findHeaderPositionUnder" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeaderView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="invalidateHeaders" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.header.caching">
+<interface abstract="true" deprecated="not deprecated" final="false" name="HeaderProvider" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getHeader" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="invalidate" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HeaderViewCache" static="false" visibility="public">
+<implements name="com.liveperson.infra.ui.view.header.caching.HeaderProvider" name-generic-aware="com.liveperson.infra.ui.view.header.caching.HeaderProvider">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="HeaderViewCache" static="false" type="com.liveperson.infra.ui.view.header.caching.HeaderViewCache" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.header.StickyRecyclerHeadersAdapter">
+</parameter>
+<parameter name="p1" type="com.liveperson.infra.ui.view.header.util.OrientationProvider">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeader" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="invalidate" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.header.calculation">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DimensionCalculator" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DimensionCalculator" static="false" type="com.liveperson.infra.ui.view.header.calculation.DimensionCalculator" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="initMargins" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Rect">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.header.rendering">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HeaderRenderer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="HeaderRenderer" static="false" type="com.liveperson.infra.ui.view.header.rendering.HeaderRenderer" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.header.util.OrientationProvider">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawHeader" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+<parameter name="p1" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p2" type="android.view.View">
+</parameter>
+<parameter name="p3" type="android.graphics.Rect">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.header.util">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LinearLayoutOrientationProvider" static="false" visibility="public">
+<implements name="com.liveperson.infra.ui.view.header.util.OrientationProvider" name-generic-aware="com.liveperson.infra.ui.view.header.util.OrientationProvider">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="LinearLayoutOrientationProvider" static="false" type="com.liveperson.infra.ui.view.header.util.LinearLayoutOrientationProvider" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOrientation" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isReverseLayout" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="OrientationProvider" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getOrientation" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isReverseLayout" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.liveperson.infra.ui.view.resources">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ResourceHelper" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ResourceHelper" static="false" type="com.liveperson.infra.ui.view.resources.ResourceHelper" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateBackgroundColor" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateBackgroundDrawable" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateBackgroundSolidColor" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateBackgroundStrokeColor" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateTextColor" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateTextColorLink" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.ui.view.resources.ResourceManager&gt;" final="true" name="ResourceManager" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDimension" native="false" return="float" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDrawable" native="false" return="android.graphics.drawable.Drawable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="mapColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="mapDimension" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="mapDrawable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.liveperson.infra.ui.view.resources.ResourceManager" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.ui.view.resources.ResourceManager[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="instance" static="true" transient="false" type="com.liveperson.infra.ui.view.resources.ResourceManager" type-generic-aware="com.liveperson.infra.ui.view.resources.ResourceManager" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.screen">
+<class abstract="false" deprecated="not deprecated" extends="android.support.v4.app.Fragment" extends-generic-aware="android.support.v4.app.Fragment" final="false" name="BaseFragment" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BaseFragment" static="false" type="com.liveperson.infra.ui.view.screen.BaseFragment" visibility="public">
+</constructor>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.ui">
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.AppCompatButton" extends-generic-aware="android.support.v7.widget.AppCompatButton" final="false" name="CustomButton" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CustomButton" static="false" type="com.liveperson.infra.ui.view.ui.CustomButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomButton" static="false" type="com.liveperson.infra.ui.view.ui.CustomButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomButton" static="false" type="com.liveperson.infra.ui.view.ui.CustomButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.AppCompatEditText" extends-generic-aware="android.support.v7.widget.AppCompatEditText" final="false" name="CustomEditText" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CustomEditText" static="false" type="com.liveperson.infra.ui.view.ui.CustomEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomEditText" static="false" type="com.liveperson.infra.ui.view.ui.CustomEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomEditText" static="false" type="com.liveperson.infra.ui.view.ui.CustomEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.AppCompatTextView" extends-generic-aware="android.support.v7.widget.AppCompatTextView" final="false" name="CustomTextView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CustomTextView" static="false" type="com.liveperson.infra.ui.view.ui.CustomTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomTextView" static="false" type="com.liveperson.infra.ui.view.ui.CustomTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CustomTextView" static="false" type="com.liveperson.infra.ui.view.ui.CustomTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TooltipWindow" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TooltipWindow" static="false" type="com.liveperson.infra.ui.view.ui.TooltipWindow" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="dismissTooltip" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isTooltipShown" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="showToolTip" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="showToolTip" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;TooltipWindow&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TooltipWindow.1" static="false" visibility="">
+<implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Message">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.ImageView" extends-generic-aware="android.widget.ImageView" final="false" name="TouchImageView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TouchImageView" static="false" type="com.liveperson.infra.ui.view.ui.TouchImageView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="TouchImageView" static="false" type="com.liveperson.infra.ui.view.ui.TouchImageView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="TouchImageView" static="false" type="com.liveperson.infra.ui.view.ui.TouchImageView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="canScrollHorizontallyFroyo" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrentZoom" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxZoom" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinZoom" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScrollPosition" native="false" return="android.graphics.PointF" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomedRect" native="false" return="android.graphics.RectF" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onConfigurationChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.Configuration">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcelable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="android.os.Parcelable" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="resetZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMaxZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnDoubleTapListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.GestureDetector.OnDoubleTapListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnTouchImageViewListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.ui.TouchImageView.OnTouchImageViewListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScrollPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.ui.TouchImageView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoom" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="android.widget.ImageView.ScaleType">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.CompatScroller" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="TouchImageView.CompatScroller" static="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.CompatScroller" visibility="public">
+<parameter name="p1" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="computeScrollOffset" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="fling" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="forceFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrX" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrY" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFinished" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.DoubleTapZoom" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.Fling" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="cancelFling" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.GestureDetector.SimpleOnGestureListener" extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener" final="false" name="TouchImageView.GestureListener" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="TouchImageView.OnTouchImageViewListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onMove" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.PrivateOnTouchListener" static="false" visibility="">
+<implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.MotionEvent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.ScaleGestureDetector.SimpleOnScaleGestureListener" extends-generic-aware="android.view.ScaleGestureDetector.SimpleOnScaleGestureListener" final="false" name="TouchImageView.ScaleListener" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.ui.view.ui.TouchImageView.State&gt;" final="true" name="TouchImageView.State" static="true" visibility="">
+<field deprecated="not deprecated" final="true" name="ANIMATE_ZOOM" static="true" transient="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.State" type-generic-aware="com.liveperson.infra.ui.view.ui.TouchImageView.State" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DRAG" static="true" transient="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.State" type-generic-aware="com.liveperson.infra.ui.view.ui.TouchImageView.State" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLING" static="true" transient="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.State" type-generic-aware="com.liveperson.infra.ui.view.ui.TouchImageView.State" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.State" type-generic-aware="com.liveperson.infra.ui.view.ui.TouchImageView.State" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ZOOM" static="true" transient="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.State" type-generic-aware="com.liveperson.infra.ui.view.ui.TouchImageView.State" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchImageView.ZoomVariables" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="TouchImageView.ZoomVariables" static="false" type="com.liveperson.infra.ui.view.ui.TouchImageView.ZoomVariables" visibility="public">
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="android.widget.ImageView.ScaleType">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="focusX" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="focusY" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="scale" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="scaleType" static="false" transient="false" type="android.widget.ImageView.ScaleType" type-generic-aware="android.widget.ImageView.ScaleType" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.liveperson.infra.ui.view.uicomponents">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.1" static="false" visibility="">
+<implements name="android.widget.TextView.OnEditorActionListener" name-generic-aware="android.widget.TextView.OnEditorActionListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEditorAction" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="android.view.KeyEvent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.2" static="false" visibility="">
+<implements name="android.text.TextWatcher" name-generic-aware="android.text.TextWatcher">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="afterTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.text.Editable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="beforeTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.3" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.4" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.5" static="false" visibility="">
+<implements name="android.widget.ViewSwitcher.ViewFactory" name-generic-aware="android.widget.ViewSwitcher.ViewFactory">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="makeView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.6" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.6.1" static="false" visibility="">
+<implements name="com.liveperson.infra.ui.view.uicomponents.ICloseMenuListener" name-generic-aware="com.liveperson.infra.ui.view.uicomponents.ICloseMenuListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCloseMenu" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.7.2.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.7.2.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.7.2.3" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseEnterMessage.8" static="false" visibility="">
+<implements name="com.liveperson.infra.ui.view.uicomponents.ICloseMenuListener" name-generic-aware="com.liveperson.infra.ui.view.uicomponents.ICloseMenuListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCloseMenu" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.ui.view.uicomponents.BaseEnterMessage.InputState&gt;" final="true" name="BaseEnterMessage.InputState" static="true" visibility="">
+<field deprecated="not deprecated" final="true" name="HAS_TEXT" static="true" transient="false" type="com.liveperson.infra.ui.view.uicomponents.BaseEnterMessage.InputState" type-generic-aware="com.liveperson.infra.ui.view.uicomponents.BaseEnterMessage.InputState" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="com.liveperson.infra.ui.view.uicomponents.BaseEnterMessage.InputState" type-generic-aware="com.liveperson.infra.ui.view.uicomponents.BaseEnterMessage.InputState" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ICloseMenuListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onCloseMenu" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="IConnectionChangedCustomView" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onConnectionChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="IConversationProvider" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getBrandId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getTargetId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="IOverflowMenu" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="hide" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isMenuOpen" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setOnCloseListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.uicomponents.ICloseMenuListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+</package>
+<package name="com.liveperson.infra.ui.view.utils">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ImageUrlUtil" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ImageUrlUtil" static="false" type="com.liveperson.infra.ui.view.utils.ImageUrlUtil" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="completeToValidImageUrl" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView" extends-generic-aware="android.support.v7.widget.RecyclerView" final="false" name="ItemsView" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="DataClass"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="ItemsView" static="false" type="com.liveperson.infra.ui.view.utils.ItemsView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="com.liveperson.infra.ui.view.utils.ItemsView.CellsFactory&lt;DataClass&gt;">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ItemsView" static="false" type="com.liveperson.infra.ui.view.utils.ItemsView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="com.liveperson.infra.ui.view.utils.ItemsView.CellsFactory&lt;DataClass&gt;">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ItemsView" static="false" type="com.liveperson.infra.ui.view.utils.ItemsView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="com.liveperson.infra.ui.view.utils.ItemsView.CellsFactory&lt;DataClass&gt;">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="DataClass">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="filter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reload" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="DataClass">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setData" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;DataClass&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="withCellType" native="false" return="com.liveperson.infra.ui.view.utils.ItemsView&lt;DataClass&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="DataClass">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ItemsView.1" static="true" visibility=""/>
+<class abstract="true" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.ViewHolder" extends-generic-aware="android.support.v7.widget.RecyclerView.ViewHolder" final="false" name="ItemsView.CellHolder" static="true" visibility="public">
+<typeParameters>
+<typeParameter name="CellDataType"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="ItemsView.CellHolder" static="false" type="com.liveperson.infra.ui.view.utils.ItemsView.CellHolder" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="configure" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="CellDataType">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="CellDataType" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="prepareForReuse" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ItemsView.CellsFactory" static="true" visibility="public">
+<typeParameters>
+<typeParameter name="D"/>
+</typeParameters>
+<method abstract="true" deprecated="not deprecated" final="false" name="create" native="false" return="com.liveperson.infra.ui.view.utils.ItemsView.CellHolder&lt;D&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.Adapter" extends-generic-aware="android.support.v7.widget.RecyclerView.Adapter&lt;com.liveperson.infra.ui.view.utils.ItemsView.CellHolder&lt;DataClass&gt;&gt;" final="false" name="ItemsView.RecyclerViewAdapter" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="DataClass">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.support.v7.widget.RecyclerView.ViewHolder">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.utils.ItemsView.CellHolder&lt;DataClass&gt;">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCreateViewHolder" native="false" return="com.liveperson.infra.ui.view.utils.ItemsView.CellHolder&lt;DataClass&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onViewRecycled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.liveperson.infra.ui.view.utils.ItemsView.CellHolder&lt;DataClass&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="DataClass">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setData" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;DataClass&gt;">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UIUtils" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="UIUtils" static="false" type="com.liveperson.infra.ui.view.utils.UIUtils" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="changeCustomTextViewFont" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="android.content.Context">
+</parameter>
+<parameter name="p2" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p3" type="int[]">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="createDialog" native="false" return="android.app.AlertDialog" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+<parameter name="p4" type="android.content.DialogInterface.OnClickListener">
+</parameter>
+<parameter name="p5" type="java.lang.String">
+</parameter>
+<parameter name="p6" type="android.content.DialogInterface.OnClickListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="detectEmojis" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="hideKeyboard" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="startProgressBarAnimation" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.ImageView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+</api>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Dialog.ClearHistoryConfirmationDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Dialog.ConversationIsActiveWarningDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Dialog.NewUserDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Fragment.IConversationFragmentCallbacks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Fragment.IFeedbackActions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Fragment.INestedFragmentsContainerCallbacks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Fragment.SecuredFormFragment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.IMessagingUi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.ResourceMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Screens.CaptionPreviewActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Toolbar.CaptionPreviewToolBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Toolbar.ConversationToolBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Toolbar.LPToolBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Toolbar.SecuredFormToolBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.ICursorLoaderFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Inlinemessages.IInlineMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Inlinemessages.InlineMessagesController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Inlinemessages.OffHours.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Inlinemessages.TTRSnackBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.IScrollDownIndicator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.List.IChatMessageBgFgListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.List.MessagesAsListLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.List.OnSCActionClickListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.MessagingUIUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.PushMessageParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.IQRActionClickListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.Quickreplies.QuickRepliesControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.TouchyWebView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.Viewpager.CustomViewPager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.Viewpager.CustomViewPagerAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Uicomponents.Structuredcontent.Viewpager.ViewPaperPageListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.Utils.LpFileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.ChatMessageRow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Copybehavior.CopyBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Copybehavior.IActivityProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Copybehavior.IMenuCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Copybehavior.MessagingActionModeCopyBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Copybehavior.MessagingSimpleMenuCopyBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.IMessagingAdapterListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.MessageRow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Adapter.Viewholder.IAmsViewHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Infra.Messaging_ui.View.Separator.ConversationSeparationDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

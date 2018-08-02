@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>
+    <Jar>obj\Release\lp\0\jl\okhttp-2.4.0.jar</Jar>
+    <Jar>obj\Release\lp\1\jl\okhttp3.jar</Jar>
+    <Jar>obj\Release\lp\2\jl\okio.jar</Jar>
+    <Jar>obj\Release\lp\3\jl\picasso-2.5.2.jar</Jar>
+    <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\lp\0\jl\okhttp-2.4.0.jar</Jar>
+    <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\lp\1\jl\okhttp3.jar</Jar>
+    <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\lp\2\jl\okio.jar</Jar>
+    <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Infra_Binding\obj\Release\lp\3\jl\picasso-2.5.2.jar</Jar>
+  </Jars>
+  <ResolvedResourceDirectories />
+  <ResolvedAssetDirectories />
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps />
+</Paths>

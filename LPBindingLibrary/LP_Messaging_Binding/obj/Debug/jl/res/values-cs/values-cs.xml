@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d NEPŘEČTENÁ ZPRÁVA"</item>
+       <item quantity="other">"%1$d NEPŘEČTENÝCH ZPRÁV: %1$d"</item>
+        <item quantity="few">"%1$d NEPŘEČTENÉ ZPRÁVY"</item>
+    </plurals>
+    <string name="downloading_image">Stahování obrázku…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Konverzaci vyřešil agent\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Konverzace vyřešena pomocí %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Konverzace vyřešena vámi\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Nepovedlo se stáhnout soubor</string>
+    <string name="lp_failed_upload_toast_message">Nepovedlo se odeslat soubor</string>
+    <string name="lp_first_message">Jak vám mohu pomoci?</string>
+    <string name="lp_loading_message">Nahrávání...</string>
+    <string name="lp_resend_failed_conversation_closed">Tato konverzace již byla vyřešena.</string>
+    <string name="lp_resend_failed_masked_message">Odeslání zprávy selhalo. Vložte zprávu ještě jednou a znovu ji odešlete.</string>
+    <string name="lp_still_loading_message">Stále se načítá konverzace…</string>
+    <string name="uploading_image">Nahrávání obrázku…</string>
+</resources>

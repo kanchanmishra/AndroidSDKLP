@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Ihre persönlichen Daten wurden zu Ihrem Schutz verschlüsselt. Nur der Mitarbeiter kann die Daten sehen.</string>
+    <string name="lp_system_message_real_time_masked">Ihre persönlichen Daten wurden zu Ihrem Schutz verschlüsselt und können vom Mitarbeiter nicht eingesehen werden.</string>
+</resources>

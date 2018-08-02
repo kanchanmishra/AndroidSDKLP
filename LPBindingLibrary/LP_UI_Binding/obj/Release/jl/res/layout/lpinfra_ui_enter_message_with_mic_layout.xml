@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lpui_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ViewSwitcher
+        android:id="@+id/lpui_enter_view_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/lpui_enter_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageSwitcher
+                android:id="@+id/lpui_attach_file"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:contentDescription="@string/lp_accessibility_attachment_menu_button_collapsed" />
+
+            <!--For accessibility-->
+            <TextView
+                android:id="@+id/lpui_id_for_enter_text"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:labelFor="@+id/lpui_enter_message_text"
+                android:text="@string/lp_accessibility_chat_message" />
+
+            <include
+                android:id="@+id/lpui_enter_message_text"
+                layout="@layout/lpinfra_ui_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lpui_voice_record_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/lpui_voice_trash_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/lpinfra_ui_ic_voice_trash"
+                android:background="@android:color/transparent" />
+
+            <com.liveperson.infra.ui.view.ui.CustomTextView
+                android:id="@+id/lpui_voice_recording_time_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="00:00"
+                android:textSize="@dimen/small_text_size" />
+
+            <ProgressBar
+                android:id="@+id/lpui_voice_recording_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/lp_light_blue"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"/>
+
+            <com.liveperson.infra.ui.view.ui.CustomTextView
+                android:id="@+id/lpui_voice_recording_max_time_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="00:00"
+                android:textSize="@dimen/small_text_size" />
+
+        </LinearLayout>
+    </ViewSwitcher>
+
+    <ImageButton
+        android:id="@+id/lpui_mic_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/lpinfra_ui_ic_mic"
+        android:background="@android:color/transparent" />
+
+    <com.liveperson.infra.ui.view.ui.CustomButton
+        android:id="@+id/lpui_enter_message_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/lp_send"
+        android:textAllCaps="false"
+        android:textColor="@color/lp_send_button_text_disable"
+        android:layout_gravity="bottom"
+        android:textSize="15sp"
+        app:font_name="@string/custom_font_name_non_conversation_feed"/>
+
+    <ImageButton
+        android:id="@+id/lpui_enter_message_send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:contentDescription="Send"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/lpinfra_ui_ic_send_disabled"
+        android:visibility="gone" />
+
+</LinearLayout>

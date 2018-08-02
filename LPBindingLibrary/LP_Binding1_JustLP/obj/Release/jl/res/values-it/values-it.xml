@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">I dati personali sono stati mascherati per proteggere la tua sicurezza. Solo l’agente può leggerli.</string>
+    <string name="lp_system_message_real_time_masked">I dati personali sono stati mascherati per proteggere la tua sicurezza e non possono essere letti dall’agente.</string>
+</resources>

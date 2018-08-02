@@ -1,0 +1,5 @@
+C:\Xamarin\Projects\LPBindingLibrary\LP_Monitoring_Binding\bin\Debug\LP_Monitoring_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Monitoring_Binding\bin\Debug\LP_Monitoring_Binding.pdb
+C:\Xamarin\Projects\LPBindingLibrary\LP_Monitoring_Binding\obj\Debug\LP_Monitoring_Binding.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\LPBindingLibrary\LP_Monitoring_Binding\obj\Debug\LP_Monitoring_Binding.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Monitoring_Binding\obj\Debug\LP_Monitoring_Binding.pdb

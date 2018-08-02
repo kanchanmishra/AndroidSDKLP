@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">첨부 메뉴 버튼 축소</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">첨부 메뉴 버튼 확장</string>
+    <string name="lp_accessibility_chat_message">채팅 메시지</string>
+    <string name="lp_accessibility_message_preview_close_description">닫기</string>
+    <string name="lp_enter_message">메시지 작성</string>
+    <string name="lp_message_time_min_ago">%1$s분 전</string>
+    <string name="lp_message_time_now">지금</string>
+    <string name="lp_message_time_now_with_state">지금</string>
+    <string name="lp_no_network_toast_message">인터넷 연결 없음. 연결을 확인하고 다시 시도해 주십시오.</string>
+    <string name="lp_send">보내기</string>
+    <string name="lp_today">오늘</string>
+    <string name="lp_yesterday">어제</string>
+</resources>

@@ -1,0 +1,6 @@
+<vector android:height="36dp" android:viewportHeight="70.88"
+    android:viewportWidth="70.88" android:width="36dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/feedback_fragment_star"
+        android:pathData="M35.44,1.73l8.37,25.75l27.07,0l-21.9,15.92l8.36,25.75l-21.9,-15.92l-21.9,15.92l8.36,-25.75l-21.9,-15.92l27.07,0l8.37,-25.75z"/>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">您的个人数据经模糊处理，以保护您的安全。只有代理员可以读取。</string>
+    <string name="lp_system_message_real_time_masked">您的个人数据经模糊处理，以保护您的安全，代理员无法读取。</string>
+</resources>

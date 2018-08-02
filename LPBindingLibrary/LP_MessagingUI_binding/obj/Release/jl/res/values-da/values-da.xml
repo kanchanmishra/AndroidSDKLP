@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Sendt"</item>
+        <item>"Leveret"</item>
+        <item>"Læs"</item>
+        <item>"Ikke leveret"</item>
+        <item>"Sending"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s dag"</item>
+        <item quantity="other">" %1$s dage"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s time"</item>
+        <item quantity="other">" %1$s timer"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minut"</item>
+        <item quantity="other">" %1$s minutter"</item>
+    </plurals>
+    <string name="brand_name">Mit mærke</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Agentikon</string>
+    <string name="lp_accessibility_agent_is_typing">Medarbejder skriver</string>
+    <string name="lp_accessibility_attachment_menu">Menuen Vedhæftet fil</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Fuldt billede</string>
+    <string name="lp_accessibility_gallery">Galleri</string>
+    <string name="lp_accessibility_image">Billed</string>
+    <string name="lp_accessibility_image_caption">Billedtekst</string>
+    <string name="lp_accessibility_is_typing">%1$s skriver</string>
+    <string name="lp_accessibility_new_agent_message">Ny agentmeddelelse: </string>
+    <string name="lp_accessibility_new_system_message">Ny systemmeddelelse: </string>
+    <string name="lp_accessibility_photo">billede</string>
+    <string name="lp_accessibility_photo_preview">Billedeksempel</string>
+    <string name="lp_accessibility_received">modtaget</string>
+    <string name="lp_accessibility_resend">Send igen</string>
+    <string name="lp_accessibility_sc_button">Knap</string>
+    <string name="lp_accessibility_sc_image">Billede</string>
+    <string name="lp_accessibility_sc_map">Kort</string>
+    <string name="lp_accessibility_sc_text">Tekst</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">scroll ned</string>
+    <string name="lp_accessibility_selected">valgt</string>
+    <string name="lp_accessibility_you">Dig</string>
+    <string name="lp_add_a_caption">Tilføj en billedtekst</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galleri</string>
+    <string name="lp_cancel">Annuller</string>
+    <string name="lp_clear_history_dialog_message">Hele din samtalehistorik går tabt. Er du sikker?</string>
+    <string name="lp_clear_history_dialog_positive_button">Ryd</string>
+    <string name="lp_clear_history_dialog_title">Slet historik</string>
+    <string name="lp_clear_history_menu_text">Slet historik</string>
+    <string name="lp_connection_status_connecting">Opretter forbindelse…</string>
+    <string name="lp_connection_status_failed_to_connect">Der kunne ikke oprettes forbindelse til serveren. <u>Prøv igen</u></string>
+    <string name="lp_connection_status_no_connection">Ingen forbindelse. Kontrollér din netværksforbindelse.</string>
+    <string name="lp_connection_status_trying_to_connect">Forsøger at oprette forbindelse…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Ignorer akut vigtighed</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Ignorer\nakut vigtighed</string>
+    <string name="lp_dismiss_urgent_dialog_header">Er du sikker på, at du vil markere samtalen som ikke vigtigt?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Det betyder, at samtalen prioriteteres normalt.</string>
+    <string name="lp_done">Udført</string>
+    <string name="lp_end">Slut</string>
+    <string name="lp_end_conversation">Afslut samtale</string>
+    <string name="lp_end_conversation_first">Gør først samtalen færdig.</string>
+    <string name="lp_failed_download_toast_message">Kunne ikke hente fil</string>
+    <string name="lp_failed_upload_toast_message">Kunne ikke overføre fil</string>
+    <string name="lp_feedback_1">Meget utilfredshed</string>
+    <string name="lp_feedback_2">Utilfreds</string>
+    <string name="lp_feedback_3">Hverken eller</string>
+    <string name="lp_feedback_4">Tilfreds</string>
+    <string name="lp_feedback_5">Meget tilfreds</string>
+    <string name="lp_feedback_question">Hvordan vil du vurdereforbindelsen med vores medarbejder?</string>
+    <string name="lp_feedback_submit">Send</string>
+    <string name="lp_feedback_submit_message">Din feedback kan hjælpe os med at blive bedre.\nDet deles ikke med nogen kundeservicemedarbejder.</string>
+    <string name="lp_feedback_thank_you">Undersøgelse er sendt.\nTak!</string>
+    <string name="lp_feedback_yesno_negative_title">Nej</string>
+    <string name="lp_feedback_yesno_positive_title">Ja</string>
+    <string name="lp_feedback_yesno_question">Har vi løst dit problem?</string>
+    <string name="lp_history_control_api_empty_state">Det er i øjeblikket ingen samtale</string>
+    <string name="lp_is_typing">Skriver...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Er du sikker på, at sagen er løst?</string>
+    <string name="lp_mark_as_resolved_menu_text">Marker som løst</string>
+    <string name="lp_mark_as_urgent_dialog_header">Er du sikker på, at du vil markere samtalen som vigtig?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Det betyder, at samtalen prioriteteres først.</string>
+    <string name="lp_mark_as_urgent_menu_text">Marker som vigtig</string>
+    <string name="lp_menu_copy">Kopier</string>
+    <string name="lp_menu_send_image">Send</string>
+    <string name="lp_new_messages">nye beskeder</string>
+    <string name="lp_no_action_not_available_toast_message">Handling ikke mulig - ingen åben samtale</string>
+    <string name="lp_no_network_toast_message">Ingen internetforbindelse. Kontroller din forbindelse og prøv igen.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Send</string>
+    <string name="lp_skip">Spring over</string>
+    <string name="lp_structured_content_display_failed">Kunne ikke vise indholdet</string>
+    <string name="lp_tap_to_add_a_caption">Tryk for at tilføje en billedtekst</string>
+    <string name="lp_today">"I dag"</string>
+    <string name="lp_ttr_message_no_timestamp">En medarbejder svarer om et øjeblik</string>
+    <string name="lp_ttr_message_off_hours_message">Tak for din besked. Vi er online igen på %1$s kl. %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Tak for din besked. Vi er online igen i dag kl. %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Tak for din besked. Vi er online igen i morgen kl. %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">En medarbejder svarer i løbet af %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Udfyld formular</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">BLIV</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Når du går væk fra den sikre formular, kan du ikke komme tilbage til den igen.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Er du sikker?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Der var et problem med at åbne formularen. Bed en medarbejder sende formularen igen.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Sikker formular er udløbet. Bed en medarbejder sende formularen igen.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Formularen er sendt og kan ikke åbnes af hensyn til sikkerheden.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Det er en sikker formular. De indtastede oplysninger er beskyttede og kan ikke tilgås, når de er sendt.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Formularen er allerede vist. Bed en medarbejder sende formularen igen.</string>
+</resources>

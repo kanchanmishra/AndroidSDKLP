@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "510252700200",
+    "firebase_url": "https://newmobileproject-137b1.firebaseio.com",
+    "project_id": "newmobileproject-137b1",
+    "storage_bucket": "newmobileproject-137b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510252700200:android:7657a8a2b1760cab",
+        "android_client_info": {
+          "package_name": "LP_Messaging_App.LP_Messaging_App"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510252700200-op6p56uhsgg8bfhm27bqenkojtfainac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKTrS_bvnZk1VSVGnIaEkLjDH3BpXJYIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510252700200:android:36cd5c80dba85c42",
+        "android_client_info": {
+          "package_name": "com.Bupa.LpMessagingAndroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510252700200-op6p56uhsgg8bfhm27bqenkojtfainac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKTrS_bvnZk1VSVGnIaEkLjDH3BpXJYIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510252700200:android:0c1dfd63192ae49c",
+        "android_client_info": {
+          "package_name": "com.bupa.mishk.livepersonlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510252700200-op6p56uhsgg8bfhm27bqenkojtfainac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKTrS_bvnZk1VSVGnIaEkLjDH3BpXJYIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510252700200:android:5ad4146296f11020",
+        "android_client_info": {
+          "package_name": "com.bupa.mishk.mynewapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510252700200-op6p56uhsgg8bfhm27bqenkojtfainac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKTrS_bvnZk1VSVGnIaEkLjDH3BpXJYIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

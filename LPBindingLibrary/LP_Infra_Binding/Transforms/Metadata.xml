@@ -1,0 +1,30 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.liveperson.infra']/interface[@name='IConfiguration']" name="managedName">IConfigurationNew</attr>
+
+  <!--<attr path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpImageRequestBody']/method[@name='get']" name="managedReturn">Java.Lang.Object</attr>-->
+  <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpImageRequestBody']/method[@name='get']" />
+
+
+  <attr path="/api/package[@name='com.liveperson.infra.statemachine']/class[@name='BaseStateMachine']/method[@name='activeState']" name="managedReturn">Java.Lang.Object</attr>
+
+  <!--<attr path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpStringRequestBody']/method[@name='get']" name="managedReturn">Java.Lang.String</attr>
+    <attr path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpStringRequestBody']/method[@name='get']" name="managedReturn">Java.Lang.Object</attr>-->
+
+  <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpStringRequestBody']" />
+
+
+  <remove-node path="/api/package[@name='com.liveperson.infra.statemachine.interfaces']/interface[@name='IStateMachine']/method[@name='changeStateAndPassEvent']" />
+
+  <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='FilesTable']" name="managedName">filesTable</attr>
+  <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']" name="managedName">messagesTable</attr>
+  <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='UsersTable']" name="managedName">usersTable</attr>
+  
+</metadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d NEPROČITANA PORUKA"</item>
+       <item quantity="other">"%1$d NEPROČITANIH PORUKA"</item>
+       <item quantity="few">"%1$d NEKOLIKO NEPROČITANIH PORUKA"</item>
+   </plurals>
+    <string name="downloading_image">Preuzima se slika…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Razgovor je riješio agent\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Razgovor je razriješio/la %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">Razgovor ste razriješili Vi\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Nije uspjelo preuzimanje datoteke </string>
+    <string name="lp_failed_upload_toast_message">Nije uspjelo podizanje datoteke </string>
+    <string name="lp_first_message">Kako vam mogu danas pomoći?</string>
+    <string name="lp_loading_message">Učitavanje…</string>
+    <string name="lp_resend_failed_conversation_closed">Ovaj razgovor već je riješen.</string>
+    <string name="lp_resend_failed_masked_message">Poruka nije uspješno poslana. Ponovno unesite poruku i opet je pošaljite.</string>
+    <string name="lp_still_loading_message">I dalje učitavanje razgovor…</string>
+    <string name="uploading_image">Šalje se slika…</string>
+</resources>

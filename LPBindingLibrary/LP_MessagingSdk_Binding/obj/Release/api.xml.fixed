@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<api>
+  <package name="com.liveperson.messaging.sdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.liveperson.messaging.sdk.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.liveperson.messaging.sdk&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="320" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;3.2.0&quot;" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.messaging.sdk.api" />
+  <package name="com.liveperson.messaging.sdk.api.callbacks">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="LogoutLivePersonCallback" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLogoutFailed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLogoutSucceed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ShutDownLivePersonCallback" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onShutdownFailed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onShutdownSucceed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+  </package>
+  <package name="com.liveperson.messaging.sdk.api.model">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConsumerProfile" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAvatarUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFirstName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNickname" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPhoneNumber" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConsumerProfile.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConsumerProfile.Builder" static="true" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ConsumerProfile.Builder" static="false" type="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="build" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAvatarUrl" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFirstName" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastName" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNickname" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPhoneNumber" native="false" return="com.liveperson.messaging.sdk.api.model.ConsumerProfile.Builder" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring.sdk.api" />
+</api>

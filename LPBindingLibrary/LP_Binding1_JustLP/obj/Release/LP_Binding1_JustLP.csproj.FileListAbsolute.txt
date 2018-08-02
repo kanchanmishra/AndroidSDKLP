@@ -1,0 +1,16 @@
+C:\Users\kanchan\source\repos\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.csproj.CoreCompileInputs.cache
+C:\Users\kanchan\source\repos\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.dll
+C:\Users\kanchan\source\repos\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.pdb
+C:\Users\kanchan\source\repos\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.dll
+C:\Users\kanchan\source\repos\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.pdb
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.pdb
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.csprojResolveAssemblyReference.cache
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.dll
+C:\Xamarin\Projects\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Binding1_JustLP\bin\Release\LP_Binding1_JustLP.pdb
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.csproj.CoreCompileInputs.cache
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.dll
+C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Binding1_JustLP\obj\Release\LP_Binding1_JustLP.pdb

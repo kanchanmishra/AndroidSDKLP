@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Vaše osobní údaje byly maskovány za účelem vaší ochrany. Může to přečíst pouze agent.</string>
+    <string name="lp_system_message_real_time_masked">Vaše osobní údaje byly maskovány za účelem vaší ochrany; agent je nemůže přečíst.</string>
+</resources>

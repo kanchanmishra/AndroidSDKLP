@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.liveperson.infra.messaging_ui">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.liveperson.infra.messaging_ui.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.liveperson.infra.messaging_ui&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="320" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;3.2.0.327&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationActivity.1.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationActivity.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationActivity.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationActivity.3.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IMessagingUi" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="hideConversation" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onAgentAvatarTapped" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.ResourceMapper&gt;" final="true" name="ResourceMapper" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.liveperson.infra.messaging_ui.ResourceMapper" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.ResourceMapper[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" static="true" transient="false" type="com.liveperson.infra.messaging_ui.ResourceMapper" type-generic-aware="com.liveperson.infra.messaging_ui.ResourceMapper" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="KEY_AGENT_CONVERSATION_BUBBLE_BG_COLOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;agent conversation bg color&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="KEY_CONVERSATION_BG_COLOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;conversation bg color&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VALUE_AGENT_CONVERSATION_BUBBLE_BG_COLOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;agent conversation bg color&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VALUE_CONVERSATION_BG_COLOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;conversation bg color&quot;" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.dialog">
+    <class abstract="false" deprecated="not deprecated" extends="android.app.DialogFragment" extends-generic-aware="android.app.DialogFragment" final="false" name="ClearHistoryConfirmationDialog" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ClearHistoryConfirmationDialog" static="false" type="com.liveperson.infra.messaging_ui.dialog.ClearHistoryConfirmationDialog" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.liveperson.infra.messaging_ui.dialog.ClearHistoryConfirmationDialog" static="true" synchronized="false" visibility="public">
+        <parameter name="targetId" type="java.lang.String"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="TARGET_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;target_id&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ClearHistoryConfirmationDialog.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ClearHistoryConfirmationDialog.2" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.DialogFragment" extends-generic-aware="android.app.DialogFragment" final="false" name="ConversationIsActiveWarningDialog" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ConversationIsActiveWarningDialog" static="false" type="com.liveperson.infra.messaging_ui.dialog.ConversationIsActiveWarningDialog" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.liveperson.infra.messaging_ui.dialog.ConversationIsActiveWarningDialog" static="true" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationIsActiveWarningDialog.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.app.DialogFragment" extends-generic-aware="android.support.v4.app.DialogFragment" final="false" name="NewUserDialog" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="NewUserDialog" static="false" type="com.liveperson.infra.messaging_ui.dialog.NewUserDialog" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.liveperson.infra.messaging_ui.dialog.NewUserDialog" static="true" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="NewUserDialog.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.fragment">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConnectionStatusController.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConnectionStatusController.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConnectionStatusController.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationFragment.1" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IActivityProvider" name-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IActivityProvider"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getActivity" native="false" return="android.app.Activity" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationFragment.11" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationFragment.3" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.AttachmentMenu.AttachmentMenuListener" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.AttachmentMenu.AttachmentMenuListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCameraButtonPressed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGalleryButtonPressed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ConversationFragmentCallbacks" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSurveySubmitted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setFeedBackMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+        <parameter name="p1" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSecureFormMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationFragmentCallbacks.NullConversationFragmentCallbacks" static="true" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.fragment.ConversationFragmentCallbacks" name-generic-aware="com.liveperson.infra.messaging_ui.fragment.ConversationFragmentCallbacks"></implements>
+      <constructor deprecated="not deprecated" final="false" name="ConversationFragmentCallbacks.NullConversationFragmentCallbacks" static="false" type="com.liveperson.infra.messaging_ui.fragment.ConversationFragmentCallbacks.NullConversationFragmentCallbacks" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurveySubmitted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="actions" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFeedBackMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="on" type="boolean"></parameter>
+        <parameter name="actions" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSecureFormMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="on" type="boolean"></parameter>
+        <parameter name="formTitle" type="java.lang.String"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.5" static="false" visibility="">
+      <implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FeedbackFragment.6" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState&gt;" final="true" name="FeedbackFragment.ScreenState" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="CSAT" static="true" transient="false" type="com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState" type-generic-aware="com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="THANK_YOU" static="true" transient="false" type="com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState" type-generic-aware="com.liveperson.infra.messaging_ui.fragment.FeedbackFragment.ScreenState" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="FeedbackFragment.StarHandler" static="false" visibility="private"></class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IFeedbackActions" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="closeFeedBackScreen" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="skipFeedBackScreen" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="NestedFragmentsContainerCallbacks" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSurveySubmitted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="sendCSAT" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSecureFormMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="slideOutFragment" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="slideOutSecureFormFragment" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="NestedFragmentsContainerCallbacks.NullNestedFragmentsContainerCallbacks" static="true" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.fragment.NestedFragmentsContainerCallbacks" name-generic-aware="com.liveperson.infra.messaging_ui.fragment.NestedFragmentsContainerCallbacks"></implements>
+      <constructor deprecated="not deprecated" final="false" name="NestedFragmentsContainerCallbacks.NullNestedFragmentsContainerCallbacks" static="false" type="com.liveperson.infra.messaging_ui.fragment.NestedFragmentsContainerCallbacks.NullNestedFragmentsContainerCallbacks" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurveySubmitted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="conversationId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendCSAT" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="starsNumber" type="int"></parameter>
+        <parameter name="yesNoValue" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSecureFormMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="on" type="boolean"></parameter>
+        <parameter name="formTitle" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="slideOutFragment" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="slideOutSecureFormFragment" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.app.Fragment" extends-generic-aware="android.support.v4.app.Fragment" final="false" name="SecuredFormFragment" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SecuredFormFragment" static="false" type="com.liveperson.infra.messaging_ui.fragment.SecuredFormFragment" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="slideOutFragment" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="slideOutSecureFormFragment" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="ABORTED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;aborted&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;error&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_REASON" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;errorReason&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FORM_TITLE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;form_title&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="GATEWAY_DOMAIN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;gatewayDomain&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INVITATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;invitation_id&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="JS_INTERFACE_OBJ_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;android&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NOT_DEFINED_YET" static="true" transient="false" type="int" type-generic-aware="int" value="-9999" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="STATE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;state&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SUBMIT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;submit&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TOKEN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;token&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="URL" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;url&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VIEWED" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;viewed&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.webkit.WebViewClient" extends-generic-aware="android.webkit.WebViewClient" final="false" name="SecuredFormFragment.1" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.1.1" static="false" visibility="">
+      <implements name="android.webkit.ValueCallback" name-generic-aware="android.webkit.ValueCallback&lt;java.lang.String&gt;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceiveValue" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="html" type="java.lang.String"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.4" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.5" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SecuredFormFragment.WebAppInterface" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SecuredFormFragment.WebAppInterface" static="false" type="com.liveperson.infra.messaging_ui.fragment.SecuredFormFragment.WebAppInterface" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPCIMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="state" type="java.lang.String"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.screens">
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v7.app.AppCompatActivity" extends-generic-aware="android.support.v7.app.AppCompatActivity" final="false" name="CaptionPreviewActivity" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CaptionPreviewActivity" static="false" type="com.liveperson.infra.messaging_ui.screens.CaptionPreviewActivity" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="AUTH_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;AUTH_KEY&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BRAND_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;BRAND_ID&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="IMAGE_FROM_CAMERA" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;IMAGE_FROM_CAMERA&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="IMAGE_ORIENTATION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;IMAGE_ORIENTATION&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="IMAGE_URI" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;IMAGE_URI&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TARGET_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;TARGET_ID&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VIEW_PARAMS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;VIEW_PARAMS&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CaptionPreviewActivity.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CaptionPreviewActivity.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CaptionPreviewActivity.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.toolbar">
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.Toolbar" extends-generic-aware="android.support.v7.widget.Toolbar" final="false" name="CaptionPreviewToolBar" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CaptionPreviewToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.CaptionPreviewToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CaptionPreviewToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.CaptionPreviewToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CaptionPreviewToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.CaptionPreviewToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyleAttr" type="int"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="title" type="java.lang.String"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" extends-generic-aware="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" final="false" name="ConversationToolBar" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ConversationToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.ConversationToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="ConversationToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.ConversationToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="ConversationToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.ConversationToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyle" type="int"></parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationToolBar.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationToolBar.5" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ConversationToolBar.6" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="android.support.v7.widget.Toolbar" extends-generic-aware="android.support.v7.widget.Toolbar" final="false" name="LPToolBar" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LPToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="LPToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="LPToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyle" type="int"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initReceivers" native="false" return="void" static="false" synchronized="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onInitCompleted" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPause" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onResume" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurveySubmitted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="actions" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerReceivers" native="false" return="void" static="false" synchronized="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAgentName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="agentName" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBrandId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="brandId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFeedBackMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="feedBackMode" type="boolean"></parameter>
+        <parameter name="actions" type="com.liveperson.infra.messaging_ui.fragment.IFeedbackActions"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregisterReceivers" native="false" return="void" static="false" synchronized="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="updateAgent" native="false" return="void" static="false" synchronized="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="updateToolBarData" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="false" name="mBrandId" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" extends-generic-aware="com.liveperson.infra.messaging_ui.toolbar.LPToolBar" final="false" name="SecuredFormToolBar" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SecuredFormToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.SecuredFormToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="SecuredFormToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.SecuredFormToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="SecuredFormToolBar" static="false" type="com.liveperson.infra.messaging_ui.toolbar.SecuredFormToolBar" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyle" type="int"></parameter>
+      </constructor>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.11" static="false" visibility="">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.ValueAnimator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.12" static="false" visibility="">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="valueAnimator" type="android.animation.ValueAnimator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.3" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.4" static="false" visibility="">
+      <implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+        <parameter name="event" type="android.view.MotionEvent"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.5" static="false" visibility="">
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="message" type="android.os.Message"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.6" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsEnterMessage.7" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus&gt;" final="true" name="AmsEnterMessage.RecordingStatus" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="MAX_REACHED" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RECORDING" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="STOPPED" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage.RecordingStatus" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AttachmentMenu.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AttachmentMenu.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AttachmentMenu.3" static="false" visibility="">
+      <implements name="android.view.View.OnFocusChangeListener" name-generic-aware="android.view.View.OnFocusChangeListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFocusChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+        <parameter name="hasFocus" type="boolean"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AttachmentMenu.4" static="false" visibility="">
+      <implements name="android.view.View.OnKeyListener" name-generic-aware="android.view.View.OnKeyListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onKey" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+        <parameter name="keyCode" type="int"></parameter>
+        <parameter name="event" type="android.view.KeyEvent"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AttachmentMenu.5" static="false" visibility="">
+      <implements name="android.animation.Animator.AnimatorListener" name-generic-aware="android.animation.Animator.AnimatorListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationCancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="animation" type="android.animation.Animator"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AttachmentMenu.AttachmentMenuListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCameraButtonPressed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onGalleryButtonPressed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageRecyclerView.1" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.ChatMessageRecyclerView.OnLoadMoreListener" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.ChatMessageRecyclerView.OnLoadMoreListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLoadMore" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.OnScrollListener" extends-generic-aware="android.support.v7.widget.RecyclerView.OnScrollListener" final="false" name="ChatMessageRecyclerView.2" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageRecyclerView.ListLoaderCallback" static="false" visibility="public">
+      <implements name="android.support.v4.app.LoaderManager.LoaderCallbacks" name-generic-aware="android.support.v4.app.LoaderManager.LoaderCallbacks&lt;android.database.Cursor&gt;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="ChatMessageRecyclerView.ListLoaderCallback" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.ChatMessageRecyclerView.ListLoaderCallback" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreateLoader" native="false" return="android.support.v4.content.CursorLoader" static="false" synchronized="false" visibility="public">
+        <parameter name="id" type="int"></parameter>
+        <parameter name="args" type="android.os.Bundle"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLoadFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="loader" type="android.support.v4.content.Loader&lt;android.database.Cursor&gt;"></parameter>
+        <parameter name="cursor" type="android.database.Cursor"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLoaderReset" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="loader" type="android.support.v4.content.Loader&lt;android.database.Cursor&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCursorLoaderFactory" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="factory" type="com.liveperson.infra.messaging_ui.uicomponents.CursorLoaderFactory"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ChatMessageRecyclerView.OnLoadMoreListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLoadMore" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CursorLoaderFactory" static="false" visibility="public">
+      <typeParameters>
+        <typeParameter name="E">
+          <genericConstraints>
+            <genericConstraint type="android.support.v4.content.CursorLoader"></genericConstraint>
+          </genericConstraints>
+        </typeParameter>
+      </typeParameters>
+      <method abstract="true" deprecated="not deprecated" final="false" name="create" native="false" return="E" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getBrandId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTargetId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IScrollDownIndicator" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="isExpand" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="resetAndHide" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="resetAndShowCollapsed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setOnClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View.OnClickListener"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="IScrollDownIndicator.NullImplementation" static="true" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.IScrollDownIndicator" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.IScrollDownIndicator"></implements>
+      <constructor deprecated="not deprecated" final="false" name="IScrollDownIndicator.NullImplementation" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.IScrollDownIndicator.NullImplementation" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isExpand" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="resetAndHide" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="resetAndShowCollapsed" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onClickListener" type="android.view.View.OnClickListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="numOfUnreadAgentMessages" type="int"></parameter>
+        <parameter name="lastMessage" type="java.lang.String"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="showActionNotAvailableMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showMarkAsNormalDialog" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="targetId" type="java.lang.String"></parameter>
+        <parameter name="brandId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showMarkAsUrgentDialog" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="targetId" type="java.lang.String"></parameter>
+        <parameter name="brandId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showNoNetworkMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showResolveDialog" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="targetId" type="java.lang.String"></parameter>
+        <parameter name="brandId" type="java.lang.String"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.2" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.3" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.4" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.5" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.6" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialog" type="android.content.DialogInterface"></parameter>
+        <parameter name="which" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingUIUtils.7" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PushMessageParser" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="PushMessageParser" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.PushMessageParser" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="convertDataToBundle" native="false" return="android.os.Bundle" static="true" synchronized="false" visibility="public">
+        <parameter name="data" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE&gt;" final="true" name="ScrollDownIndicator.MODE" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="CLOSE" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="OPEN_COLLAPSED" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="OPEN_EXPAND" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator.MODE" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IInlineMessage" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="hide" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.content.Intent"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InlineMessagesController" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideAll" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onConversationResolved" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="register" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="brandID" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerTTRReceiver" native="false" return="void" static="false" synchronized="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregister" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="OffHours" static="false" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.IInlineMessage" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.IInlineMessage"></implements>
+      <constructor deprecated="not deprecated" final="false" name="OffHours" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.OffHours" visibility="public">
+        <parameter name="res" type="android.content.res.Resources"></parameter>
+        <parameter name="view" type="android.widget.TextView"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hide" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="intent" type="android.content.Intent"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="OffHours.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TTRSnackBar" static="false" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.IInlineMessage" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.IInlineMessage"></implements>
+      <constructor deprecated="not deprecated" final="false" name="TTRSnackBar" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar" visibility="public">
+        <parameter name="res" type="android.content.res.Resources"></parameter>
+        <parameter name="viewContainerSnackBar" type="android.view.View"></parameter>
+        <parameter name="featuresConfiguration" type="java.util.HashMap&lt;java.lang.String, java.lang.Boolean&gt;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hide" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="intent" type="android.content.Intent"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode&gt;" final="true" name="TTRSnackBar.TTRMode" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="SHORTLY" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TIMESTAMP" static="true" transient="false" type="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode" type-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar.TTRMode" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.list">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ChatMessageBgFgListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onBackground" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onForeground" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageListRecyclerView.1" static="false" visibility="">
+      <implements name="android.view.ViewTreeObserver.OnWindowAttachListener" name-generic-aware="android.view.ViewTreeObserver.OnWindowAttachListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onWindowAttached" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onWindowDetached" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageListRecyclerView.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageListRecyclerView.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListAdapter.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.OnScrollListener" extends-generic-aware="android.support.v7.widget.RecyclerView.OnScrollListener" final="false" name="MessagesAsListAdapter.2" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListAdapter.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.uicomponents.list.OnSCActionClickListener" extends-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.list.OnSCActionClickListener" final="false" name="MessagesAsListAdapter.4" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="metadata" type="org.json.JSONArray"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.uicomponents.list.OnSCActionClickListener" extends-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.list.OnSCActionClickListener" final="false" name="MessagesAsListAdapter.5" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="metadata" type="org.json.JSONArray"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListAdapter.6" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.QRActionClickListener" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.QRActionClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListAdapter.7" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback" name-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMenuClose" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMenuOpen" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListAdapter.8" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader" static="false" visibility="public">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.list.ChatMessageBgFgListener" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.list.ChatMessageBgFgListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTimeAtPosition" native="false" return="long" static="false" synchronized="false" visibility="public">
+        <parameter name="position" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUnreadPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAgentIsTyping" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="isAgentTyping" type="boolean"></parameter>
+        <parameter name="originatorId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBackground" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onConnectionAvailable" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onConnectionLost" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onForeground" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mFirstUIItemPosition" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeListener" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeQuickRepliesMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="conversationId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNumOfUnreadAgentMessages" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="numOfUnreadMessages" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setQuickRepliesMessageShown" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="deleteFromSharedPrefs" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="size" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.1.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.1.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.1.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.1.4" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.10" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.11" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.6" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.7" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.8" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.9" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="MessagesAsListLoader.IHandlerProvider" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getContext" native="false" return="android.content.Context" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="post" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="postDelayed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+        <parameter name="p1" type="long"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="removeCallbacks" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeAgentIsTyping" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showAgentIsTyping" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="originatorId" type="java.lang.String"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="FIRST_PHASE_DELAY_MILLIS" static="true" transient="false" type="int" type-generic-aware="int" value="1000" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SECOND_PHASE_DELAY_MILLIS" static="true" transient="false" type="int" type-generic-aware="int" value="10000" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.4" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.5" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.LoadingNewMessagesRunnableFirstPhase" static="false" visibility="private">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagesAsListLoader.LoadingMessagesHandler.LoadingNewMessagesRunnableSecondPhase" static="false" visibility="private">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="MessagesAsListLoader.OnListUpdated" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getFirstVisibleItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getLastVisibleItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="notifyUnreadMessagesChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClearAllMessages" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onHistoryLoaded" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+        <parameter name="p2" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onItemMoved" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onItemRemoved" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onMessageUpdated" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="android.os.Bundle"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNewAgentMessagesLoaded" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNewMessagesLoaded" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNewUnreadMessages" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNewUserMessageAdded" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="OnSCActionClickListener" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="OnSCActionClickListener" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.list.OnSCActionClickListener" visibility="public"></constructor>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="org.json.JSONArray"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="QRActionClickListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.webkit.WebView" extends-generic-aware="android.webkit.WebView" final="false" name="TouchyWebView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="TouchyWebView" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.TouchyWebView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TouchyWebView" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.TouchyWebView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TouchyWebView" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.TouchyWebView" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+        <parameter name="defStyle" type="int"></parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchyWebView.1" static="false" visibility="">
+      <implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+        <parameter name="motionEvent" type="android.view.MotionEvent"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.quickreplies">
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.ScrollView" extends-generic-aware="android.widget.ScrollView" final="false" name="QuickRepliesControl" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="QuickRepliesControl" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.quickreplies.QuickRepliesControl" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="QuickRepliesControl" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.quickreplies.QuickRepliesControl" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;QuickRepliesControl&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="QuickRepliesControl.1" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor.ViewBuilderVisitor.StructuredContentContainerOperations" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor.ViewBuilderVisitor.StructuredContentContainerOperations"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLeftPadding" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onChangeContainerSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="percent" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showAvatar" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="show" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showTimestamp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="show" type="boolean"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.viewpager">
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.view.ViewPager" extends-generic-aware="android.support.v4.view.ViewPager" final="false" name="CustomViewPager" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CustomViewPager" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.viewpager.CustomViewPager" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CustomViewPager" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.viewpager.CustomViewPager" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="attrs" type="android.util.AttributeSet"></parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.view.PagerAdapter" extends-generic-aware="android.support.v4.view.PagerAdapter" final="false" name="CustomViewPagerAdapter" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCount" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isViewFromObject" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+        <parameter name="object" type="java.lang.Object"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CustomViewPagerAdapter.1" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor.ViewBuilderVisitor.StructuredContentContainerOperations" name-generic-aware="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor.ViewBuilderVisitor.StructuredContentContainerOperations"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLeftPadding" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onChangeContainerSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="percent" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showAvatar" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="show" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showTimestamp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="show" type="boolean"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.view.ViewPager.SimpleOnPageChangeListener" extends-generic-aware="android.support.v4.view.ViewPager.SimpleOnPageChangeListener" final="false" name="ViewPaperPageListener" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ViewPaperPageListener" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.viewpager.ViewPaperPageListener" visibility="public">
+        <parameter name="structuredContentContainerOperations" type="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor.ViewBuilderVisitor.StructuredContentContainerOperations"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.visitor">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseViewBuilderVisitor.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BaseViewBuilderVisitor.2" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ViewBuilderVisitor.2" static="false" visibility="">
+      <implements name="android.view.ViewTreeObserver.OnPreDrawListener" name-generic-aware="android.view.ViewTreeObserver.OnPreDrawListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPreDraw" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ViewBuilderVisitor.StructuredContentContainerOperations" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getLeftPadding" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onChangeContainerSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="showAvatar" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="showTimestamp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.utils">
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.content.FileProvider" extends-generic-aware="android.support.v4.content.FileProvider" final="false" name="LpFileProvider" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LpFileProvider" static="false" type="com.liveperson.infra.messaging_ui.utils.LpFileProvider" visibility="public"></constructor>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.view.adapter">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageRow" static="false" visibility="public"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessageRow" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MessageRow" static="false" type="com.liveperson.infra.messaging_ui.view.adapter.MessageRow" visibility="public">
+        <parameter name="message" type="java.lang.String"></parameter>
+        <parameter name="timestamp" type="long"></parameter>
+        <parameter name="messageTypeInt" type="int"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAgentAvatarUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEventId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTimestamp" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAgentAvatarUrl" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="avatarUrl" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEventId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="eventId" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMessageState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="messageStateInt" type="int"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="MessagingAdapterListener" static="false" visibility="public"></interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingRecyclerViewCursorAdapter.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingRecyclerViewCursorAdapter.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingRecyclerViewCursorAdapter.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingRecyclerViewCursorAdapter.4" static="false" visibility="">
+      <implements name="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback" name-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMenuClose" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMenuOpen" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingRecyclerViewCursorAdapter.5" static="true" visibility=""></class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.view.adapter.copybehavior">
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CopyBehavior" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="isSelectable" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onViewRecycled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v7.widget.RecyclerView.ViewHolder"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setActivityProvider" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mActivityProvider" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IActivityProvider"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuStateListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="iMenuCallback" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="mActivityProvider" static="false" transient="false" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IActivityProvider" type-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IActivityProvider" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mMenuCallback" static="false" transient="false" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback" type-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.IMenuCallback" visibility="protected" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IActivityProvider" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getActivity" native="false" return="android.app.Activity" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IMenuCallback" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onMenuClose" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onMenuOpen" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.CopyBehavior" extends-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.CopyBehavior" final="false" name="MessagingActionModeCopyBehavior" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MessagingActionModeCopyBehavior" static="false" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.MessagingActionModeCopyBehavior" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectionTextToCopy" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSelectable" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onViewRecycled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="holder" type="android.support.v7.widget.RecyclerView.ViewHolder"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingActionModeCopyBehavior.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingActionModeCopyBehavior.2" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingActionModeCopyBehavior.3" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingActionModeCopyBehavior.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingActionModeCopyBehavior.5" static="false" visibility="">
+      <implements name="android.view.ActionMode.Callback" name-generic-aware="android.view.ActionMode.Callback"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onActionItemClicked" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="mode" type="android.view.ActionMode"></parameter>
+        <parameter name="item" type="android.view.MenuItem"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreateActionMode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="mode" type="android.view.ActionMode"></parameter>
+        <parameter name="menu" type="android.view.Menu"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDestroyActionMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mode" type="android.view.ActionMode"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPrepareActionMode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="mode" type="android.view.ActionMode"></parameter>
+        <parameter name="menu" type="android.view.Menu"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.CopyBehavior" extends-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.CopyBehavior" final="false" name="MessagingSimpleMenuCopyBehavior" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MessagingSimpleMenuCopyBehavior" static="false" type="com.liveperson.infra.messaging_ui.view.adapter.copybehavior.MessagingSimpleMenuCopyBehavior" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSelectable" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onViewRecycled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="holder" type="android.support.v7.widget.RecyclerView.ViewHolder"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingSimpleMenuCopyBehavior.1" static="false" visibility="">
+      <implements name="android.view.View.OnCreateContextMenuListener" name-generic-aware="android.view.View.OnCreateContextMenuListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreateContextMenu" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="menu" type="android.view.ContextMenu"></parameter>
+        <parameter name="v" type="android.view.View"></parameter>
+        <parameter name="menuInfo" type="android.view.ContextMenu.ContextMenuInfo"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingSimpleMenuCopyBehavior.2" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MessagingSimpleMenuCopyBehavior.MyOnMenuItemClickListener" static="false" visibility="private">
+      <implements name="android.view.MenuItem.OnMenuItemClickListener" name-generic-aware="android.view.MenuItem.OnMenuItemClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMenuItemClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="item" type="android.view.MenuItem"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.view.adapter.viewholder">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentFormInvitationViewHolder.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentFormInvitationViewHolder.2" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentURLViewHolder.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentURLViewHolder.2" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentURLViewHolder.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsAgentURLViewHolder.4" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerURLViewHolder.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerURLViewHolder.2" static="false" visibility="">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerURLViewHolder.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerURLViewHolder.4" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerViewHolder.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerViewHolder.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerViewHolder.3" static="true" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType&gt;" final="true" name="AmsConsumerViewHolder.ViewHolderType" static="true" visibility="private">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="java.lang.Enum&lt;com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="ICON" static="true" transient="false" type="com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType" type-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TEXT" static="true" transient="false" type="com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType" type-generic-aware="com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder.ViewHolderType" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerVoiceViewHolder.1" static="false" visibility="">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="valueAnimator" type="android.animation.ValueAnimator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerVoiceViewHolder.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerVoiceViewHolder.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsConsumerVoiceViewHolder.6.1" static="false" visibility="">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="valueAnimator" type="android.animation.ValueAnimator"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AmsDownloadableFileViewHolder.1" static="true" visibility=""></class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AmsViewHolder" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="applyColors" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="updateContentDescription" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+  </package>
+  <package name="com.liveperson.infra.messaging_ui.view.separator">
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v7.widget.RecyclerView.ItemDecoration" extends-generic-aware="android.support.v7.widget.RecyclerView.ItemDecoration" final="false" name="ConversationSeparationDecorator" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ConversationSeparationDecorator" static="false" type="com.liveperson.infra.messaging_ui.view.separator.ConversationSeparationDecorator" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+      </constructor>
+    </class>
+  </package>
+</api>

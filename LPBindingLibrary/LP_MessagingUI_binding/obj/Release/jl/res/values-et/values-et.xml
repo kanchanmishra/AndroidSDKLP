@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Saada"</item>
+        <item>"Kättetoimetatud"</item>
+        <item>"Loe"</item>
+        <item>"Kättetoimetamata"</item>
+        <item>"Saatmine"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s päev"</item>
+        <item quantity="other">" %1$s päeva"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s tund"</item>
+        <item quantity="other">" %1$s tundi"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minut"</item>
+        <item quantity="other">" %1$s minutit"</item>
+    </plurals>
+    <string name="brand_name">Minu bränd</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Agendi ikoon</string>
+    <string name="lp_accessibility_agent_is_typing">Esindaja trükib</string>
+    <string name="lp_accessibility_attachment_menu">Manusemenüü</string>
+    <string name="lp_accessibility_camera">Kaamera</string>
+    <string name="lp_accessibility_full_image">Täielik pilt</string>
+    <string name="lp_accessibility_gallery">Galerii</string>
+    <string name="lp_accessibility_image">Pilt</string>
+    <string name="lp_accessibility_image_caption">Pildi pealdis</string>
+    <string name="lp_accessibility_is_typing">%1$s trükib</string>
+    <string name="lp_accessibility_new_agent_message">Uus agendi sõnum: </string>
+    <string name="lp_accessibility_new_system_message">Uus süsteemiteade: </string>
+    <string name="lp_accessibility_photo">foto</string>
+    <string name="lp_accessibility_photo_preview">Foto eelvaade</string>
+    <string name="lp_accessibility_received">vastu võetud</string>
+    <string name="lp_accessibility_resend">Saada uuesti</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">keri alla</string>
+    <string name="lp_accessibility_selected">valitud</string>
+    <string name="lp_accessibility_you">Teie</string>
+    <string name="lp_add_a_caption">Lisa pealdis</string>
+    <string name="lp_attachment_menu_camera_item_text">Kaamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galerii</string>
+    <string name="lp_cancel">Tühista</string>
+    <string name="lp_clear_history_dialog_message">Kogu teie olemasolev vestluste ajalugu kustutatakse. Olete kindel?</string>
+    <string name="lp_clear_history_dialog_positive_button">Kustuta</string>
+    <string name="lp_clear_history_dialog_title">Puhasta ajalugu</string>
+    <string name="lp_clear_history_menu_text">Puhasta ajalugu</string>
+    <string name="lp_connection_status_connecting">Ühenduse loomine…</string>
+    <string name="lp_connection_status_failed_to_connect">Serveriga ühenduse loomine nurjus. <u>Proovi uuesti</u></string>
+    <string name="lp_connection_status_no_connection">Ühendust pole. Kontrollige oma võrguühendust.</string>
+    <string name="lp_connection_status_trying_to_connect">Ühenduse loomise katse…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Lõpeta kiiresti</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Lõpeta \nkiiresti</string>
+    <string name="lp_dismiss_urgent_dialog_header">Olete kindel, et ei tahha märgistada seda vestlust mitte kiirena?</string>
+    <string name="lp_dismiss_urgent_dialog_message">See tähendab, et teie vestlus saab tavaeelise-</string>
+    <string name="lp_done">Valmis</string>
+    <string name="lp_end">Lõpp</string>
+    <string name="lp_end_conversation">Lahenda vestlus</string>
+    <string name="lp_end_conversation_first">Palun lõpetage enne vestlus.</string>
+    <string name="lp_failed_download_toast_message">Faili allalaadimine nurjus</string>
+    <string name="lp_failed_upload_toast_message">Faili üleslaadimine nurjus</string>
+    <string name="lp_feedback_1">Väga ebarahuldav</string>
+    <string name="lp_feedback_2">Ebarahuldav</string>
+    <string name="lp_feedback_3">Kumbki</string>
+    <string name="lp_feedback_4">Rahuldav</string>
+    <string name="lp_feedback_5">Väga rahuldav</string>
+    <string name="lp_feedback_question">Kuidas te hindaksiteühendust meie agendiga?</string>
+    <string name="lp_feedback_submit">Esita</string>
+    <string name="lp_feedback_submit_message">Teie tagasiside aitab meil teid paremini teenindada.\nSeda ei jagata ühegi klienditeenindajaga.</string>
+    <string name="lp_feedback_thank_you">Uuring edukalt esitatud.\nTäname Teid!</string>
+    <string name="lp_feedback_yesno_negative_title">Ei</string>
+    <string name="lp_feedback_yesno_positive_title">Jah</string>
+    <string name="lp_feedback_yesno_question">Kas me lahendasime täna teie probleemi?</string>
+    <string name="lp_is_typing">sisestamine…</string>
+    <string name="lp_mark_as_resolved_dialog_message">Olete kindel, et see teema on lahendatud?</string>
+    <string name="lp_mark_as_resolved_menu_text">Märgi lahendatuks</string>
+    <string name="lp_mark_as_urgent_dialog_header">Kas olete kindel, et soovite märgistada selle vestluse kiireks?</string>
+    <string name="lp_mark_as_urgent_dialog_message">See tähendab, et teie vestlus saab tippeelise.</string>
+    <string name="lp_mark_as_urgent_menu_text">Märgista kiirena</string>
+    <string name="lp_menu_copy">Kopeeri</string>
+    <string name="lp_menu_send_image">Saada</string>
+    <string name="lp_new_messages">Uus sõnum</string>
+    <string name="lp_no_action_not_available_toast_message">Tegevus ei ole võimalik – puudub avatud vestlus</string>
+    <string name="lp_no_network_toast_message">Internetiühendus puudub. Looge internetiühendus ja proovige uuesti.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Saada</string>
+    <string name="lp_skip">Jäta vahele</string>
+    <string name="lp_tap_to_add_a_caption">Puudutage pealdise lisamiseks</string>
+    <string name="lp_today">Täna</string>
+    <string name="lp_ttr_message_no_timestamp">Agent vastab varsti</string>
+    <string name="lp_ttr_message_off_hours_message">Täname sõnumi eest. Me oleme onlainis tagasi %1$sl kell %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Täname sõnumi eest. Me oleme onlainis täna kell %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Täname sõnumi eest. Me oleme onlainis homme kell %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Agent vastab järgmise %1$s jooksul</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Täida vorm</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">PÜSI</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Kui jätate turvavormi, ei saa te sellele uuesti ligipääseda.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Olete kindel?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Selle vormi avamisel tekkis probleem. Paluge agendil vorm uuesti saata.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Turvavorm on aegunud. Paluge agendil vorm uuesti saata.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">See vorm on edastatud ja seda ei saa turvakaalutlustel uuesti avada.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">See on turvaline ankeet. Siia sisestatud info on kaitstud ja sellele ei pääse peale sisestamist juurde.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Seda vormi on juba vaadatud. Paluge agendil vorm uuesti saata.</string>
+</resources>

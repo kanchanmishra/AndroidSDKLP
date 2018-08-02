@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_client_only_masking">false</bool>
+    <bool name="enable_real_time_masking">false</bool>
+    <bool name="link_preview_to_use_more_than_og_tags">true</bool>
+    <integer name="encryptionVersion">1</integer>
+    <integer name="max_number_stored_images">20</integer>
+    <integer name="max_number_stored_voice_files">20</integer>
+    <string name="client_only_mask_character">*</string>
+    <string name="client_only_masking_regex"/>
+    <string name="foreground_service_notification_channel_id">LP_SDK_CHANNEL_SERVICE</string>
+    <string name="foreground_service_notification_channel_name">LP SDK SERVICE</string>
+    <string name="lp_system_message_client_only_masked">Your personal data has been masked to protect your security. Only the agent can read it.</string>
+    <string name="lp_system_message_real_time_masked">Your personal data has been masked to protect your security and cannot be read by the agent.</string>
+    <string name="lptag_domain">lptag.liveperson.net</string>
+    <string name="push_notification_channel_id">LP_SDK_CHANNEL</string>
+    <string name="push_notification_channel_name">LP SDK</string>
+    <string name="real_time_mask_character">*</string>
+    <string name="real_time_masking_regex"/>
+</resources>

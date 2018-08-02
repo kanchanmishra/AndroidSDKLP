@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Skickat"</item>
+        <item>"Levererad"</item>
+        <item>"Läs"</item>
+        <item>"Ej levererad"</item>
+        <item>"Done"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s dag"</item>
+        <item quantity="other">" %1$s dagar"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s timme"</item>
+        <item quantity="other">" %1$s timmar"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minut"</item>
+        <item quantity="other">" %1$s minuter"</item>
+    </plurals>
+    <string name="brand_name">Mitt varumärke</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Agentikon</string>
+    <string name="lp_accessibility_agent_is_typing">Ombud skriver</string>
+    <string name="lp_accessibility_attachment_menu">Bilagemeny</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Helbild</string>
+    <string name="lp_accessibility_gallery">Galleri</string>
+    <string name="lp_accessibility_image">Bild</string>
+    <string name="lp_accessibility_image_caption">Bildtext</string>
+    <string name="lp_accessibility_is_typing">%1$s skriver</string>
+    <string name="lp_accessibility_new_agent_message">Nytt agentmeddelande message: </string>
+    <string name="lp_accessibility_new_system_message">Nytt systemmeddelande: </string>
+    <string name="lp_accessibility_photo">foto</string>
+    <string name="lp_accessibility_photo_preview">Förhandsvisning av foto</string>
+    <string name="lp_accessibility_received">mottaget</string>
+    <string name="lp_accessibility_resend">Skicka igen</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">rulla ner</string>
+    <string name="lp_accessibility_selected">valt</string>
+    <string name="lp_accessibility_you">Du</string>
+    <string name="lp_add_a_caption">Lägg till bildtext</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galleri</string>
+    <string name="lp_cancel">Annullera</string>
+    <string name="lp_clear_history_dialog_message">All din existerande konversationshistorik kommer att förloras. Är du säker?</string>
+    <string name="lp_clear_history_dialog_positive_button">Rensa</string>
+    <string name="lp_clear_history_dialog_title">Rensa historik</string>
+    <string name="lp_clear_history_menu_text">Rensa historik</string>
+    <string name="lp_connection_status_connecting">Ansluta …</string>
+    <string name="lp_connection_status_failed_to_connect">Det gick inte att ansluta till servern. <u>Försök igen</u></string>
+    <string name="lp_connection_status_no_connection">Ingen anslutning. Kontrollera anslutningen.</string>
+    <string name="lp_connection_status_trying_to_connect">Försöker ansluta …</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Stäng brådskande</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Stäng\nbrådskande</string>
+    <string name="lp_dismiss_urgent_dialog_header">Är du säker du vill markera den här konversationen som brådskande?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Detta innebär att konversationen kommer att få normal prioritet.</string>
+    <string name="lp_done">Klar</string>
+    <string name="lp_end">Sluta</string>
+    <string name="lp_end_conversation">Åtgärda konversationen</string>
+    <string name="lp_end_conversation_first">Åtgärda konversationen först.</string>
+    <string name="lp_failed_download_toast_message">Det gick inte att ladda ner fil</string>
+    <string name="lp_failed_upload_toast_message">Det gick inte att ladda upp fil</string>
+    <string name="lp_feedback_1">Väldigt missnöjd</string>
+    <string name="lp_feedback_2">Missnöjd</string>
+    <string name="lp_feedback_3">Ingendera</string>
+    <string name="lp_feedback_4">Nöjd</string>
+    <string name="lp_feedback_5">Väldigt nöjd</string>
+    <string name="lp_feedback_question">Hur skulle du bedöma din kontakt med vår agent?</string>
+    <string name="lp_feedback_submit">Skicka</string>
+    <string name="lp_feedback_submit_message">Din feedback hjälper oss att hjälpa er bättre.\nDet kommer inte att delas med någon kundservicerepresentant.</string>
+    <string name="lp_feedback_thank_you">Enkäten skickades in.\nTack!</string>
+    <string name="lp_feedback_yesno_negative_title">Nej</string>
+    <string name="lp_feedback_yesno_positive_title">Ja</string>
+    <string name="lp_feedback_yesno_question">Löste vi ditt problem idag?</string>
+    <string name="lp_is_typing">skriver...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Är du säker detta ämne är åtgärdat?</string>
+    <string name="lp_mark_as_resolved_menu_text">Markera som löst</string>
+    <string name="lp_mark_as_urgent_dialog_header">Är du säker på att du vill markera den här konversationen som brådskande?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Detta innebär att konversationen kommer att få högsta prioritet.</string>
+    <string name="lp_mark_as_urgent_menu_text">Markera som brådskande</string>
+    <string name="lp_menu_copy">Kopiera</string>
+    <string name="lp_menu_send_image">Skicka</string>
+    <string name="lp_new_messages">nya meddelanden</string>
+    <string name="lp_no_action_not_available_toast_message">Åtgärd ej tillgänglig – ingen öppen konversation</string>
+    <string name="lp_no_network_toast_message">Ingen internetanslutning. Kunde inte fortsätta live chatsession.Kontrollera din anslutning och försök igen.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Skicka</string>
+    <string name="lp_skip">Hoppa över</string>
+    <string name="lp_tap_to_add_a_caption">Tryck för att lägga till bildtext</string>
+    <string name="lp_today">"Idag"</string>
+    <string name="lp_ttr_message_no_timestamp">En agent kommer att svara inom kort</string>
+    <string name="lp_ttr_message_off_hours_message">Tack för ditt meddelande. Vi kommer att vara tillbaks online på %1$s, %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Tack för ditt meddelande. Vi kommer att vara tillbaks online idag vid %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Tack för ditt meddelande. Vi kommer att vara tillbaks online imorgon vid %1$s </string>
+    <string name="lp_ttr_message_with_timestamp">En agent kommer att svara inom nästa %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Fyll i formuläret</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">STANNA</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">När du lämnar det säkra formuläret kan du ej komma åt det igen.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Är du säker?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Det gick inte att öppna detta formulär. Be handläggaren att skicka formuläret på nytt.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Säkert formulär har löpt ut. Be handläggaren att skicka formuläret på nytt.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Detta formulär har skickats och kan ej återöppnas pga säkerhetsskäl.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Det här är ett skyddat formulär. Information som matas in här är skyddad och åtkomst ej möjlig efter den skickats.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Det här formuläret har redan visats. Be handläggaren att skicka formuläret på nytt.</string>
+</resources>

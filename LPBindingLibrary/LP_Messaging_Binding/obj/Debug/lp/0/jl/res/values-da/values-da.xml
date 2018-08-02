@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Dine personlige data er maskeret for at beskytte din sikkerhed. Kan kun læses af medarbejderen.</string>
+    <string name="lp_system_message_real_time_masked">Dine personlige data er maskeret for at beskytte din sikkerhed og kan ikke læses af medarbejderen.</string>
+</resources>

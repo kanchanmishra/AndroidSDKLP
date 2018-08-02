@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<api>
+  <package name="com.liveperson.lp_monitoring_sdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.liveperson.lp_monitoring_sdk.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.liveperson.lp_monitoring_sdk&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="320" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;3.2.0.204&quot;" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Command" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IMonitoring" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getEngagement" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.sdk.callbacks.EngagementCallback"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="logout" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="sendSde" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.monitoring.sdk.callbacks.SdeCallback"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Monitoring" static="false" visibility="public">
+      <implements name="com.liveperson.monitoring.IMonitoring" name-generic-aware="com.liveperson.monitoring.IMonitoring"></implements>
+      <constructor deprecated="not deprecated" final="false" name="Monitoring" static="false" type="com.liveperson.monitoring.Monitoring" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getApplicationContext" native="false" return="android.content.Context" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getBrandId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEngagement" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.sdk.callbacks.EngagementCallback"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getParamsCache" native="false" return="com.liveperson.monitoring.cache.MonitoringParamsCache" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="init" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.sdk.MonitoringInternalInitParams"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logout" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="postOnMainThread" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendSde" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.monitoring.sdk.callbacks.SdeCallback"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setApplicationContext" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBrandId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setInitialized" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setParamsCache" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.cache.MonitoringParamsCache"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringFactory" static="false" visibility="public">
+      <implements name="com.liveperson.monitoring.IMonitoring" name-generic-aware="com.liveperson.monitoring.IMonitoring"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEngagement" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.sdk.callbacks.EngagementCallback"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getMonitoring" native="false" return="com.liveperson.monitoring.Monitoring" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="initMonitoring" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.sdk.MonitoringInternalInitParams"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logout" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendSde" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;"></parameter>
+        <parameter name="p2" type="com.liveperson.sdk.MonitoringParams"></parameter>
+        <parameter name="p3" type="com.liveperson.monitoring.sdk.callbacks.SdeCallback"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="INSTANCE" static="true" transient="false" type="com.liveperson.monitoring.MonitoringFactory" type-generic-aware="com.liveperson.monitoring.MonitoringFactory" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring.cache">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MonitoringParamsCache" static="false" visibility="public">
+      <implements name="com.liveperson.monitoring.cache.ParamsCache" name-generic-aware="com.liveperson.monitoring.cache.ParamsCache"></implements>
+      <implements name="com.liveperson.monitoring.utils.Clearable" name-generic-aware="com.liveperson.monitoring.utils.Clearable"></implements>
+      <constructor deprecated="not deprecated" final="false" name="MonitoringParamsCache" static="false" type="com.liveperson.monitoring.cache.MonitoringParamsCache" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAPP_INSTALL_ID_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAppInstallId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getBrandId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getCSDS_IDP_DOMAIN_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getCSDS_LOGGOS_DOMAIN_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getCSDS_SHARK_DOMAIN_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getCsdsMainDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getIdpDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getLAST_CSDS_UPDATE_TIMESTAMP_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getLastCsdsUpdateTimestamp" native="false" return="long" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getLoggosDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSDK_INFO_SEND_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSESSION_ID_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSdkInfoSent" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getServiceDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSessionId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSharkDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getVISITOR_ID_KEY" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getVisitorId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCsdsFilled" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setAppInstallId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setCsdsMainDomain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setIdpDomain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setLastCsdsUpdateTimestamp" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="long"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setLoggosDomain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setSdkInfoSent" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setSessionId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setSharkDomain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setVisitorId" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="updateCsdsDomains" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ParamsCache" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getServiceDomain" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isCsdsFilled" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="updateCsdsDomains" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.liveperson.monitoring.managers">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringRequestManager" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MonitoringRequestManager" static="false" type="com.liveperson.monitoring.managers.MonitoringRequestManager" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+        <parameter name="p1" type="com.liveperson.monitoring.cache.MonitoringParamsCache"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="csdsDependantRequest" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="com.liveperson.monitoring.Command"></parameter>
+        <parameter name="p2" type="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback&lt;? extends com.liveperson.monitoring.sdk.responses.LPSdeResponse, java.lang.Exception&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getBrandId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getParamsCache" native="false" return="com.liveperson.monitoring.cache.MonitoringParamsCache" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getTwentyFourHoursInMillis" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringRequestManager.csdsDependantRequest.1" static="true" visibility="public">
+      <implements name="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback" name-generic-aware="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;, java.lang.Exception&gt;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType"></parameter>
+        <parameter name="p1" type="java.lang.Exception"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringRequestManager.csdsDependantRequest.1.onError.1" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringRequestManager.csdsDependantRequest.1.onSuccess.1" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring.model">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="EngagementWithSession" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="EngagementWithSession" static="false" type="com.liveperson.monitoring.model.EngagementWithSession" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+        <parameter name="p2" type="java.lang.String"></parameter>
+        <parameter name="p3" type="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getEngagementDetailsList" native="false" return="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getPageId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getSessionId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getVisitorId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setEngagementDetailsList" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.monitoring.model.EngagementWithSession.Companion" type-generic-aware="com.liveperson.monitoring.model.EngagementWithSession.Companion" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ModelKeyNames" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ModelKeyNames" static="false" type="com.liveperson.monitoring.model.ModelKeyNames" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="CAMPAIGN_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="CONNECTOR_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="CONTEXT_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="CONVERSATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="ENGAGEMENT_DETAILS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="ENGAGEMENT_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="ENGAGEMENT_REVISION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="PAGE_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="SESSION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="STATUS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="VISITOR_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring.requests">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="SendSdeRequest.callErrorCallback.1" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="SendSdeRequest.handleResponse.3" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+  <package name="com.liveperson.monitoring.sdk.callbacks">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IMonitoringCallback" static="false" visibility="public">
+      <typeParameters>
+        <typeParameter name="T" />
+        <typeParameter name="E">
+          <genericConstraints>
+            <genericConstraint type="java.lang.Throwable" />
+          </genericConstraints>
+        </typeParameter>
+      </typeParameters>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType"></parameter>
+        <parameter name="p1" type="E"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="T"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType&gt;" final="true" name="MonitoringErrorType" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MonitoringErrorType" static="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="protected"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType[]" static="true" synchronized="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="CSDS_ERROR" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INITIALIZATION_ERROR" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="LOGOUT_ERROR" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NOT_INITIALIZED" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="NO_NETWORK" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PARAMETER_MISSING" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="REQUEST_ERROR" static="true" transient="false" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" type-generic-aware="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="SdeCallback" static="false" visibility="public">
+      <implements name="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback" name-generic-aware="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback&lt;com.liveperson.monitoring.sdk.responses.LPSdeResponse, java.lang.Exception&gt;"></implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType"></parameter>
+        <parameter name="p1" type="java.lang.Exception"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.responses.LPSdeResponse"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.liveperson.monitoring.sdk.responses" />
+  <package name="com.liveperson.monitoring.utils">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Clearable" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DomainBuilder" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DomainBuilder" static="false" type="com.liveperson.monitoring.utils.DomainBuilder" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCsdsDomain" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;DomainBuilder&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LocalBroadcast" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LocalBroadcast" static="false" type="com.liveperson.monitoring.utils.LocalBroadcast" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendBroadcast" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendBroadcast" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+        <parameter name="p2" type="android.os.Bundle"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ShutDown" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="shutDown" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ThreadPoolExecutor" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ThreadPoolExecutor" static="false" type="com.liveperson.monitoring.utils.ThreadPoolExecutor" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="execute" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="executeDelayed" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable"></parameter>
+        <parameter name="p1" type="long"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="killAll" native="false" return="void" static="true" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+  <package name="com.liveperson.network.http.requests">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="GetEngagementRequest.callErrorCallback.1" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="GetEngagementRequest.handleResponse.3" static="true" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+  <package name="com.liveperson.sdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringInternalInitParams" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MonitoringInternalInitParams" static="false" type="com.liveperson.sdk.MonitoringInternalInitParams" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+        <parameter name="p2" type="java.lang.String"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component1" native="false" return="android.content.Context" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component2" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="component3" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="copy" native="false" return="com.liveperson.sdk.MonitoringInternalInitParams" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="java.lang.String"></parameter>
+        <parameter name="p2" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAccountId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAppInstallId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getApplicationContext" native="false" return="android.content.Context" static="false" synchronized="false" visibility="public"></method>
+    </class>
+  </package>
+  <package name="com.liveperson.sdk.callbacks">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="EngagementCallback" static="false" visibility="public">
+      <implements name="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback" name-generic-aware="com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback&lt;com.liveperson.monitoring.sdk.responses.LPEngagementResponse, java.lang.Exception&gt;"></implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType"></parameter>
+        <parameter name="p1" type="java.lang.Exception"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.responses.LPEngagementResponse"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="MonitoringCallback" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.liveperson.monitoring.sdk.callbacks.MonitoringErrorType"></parameter>
+        <parameter name="p1" type="java.lang.Exception"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+  </package>
+</api>

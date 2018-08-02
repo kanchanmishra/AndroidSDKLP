@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Os seus dados pessoais foram protegidos para preservar a sua segurança. Apenas o agente o pode ler.</string>
+    <string name="lp_system_message_real_time_masked">Os seus dados pessoais foram protegidos para preservar a sua segurança e não podem ser lidos pelo agente.</string>
+</resources>

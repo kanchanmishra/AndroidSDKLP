@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Envoyé(es)"</item>
+        <item>"Délivré"</item>
+        <item>"Lecture"</item>
+        <item>"Non délivré"</item>
+        <item>"Envoi"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s jour"</item>
+        <item quantity="other">" %1$s jours"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">"%1$s heure"</item>
+        <item quantity="other">" %1$s heures"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minute"</item>
+        <item quantity="other">" %1$s minutes"</item>
+    </plurals>
+    <string name="brand_name">Ma marque</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Icône Agent</string>
+    <string name="lp_accessibility_agent_is_typing">Le conseiller est en train d’écrire</string>
+    <string name="lp_accessibility_attachment_menu">Menu Pièces jointes</string>
+    <string name="lp_accessibility_camera">Caméra</string>
+    <string name="lp_accessibility_full_image">Image complète</string>
+    <string name="lp_accessibility_gallery">Galerie</string>
+    <string name="lp_accessibility_image">Image</string>
+    <string name="lp_accessibility_image_caption">Légende de l’image</string>
+    <string name="lp_accessibility_is_typing">%1$s est en train d’écrire</string>
+    <string name="lp_accessibility_new_agent_message">Nouveau message de l’agent : </string>
+    <string name="lp_accessibility_new_system_message">Nouveau message système : </string>
+    <string name="lp_accessibility_photo">photo</string>
+    <string name="lp_accessibility_photo_preview">Aperçu de la photo</string>
+    <string name="lp_accessibility_received">reçu</string>
+    <string name="lp_accessibility_resend">Renvoyer</string>
+    <string name="lp_accessibility_sc_button">Bouton</string>
+    <string name="lp_accessibility_sc_image">Image</string>
+    <string name="lp_accessibility_sc_map">Carte</string>
+    <string name="lp_accessibility_sc_text">Texte</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">défiler vers le bas</string>
+    <string name="lp_accessibility_selected">sélectionné</string>
+    <string name="lp_accessibility_you">Vous</string>
+    <string name="lp_add_a_caption">Ajouter une légende</string>
+    <string name="lp_attachment_menu_camera_item_text">Caméra</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galerie</string>
+    <string name="lp_cancel">Annuler</string>
+    <string name="lp_clear_history_dialog_message">Tout l’historique de vos conversations sera perdu. Êtes-vous sûr ?</string>
+    <string name="lp_clear_history_dialog_positive_button">Effacer</string>
+    <string name="lp_clear_history_dialog_title">Effacer l’historique</string>
+    <string name="lp_clear_history_menu_text">Effacer l’historique</string>
+    <string name="lp_connection_status_connecting">Connexion…</string>
+    <string name="lp_connection_status_failed_to_connect">Échec de la connexion au serveur. <u>Réessayer</u></string>
+    <string name="lp_connection_status_no_connection">Aucune connexion. Veuillez vérifier votre connexion.</string>
+    <string name="lp_connection_status_trying_to_connect">Tentative de connexion…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Ne pas prendre en compte l’urgence</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Ne pas prendre en compte\nl’urgence</string>
+    <string name="lp_dismiss_urgent_dialog_header">Êtes-vous sûr(e) de vouloir marquer cette conversation comme non urgente ?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Cela signifie que votre conversation aura une priorité normale.</string>
+    <string name="lp_done">Terminé</string>
+    <string name="lp_end">Terminer</string>
+    <string name="lp_end_conversation">Résoudre la discussion</string>
+    <string name="lp_end_conversation_first">Veuillez d’abord résoudre la conversation.</string>
+    <string name="lp_failed_download_toast_message">Échec du téléchargement du fichier</string>
+    <string name="lp_failed_upload_toast_message">Échec du chargement du fichier</string>
+    <string name="lp_feedback_1">Très insatisfait</string>
+    <string name="lp_feedback_2">Insatisfait</string>
+    <string name="lp_feedback_3">Aucun</string>
+    <string name="lp_feedback_4">Satisfait</string>
+    <string name="lp_feedback_5">Très satisfait</string>
+    <string name="lp_feedback_question">Comment qualifieriez-vous la conversation avec notre agent ?</string>
+    <string name="lp_feedback_submit">Soumettre</string>
+    <string name="lp_feedback_submit_message">Vos commentaires nous aident à mieux vous servir\nCeux-ci ne seront partagés avec aucun membre du service clients.</string>
+    <string name="lp_feedback_thank_you">Sondage correctement soumis.\nMerci !</string>
+    <string name="lp_feedback_yesno_negative_title">Non</string>
+    <string name="lp_feedback_yesno_positive_title">Oui</string>
+    <string name="lp_feedback_yesno_question">Est-ce que nous avons résolu votre problème ?</string>
+    <string name="lp_history_control_api_empty_state">"Aucune conversation n'a été trouvée à ce stade"</string>
+    <string name="lp_is_typing">En train de taper...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Êtes-vous sûr que le problème soit résolu ?</string>
+    <string name="lp_mark_as_resolved_menu_text">Marquer comme résolu(es)</string>
+    <string name="lp_mark_as_urgent_dialog_header">Êtes-vous sûr(e) de vouloir marquer cette conversation comme urgente ?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Cela signifie que votre conversation aura priorité sur toutes les autres.</string>
+    <string name="lp_mark_as_urgent_menu_text">Marquer comme urgent</string>
+    <string name="lp_menu_copy">Copier</string>
+    <string name="lp_menu_send_image">Envoyer</string>
+    <string name="lp_new_messages">nouveaux messages</string>
+    <string name="lp_no_action_not_available_toast_message">Cette action n’est pas disponible – aucune conversation n’est ouverte</string>
+    <string name="lp_no_network_toast_message">Aucune connexion Internet. Veuillez vérifier votre connexion et réessayer.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Envoyer</string>
+    <string name="lp_skip">Ignorer</string>
+    <string name="lp_structured_content_display_failed">Le contenu n’a pas pu être affiché</string>
+    <string name="lp_tap_to_add_a_caption">Appuyez pour ajouter une légende</string>
+    <string name="lp_today">"Aujourd’hui"</string>
+    <string name="lp_ttr_message_no_timestamp">Un conseiller vous répondra sous peu</string>
+    <string name="lp_ttr_message_off_hours_message">Merci pour votre message. Nous serons de retour en ligne %1$s à %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Merci pour votre message Nous serons de retour en ligne aujourd’hui à %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Merci pour votre message Nous serons de retour en ligne demain à %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Un agent va vous répondre dans le(s) prochain(es) %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Remplir le formulaire</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">RESTER</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">À partir du moment où vous quittez le formulaire sécurisé, sachez que vous ne pouvez plus y accéder.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Êtes-vous sûr ?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Un problème est survenu lors de l’ouverture de ce formulaire. Veuillez demander à le conseiller de renvoyer le formulaire.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Ce formulaire sécurisé a expiré. Veuillez demander à le conseiller de renvoyer le formulaire.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Ce formulaire a été envoyé et ne peut pas être rouvert, pour des raisons de sécurité.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Ceci est un formulaire sécurisé. Les informations saisies ici sont protégées et une fois envoyées, ne sont accessibles.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Ce formulaire a déjà été consulté. Veuillez demander à le conseiller de renvoyer le formulaire.</string>
+</resources>

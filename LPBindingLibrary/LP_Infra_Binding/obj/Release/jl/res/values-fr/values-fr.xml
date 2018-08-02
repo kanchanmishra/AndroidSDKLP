@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Vos données personnelles ont été masquées pour protéger votre sécurité. Seul le conseiller y a accès.</string>
+    <string name="lp_system_message_real_time_masked">Vos données personnelles ont été masquées pour protéger votre sécurité et ne peuvent être lues par le conseiller.</string>
+</resources>

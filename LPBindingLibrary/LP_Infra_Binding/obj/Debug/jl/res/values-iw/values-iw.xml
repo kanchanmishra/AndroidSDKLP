@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">פרטיך האישיים הוסתרו בכדי להגן על ביטחונך. רק נציג השירות יוכל לקרוא אותם.</string>
+    <string name="lp_system_message_real_time_masked">פרטיך האישיים הוסתרו בכדי להגן על ביטחונך ולא יוכלו להיקרא על ידי הנציג.</string>
+</resources>

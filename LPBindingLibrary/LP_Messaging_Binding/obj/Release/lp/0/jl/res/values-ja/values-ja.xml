@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">個人情報はセキュリティ保護のためにマスキングされています。担当者のみ見ることができます。</string>
+    <string name="lp_system_message_real_time_masked">個人情報はセキュリティ保護のためにマスキングされ、担当者は見ることができません。</string>
+</resources>

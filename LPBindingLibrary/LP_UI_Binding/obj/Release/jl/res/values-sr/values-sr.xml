@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Тастер менија прилог срушила</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Тастер менија прилог проширила</string>
+    <string name="lp_accessibility_chat_message">Чат-порука</string>
+    <string name="lp_accessibility_message_preview_close_description">Zatvori</string>
+    <string name="lp_enter_message">Napišite poruku</string>
+    <string name="lp_message_time_min_ago">Pre %1$s min</string>
+    <string name="lp_message_time_now">Sada</string>
+    <string name="lp_message_time_now_with_state">Sada</string>
+    <string name="lp_no_network_toast_message">Niste povezani na Internet. Proverite vezu pa pokušajte ponovo.</string>
+    <string name="lp_send">Pošalji</string>
+    <string name="lp_today">DANAS</string>
+    <string name="lp_yesterday">Juče</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Nosūtīts"</item>
+        <item>"Saņemts"</item>
+        <item>"Izlasīts"</item>
+        <item>"Nav saņemts"</item>
+        <item>"Sūta"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s diena"</item>
+        <item quantity="other">" %1$s dienās"</item>
+        <item quantity="zero">" %1$s dienas"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s stunda"</item>
+        <item quantity="other">" %1$s stundās"</item>
+        <item quantity="zero">" %1$s stundas"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minūte"</item>
+        <item quantity="other">" %1$s minūtēs"</item>
+        <item quantity="zero">" %1$s minūtes"</item>
+    </plurals>
+    <string name="brand_name">Mans zīmols</string>
+    <string name="lp_accessibility_agent">Aģents</string>
+    <string name="lp_accessibility_agent_icon">Aģenta ikona</string>
+    <string name="lp_accessibility_agent_is_typing">Aģents raksta</string>
+    <string name="lp_accessibility_attachment_menu">Pielikuma izvēlne</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Pilns attēls</string>
+    <string name="lp_accessibility_gallery">Galerija</string>
+    <string name="lp_accessibility_image">Attēls</string>
+    <string name="lp_accessibility_image_caption">Attēla paraksts</string>
+    <string name="lp_accessibility_is_typing">%1$s raksta</string>
+    <string name="lp_accessibility_new_agent_message">Jauns aģenta ziņojums: </string>
+    <string name="lp_accessibility_new_system_message">Jauns sistēmas ziņojums: </string>
+    <string name="lp_accessibility_photo">foto</string>
+    <string name="lp_accessibility_photo_preview">Foto priekšskatījums</string>
+    <string name="lp_accessibility_received">saņemts</string>
+    <string name="lp_accessibility_resend">Nosūtīt atkārtoti</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">ritināt lejup</string>
+    <string name="lp_accessibility_selected">atlasīts</string>
+    <string name="lp_accessibility_you">Jūs</string>
+    <string name="lp_add_a_caption">Pievienot parakstu</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galerija</string>
+    <string name="lp_cancel">Atcelt</string>
+    <string name="lp_clear_history_dialog_message">Visa jūsu sarunu vēsture tiks dzēsta. Vai esat pārliecināti?</string>
+    <string name="lp_clear_history_dialog_positive_button">Notīrīt</string>
+    <string name="lp_clear_history_dialog_title">Notīrīt vēsturi</string>
+    <string name="lp_clear_history_menu_text">Notīrīt vēsturi</string>
+    <string name="lp_connection_status_connecting">Pievienojas…</string>
+    <string name="lp_connection_status_failed_to_connect">Neizdevās pievienoties serverim. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Nav savienojuma. Lūdzu, pārbaudiet savienojumu.</string>
+    <string name="lp_connection_status_trying_to_connect">Mēģina pievienoties…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Noņemt steidzamību</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Noņemt\nsteidzamību</string>
+    <string name="lp_dismiss_urgent_dialog_header">Vai tiešām vēlaties atzīmēt, ka šī saruna nav steidzama?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Tas nozīmē, ka jūsu sarunai būs normāla prioritāte.</string>
+    <string name="lp_done">Pabeigts</string>
+    <string name="lp_end">Beigt</string>
+    <string name="lp_end_conversation">Beigt sarunu</string>
+    <string name="lp_end_conversation_first">Lūdzu, vispirms beidziet sarunu.</string>
+    <string name="lp_failed_download_toast_message">Neizdevās lejupielādēt failu</string>
+    <string name="lp_failed_upload_toast_message">Neizdevās augšupielādēt failu</string>
+    <string name="lp_feedback_1">Ļoti neapmierināti</string>
+    <string name="lp_feedback_2">Neapmierināti</string>
+    <string name="lp_feedback_3">Ne viens, ne otrs</string>
+    <string name="lp_feedback_4">Apmierināti</string>
+    <string name="lp_feedback_5">Ļoti apmierināti</string>
+    <string name="lp_feedback_question">Kā jūs novērtētusarunu ar mūsu aģentu?</string>
+    <string name="lp_feedback_submit">Nosūtīt</string>
+    <string name="lp_feedback_submit_message">Jūsu atsauksmes palīdz mums labāk jūs apkalpot.\nTās nebūs pieejamas nevienam klientu apkalpošanas darbiniekam.</string>
+    <string name="lp_feedback_thank_you">Aptauja iesniegta sekmīgi.\nPaldies!</string>
+    <string name="lp_feedback_yesno_negative_title">Nē</string>
+    <string name="lp_feedback_yesno_positive_title">Jā</string>
+    <string name="lp_feedback_yesno_question">Vai mēs šodien atrisinājām jūsu jautājumu?</string>
+    <string name="lp_is_typing">raksta...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Vai šis temats tiešām ir atrisināts?</string>
+    <string name="lp_mark_as_resolved_menu_text">Atzīmēt kā pabeigtu</string>
+    <string name="lp_mark_as_urgent_dialog_header">Vai tiešām vēlaties atzīmēt šo sarunu kā steidzamu?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Tas nozīmē, ka jūsu sarunai būs augstākā prioritāte.</string>
+    <string name="lp_mark_as_urgent_menu_text">Atzīmēt kā steidzamu</string>
+    <string name="lp_menu_copy">Kopēt</string>
+    <string name="lp_menu_send_image">Nosūtīt</string>
+    <string name="lp_new_messages">jauni ziņojumi</string>
+    <string name="lp_no_action_not_available_toast_message">Darbība nav pieejama – nav atvērtas sarunas</string>
+    <string name="lp_no_network_toast_message">Nav interneta savienojuma. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.</string>
+    <string name="lp_ok">Labi</string>
+    <string name="lp_send">Sūtīt</string>
+    <string name="lp_skip">Izlaist</string>
+    <string name="lp_tap_to_add_a_caption">Pieskarieties, lai pievienotu parakstu</string>
+    <string name="lp_today">"Šodien"</string>
+    <string name="lp_ttr_message_no_timestamp">Aģents jums drīz atbildēs</string>
+    <string name="lp_ttr_message_off_hours_message">Pateicamies par jūsu ziņojumu. Mēs būsim atpakaļ tiešsaistē: %1$s, plkst. %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Pateicamies par jūsu ziņojumu. Mēs būsim atpakaļ tiešsaistē šodien plkst. %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Pateicamies par jūsu ziņojumu. Mēs būsim atpakaļ tiešsaistē rītdien plkst. %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Aģents atbildēs tuvākajās %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Aizpildiet veidlapu</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">PALIKT</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">Labi</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Kad atstāsit drošo veidlapu, jūs vairs nevarēsit tai piekļūt.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Vai esat pārliecināti?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Radās problēma, atverot šo veidlapu. Lūdzu, prasiet aģentam nosūtīt veidlapu vēlreiz.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Drošās veidlapas derīguma termiņš ir beidzies. Lūdzu, prasiet aģentam nosūtīt veidlapu vēlreiz.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Šī veidlapa ir nosūtīta, un drošības iemeslu dēļ to nevar atvērt atkārtoti.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Šī ir droša veidlapa. Šeit ievadītā informācija ir aizsargāta, un pēc nosūtīšanas tai vairs nav iespējams piekļūt.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Šī veidlapa jau ir skatīta. Lūdzu, prasiet aģentam nosūtīt veidlapu vēlreiz.</string>
+</resources>

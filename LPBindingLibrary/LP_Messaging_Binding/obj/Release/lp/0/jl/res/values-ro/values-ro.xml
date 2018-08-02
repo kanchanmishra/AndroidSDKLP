@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Pentru a vă proteja securitatea, datele dv. personale sunt ascunse. Numai agentul poate citi.</string>
+    <string name="lp_system_message_real_time_masked">Pentru a vă proteja securitatea, datele dv. personale sunt ascunse și nu pot fi citite de agent.</string>
+</resources>

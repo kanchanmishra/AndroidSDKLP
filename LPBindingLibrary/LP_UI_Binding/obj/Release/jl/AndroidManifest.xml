@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liveperson.infra.ui"
+    android:versionCode="320"
+    android:versionName="3.2.0.404" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <application android:supportsRtl="true" >
+    </application>
+
+</manifest>

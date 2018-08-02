@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Dina personliga data har maskerats för att skydda din säkerhet. Endast agenten kan läsa dem. </string>
+    <string name="lp_system_message_real_time_masked">Dina personliga data har maskerats för att skydda din säkerhet och kan inte läsas av agenten. </string>
+</resources>

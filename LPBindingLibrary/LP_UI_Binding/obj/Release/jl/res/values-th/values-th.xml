@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">ย่อปุ่มเมนูแนบ</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">ขยายปุ่มเมนูแนบ</string>
+    <string name="lp_accessibility_chat_message">ข้อความแชต</string>
+    <string name="lp_accessibility_message_preview_close_description">ปิด</string>
+    <string name="lp_enter_message">เขียนข้อความ</string>
+    <string name="lp_message_time_min_ago">%1$s นาทีที่แล้ว</string>
+    <string name="lp_message_time_now">ตอนนี้</string>
+    <string name="lp_message_time_now_with_state">ตอนนี้</string>
+    <string name="lp_no_network_toast_message">ไม่มีการเชื่อมต่ออินเตอร์เน็ต. โปรดตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง</string>
+    <string name="lp_send">ส่ง</string>
+    <string name="lp_today">วันนี้</string>
+    <string name="lp_yesterday">เมื่อวาน</string>
+</resources>

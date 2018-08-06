@@ -18,11 +18,11 @@ using Com.Liveperson.Messaging;
 namespace LP_Messaging_App
 {
     [Activity(Label = "LP_Messaging_App", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         private LivePersonCallbackImpl livePersonCallback;
         private BroadcastReceiver mLivePersonReceiver;
-        private bool showToastOnCallback;
+        private bool showToastOnCallback = true;
         public static MainActivity Instance;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -34,8 +34,29 @@ namespace LP_Messaging_App
             RegisterToLivePersonEvents();
             MonitoringInitParams monitoringInitParams = new MonitoringInitParams(AppStorage.MAppinstallid);
 
-            LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity(this)));
+            var initLivePerson = new InitLivePersonCallBackStartActivity(ApplicationContext);
+            LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity()));
+           /*
+            LivePerson.initialize(getApplicationContext(), new InitLivePersonProperties(mAccountIdEditText.getText().toString(), SampleAppStorage.SDK_SAMPLE_FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBack() {
 
+                    @Override
+
+                    public void onInitSucceed()
+                {
+                    enableLogoutButton(true);
+
+                    Intent messagingIntent = new Intent(IntroActivity.this, MessagingActivity.class);
+						    startActivity(messagingIntent);
+                }
+
+                @Override
+                                public void onInitFailed(Exception e)
+                {
+                    Toast.makeText(IntroActivity.this, "Init failed", Toast.LENGTH_SHORT).show();
+                }
+            }));
+
+    */
 
         }
         public static MainActivity GetInstance()
@@ -60,7 +81,9 @@ namespace LP_Messaging_App
             {
                 return;
             }
-            mLivePersonReceiver = new LPReceiver(ApplicationContext, showToastOnCallback);
+            var lPReceiver = new LPReceiver();
+            var lPReceiverNew = new LPReceiver(ApplicationContext, showToastOnCallback);
+            mLivePersonReceiver = lPReceiver;
 
         }
 

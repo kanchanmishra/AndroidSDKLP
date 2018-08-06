@@ -1,4 +1,7 @@
+LP_Android_aar_Binding
 System.Runtime
+System.Runtime.InteropServices.RuntimeInformation
+System.Threading.Tasks.Dataflow
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -28,3 +31,11 @@ Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
+Xamarin.Kotlin.StdLib
+Xamarin.Kotlin.StdLib.Jre7
+Square.OkHttp3
+Square.Picasso
+System.Resources.ResourceManager
+System.Diagnostics.Tools
+Square.OkIO
+Square.OkHttp

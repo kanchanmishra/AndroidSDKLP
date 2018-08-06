@@ -24,6 +24,7 @@ com.liveperson.infra.messaging_ui.ResourceMapper:Com.Liveperson.Infra.Messaging_
 com.liveperson.infra.messaging_ui.fragment.FeedbackFragment$ScreenState:Com.Liveperson.Infra.Messaging_ui.Fragment:FeedbackFragment.ScreenState
 com.liveperson.infra.messaging_ui.notification.NotificationController:Com.Liveperson.Infra.Messaging_ui.Notification:NotificationController
 com.liveperson.infra.messaging_ui.uicomponents.AmsEnterMessage$RecordingStatus:Com.Liveperson.Infra.Messaging_ui.Uicomponents:AmsEnterMessage.RecordingStatus
+com.liveperson.infra.messaging_ui.uicomponents.ScrollDownIndicator$MODE:Com.Liveperson.Infra.Messaging_ui.Uicomponents:ScrollDownIndicator.MODE
 com.liveperson.infra.messaging_ui.uicomponents.inlinemessages.TTRSnackBar$TTRMode:Com.Liveperson.Infra.Messaging_ui.Uicomponents.Inlinemessages:TTRSnackBar.TTRMode
 com.liveperson.infra.messaging_ui.view.adapter.viewholder.AmsConsumerViewHolder$ViewHolderType:Com.Liveperson.Infra.Messaging_ui.View.Adapter.Viewholder:AmsConsumerViewHolder.ViewHolderType
 com.liveperson.infra.model.types.ChatState:Com.Liveperson.Infra.Model.Types:ChatState

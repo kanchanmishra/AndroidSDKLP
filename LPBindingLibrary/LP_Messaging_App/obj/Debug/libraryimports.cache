@@ -2,7 +2,6 @@
 <Paths>
   <ManifestDocuments>
     <ManifestDocument>obj\Debug\lp\10\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\lp\11\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\12\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\13\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\14\jl\AndroidManifest.xml</ManifestDocument>
@@ -13,26 +12,33 @@
     <ManifestDocument>obj\Debug\lp\19\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\20\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\21\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\lp\21\jl\aapt\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\22\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\23\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\24\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\24\jl\aapt\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\25\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\26\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\27\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\28\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\29\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\lp\3\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\lp\4\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\30\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\31\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\32\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\6\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\7\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\9\jl\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>
-    <Jar>obj\Debug\lp\1\jl\arch-core-common.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\Infra.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\kotlin-stdlib-jdk7-1.2.41.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\lp_messaging.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\messaging-3.2.0.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\messaging_ui.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\monitoring-3.2.0.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\ui.jar</Jar>
     <Jar>obj\Debug\lp\10\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\11\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\lp\11\jl\constraint-layout-solver.jar</Jar>
     <Jar>obj\Debug\lp\12\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\13\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\14\jl\bin\classes.jar</Jar>
@@ -41,23 +47,30 @@
     <Jar>obj\Debug\lp\17\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\18\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\19\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\2\jl\arch-lifecycle-common.jar</Jar>
     <Jar>obj\Debug\lp\20\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\21\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\22\jl\classes.jar</Jar>
-    <Jar>obj\Debug\lp\23\jl\classes.jar</Jar>
-    <Jar>obj\Debug\lp\24\jl\classes.jar</Jar>
+    <Jar>obj\Debug\lp\22\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\lp\23\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\lp\24\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\25\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\26\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\27\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\28\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\29\jl\classes.jar</Jar>
-    <Jar>obj\Debug\lp\3\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\4\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\5\jl\support-annotations.jar</Jar>
+    <Jar>obj\Debug\lp\30\jl\classes.jar</Jar>
+    <Jar>obj\Debug\lp\31\jl\classes.jar</Jar>
+    <Jar>obj\Debug\lp\32\jl\classes.jar</Jar>
+    <Jar>obj\Debug\lp\33\jl\__reference__kotlin-stdlib.jar</Jar>
+    <Jar>obj\Debug\lp\34\jl\__reference__kotlin-stdlib-jre7.jar</Jar>
+    <Jar>obj\Debug\lp\35\jl\okhttp3.jar</Jar>
+    <Jar>obj\Debug\lp\36\jl\picasso-2.5.2.jar</Jar>
+    <Jar>obj\Debug\lp\39\jl\okio.jar</Jar>
+    <Jar>obj\Debug\lp\4\jl\arch-core-common.jar</Jar>
+    <Jar>obj\Debug\lp\40\jl\okhttp-2.4.0.jar</Jar>
+    <Jar>obj\Debug\lp\5\jl\arch-lifecycle-common.jar</Jar>
     <Jar>obj\Debug\lp\6\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\7\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\lp\8\jl\constraint-layout-solver.jar</Jar>
+    <Jar>obj\Debug\lp\8\jl\support-annotations.jar</Jar>
     <Jar>obj\Debug\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
 </Paths>

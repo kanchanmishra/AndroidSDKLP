@@ -22,13 +22,15 @@ using Com.Liveperson.Messaging.Sdk.Api;
 
 namespace LP_Messaging_App
 {
-    [BroadcastReceiver(Enabled = true, Exported = false)]
+    //[BroadcastReceiver(Enabled = true, Exported = false)]
     public class LPReceiver : BroadcastReceiver
     {
-        private static String TAG = MainActivity.GetInstance().LocalClassName;
+        private static String TAG = "MainActivity";
         
         public Context context;
 
+        public LPReceiver()
+        { }
         public LPReceiver(Context appContext,bool showToastOnCallback)
         {
             context = appContext;

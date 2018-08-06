@@ -1,21 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Support.V7.App;
+using Java.Lang;
 
 namespace Com.Liveperson.Infra.Callbacks
 {
+
     public interface InitLivePersonCallBack
     {
-        void onInitSucceed();
+        void  OnInitSucceed();
 
-        void onInitFailed(Exception var1);
+        void OnInitFailed(Java.Lang.Exception var1);
     }
+
+    //public class NewInitLivePersonCallBack : IInitLivePersonCallBack
+    //{
+    //    public IntPtr Handle => throw new NotImplementedException();
+
+    //    public void Dispose()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+
+    //    public void OnInitFailed(Java.Lang.Exception p0)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+
+       
+
+    //    public void OnInitSucceed()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
+
+
 }

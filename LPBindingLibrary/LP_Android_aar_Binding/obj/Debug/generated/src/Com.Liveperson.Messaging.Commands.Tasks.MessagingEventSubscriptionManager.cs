@@ -8,6 +8,88 @@ namespace Com.Liveperson.Messaging.Commands.Tasks {
 	[global::Android.Runtime.Register ("com/liveperson/messaging/commands/tasks/MessagingEventSubscriptionManager", DoNotGenerateAcw=true)]
 	public sealed partial class MessagingEventSubscriptionManager : global::Java.Lang.Object {
 
+		// Metadata.xml XPath class reference: path="/api/package[@name='com.liveperson.messaging.commands.tasks']/class[@name='MessagingEventSubscriptionManager.Companion']"
+		[global::Android.Runtime.Register ("com/liveperson/messaging/commands/tasks/MessagingEventSubscriptionManager$Companion", DoNotGenerateAcw=true)]
+		public sealed partial class Companion : global::Java.Lang.Object {
+
+			internal static new IntPtr java_class_handle;
+			internal static new IntPtr class_ref {
+				get {
+					return JNIEnv.FindClass ("com/liveperson/messaging/commands/tasks/MessagingEventSubscriptionManager$Companion", ref java_class_handle);
+				}
+			}
+
+			protected override IntPtr ThresholdClass {
+				get { return class_ref; }
+			}
+
+			protected override global::System.Type ThresholdType {
+				get { return typeof (Companion); }
+			}
+
+			internal Companion (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
+
+			static IntPtr id_getERROR_MESSAGE;
+			public unsafe string ERROR_MESSAGE {
+				// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.messaging.commands.tasks']/class[@name='MessagingEventSubscriptionManager.Companion']/method[@name='getERROR_MESSAGE' and count(parameter)=0]"
+				[Register ("getERROR_MESSAGE", "()Ljava/lang/String;", "GetGetERROR_MESSAGEHandler")]
+				get {
+					if (id_getERROR_MESSAGE == IntPtr.Zero)
+						id_getERROR_MESSAGE = JNIEnv.GetMethodID (class_ref, "getERROR_MESSAGE", "()Ljava/lang/String;");
+					try {
+						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getERROR_MESSAGE), JniHandleOwnership.TransferLocalRef);
+					} finally {
+					}
+				}
+			}
+
+			static IntPtr id_getMESSAGE_EVENT_COMPLETED;
+			public unsafe string MESSAGE_EVENT_COMPLETED {
+				// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.messaging.commands.tasks']/class[@name='MessagingEventSubscriptionManager.Companion']/method[@name='getMESSAGE_EVENT_COMPLETED' and count(parameter)=0]"
+				[Register ("getMESSAGE_EVENT_COMPLETED", "()Ljava/lang/String;", "GetGetMESSAGE_EVENT_COMPLETEDHandler")]
+				get {
+					if (id_getMESSAGE_EVENT_COMPLETED == IntPtr.Zero)
+						id_getMESSAGE_EVENT_COMPLETED = JNIEnv.GetMethodID (class_ref, "getMESSAGE_EVENT_COMPLETED", "()Ljava/lang/String;");
+					try {
+						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getMESSAGE_EVENT_COMPLETED), JniHandleOwnership.TransferLocalRef);
+					} finally {
+					}
+				}
+			}
+
+			static IntPtr id_getSUCCESS;
+			public unsafe string SUCCESS {
+				// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.messaging.commands.tasks']/class[@name='MessagingEventSubscriptionManager.Companion']/method[@name='getSUCCESS' and count(parameter)=0]"
+				[Register ("getSUCCESS", "()Ljava/lang/String;", "GetGetSUCCESSHandler")]
+				get {
+					if (id_getSUCCESS == IntPtr.Zero)
+						id_getSUCCESS = JNIEnv.GetMethodID (class_ref, "getSUCCESS", "()Ljava/lang/String;");
+					try {
+						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getSUCCESS), JniHandleOwnership.TransferLocalRef);
+					} finally {
+					}
+				}
+			}
+
+			static IntPtr id_onError_Ljava_lang_String_;
+			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.messaging.commands.tasks']/class[@name='MessagingEventSubscriptionManager.Companion']/method[@name='onError' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+			[Register ("onError", "(Ljava/lang/String;)V", "")]
+			public unsafe void OnError (string p0)
+			{
+				if (id_onError_Ljava_lang_String_ == IntPtr.Zero)
+					id_onError_Ljava_lang_String_ = JNIEnv.GetMethodID (class_ref, "onError", "(Ljava/lang/String;)V");
+				IntPtr native_p0 = JNIEnv.NewString (p0);
+				try {
+					JValue* __args = stackalloc JValue [1];
+					__args [0] = new JValue (native_p0);
+					JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onError_Ljava_lang_String_, __args);
+				} finally {
+					JNIEnv.DeleteLocalRef (native_p0);
+				}
+			}
+
+		}
+
 		internal static new IntPtr java_class_handle;
 		internal static new IntPtr class_ref {
 			get {

@@ -14,8 +14,7 @@ namespace LP_Messaging_App
     {
         private static String Tag = "Activity_Message";
         private static String livepersonFragment = "liveperson_fragment";
-        int containerId;
-        // har coaded user info
+        // hard coaded user info
         string firstName = "K";
         string lastName = "M";
         string phone = string.Empty;
@@ -29,7 +28,7 @@ namespace LP_Messaging_App
             SetContentView(Resource.Layout.MessageActivity);
            
             Log.Info(Tag, "onCreate savedInstanceState = " + savedInstanceState);
-            LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, new InitLivePersonCallBackInFragment(ApplicationContext, Tag, livepersonFragment, firstName, lastName, phone)));
+           // LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, new InitLivePersonCallBackInFragment(ApplicationContext, Tag, livepersonFragment, firstName, lastName, phone)));
 
         }
     }

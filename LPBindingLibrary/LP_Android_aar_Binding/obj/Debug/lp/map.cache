@@ -9,6 +9,8 @@ Xamarin.Android.Arch.Lifecycle.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
+Xamarin.Android.Support.Constraint.Layout
+Xamarin.Android.Support.Constraint.Layout.Solver
 Xamarin.Android.Support.Content
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
@@ -24,3 +26,4 @@ Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
+Xamarin.Kotlin.StdLib

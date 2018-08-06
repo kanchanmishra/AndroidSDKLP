@@ -57,40 +57,6 @@ namespace Com.Liveperson.Api.Request.Message {
 			}
 		}
 
-		static Delegate cb_getMessage;
-#pragma warning disable 0169
-		static Delegate GetGetMessageHandler ()
-		{
-			if (cb_getMessage == null)
-				cb_getMessage = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr>) n_GetMessage);
-			return cb_getMessage;
-		}
-
-		static IntPtr n_GetMessage (IntPtr jnienv, IntPtr native__this)
-		{
-			global::Com.Liveperson.Api.Request.Message.TextPublishMessage __this = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Api.Request.Message.TextPublishMessage> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			return JNIEnv.NewString (__this.Message);
-		}
-#pragma warning restore 0169
-
-		static IntPtr id_getMessage;
-		public override unsafe global::Java.Lang.String Message {
-			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage' and count(parameter)=0]"
-			[Register ("getMessage", "()Ljava/lang/String;", "GetGetMessageHandler")]
-			get {
-				if (id_getMessage == IntPtr.Zero)
-					id_getMessage = JNIEnv.GetMethodID (class_ref, "getMessage", "()Ljava/lang/String;");
-				try {
-
-					if (((object) this).GetType () == ThresholdType)
-						return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getMessage), JniHandleOwnership.TransferLocalRef);
-					else
-						return JNIEnv.GetString (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getMessage", "()Ljava/lang/String;")), JniHandleOwnership.TransferLocalRef);
-				} finally {
-				}
-			}
-		}
-
 		static Delegate cb_getMessageText;
 #pragma warning disable 0169
 		static Delegate GetGetMessageTextHandler ()

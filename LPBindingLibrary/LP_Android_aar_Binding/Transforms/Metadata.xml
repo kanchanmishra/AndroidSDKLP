@@ -53,17 +53,21 @@
 
   <attr path="/api/package[@name='com.liveperson.api.request']/class[@name='AbstractRequest']/method[@name='getMessageType' and count(parameter)=0]"  name="visibility">public</attr>
 <!-- 
-  <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='BasePublishMessage']/method[@name='getMessage']"/>
-  <remove-node path="/api/package[@name='com.liveperson.api.request.message']/interface[@name='IPublishMessage']/method[@name='getMessage']"/>
 
-  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage' and count(parameter)=0]" name="managedType">Java.Lang.String</attr>
- -->
-  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage' and count(parameter)=0]" name="managedReturn">Java.Lang.String</attr>
-  <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='getMessage' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+   fix for BasePublishMessage
+   --> 
   <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormSubmissionPublishMessage']/method[@name='getMessage' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FilePublishMessage']/method[@name='getMessage' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 
 
- <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='BasePublishMessage']/method[@name='get']" />
+<remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='get']"/>
+ <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']/method[@name='getMessage']"/>
+ <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='get']" />
+<remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']/method[@name='getMessage']"/>
+
+  <!--obfuscated classes-->
+
+  <attr path="/api/package[@name='com.liveperson.messaging.network.socket']/class[@name='MessagingEventNotificationHandler.WhenMappings']" name="obfuscated">false</attr>
+
 
 </metadata>

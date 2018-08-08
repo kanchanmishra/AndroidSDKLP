@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <ManifestDocuments>
+    <ManifestDocument>obj\Debug\lp\0\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\infra-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\lp_messaging_sdk-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\messaging-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\messaging_ui-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\monitoring-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\lp\0\jl\ui-3.2.0.aar\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\10\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\12\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\lp\13\jl\AndroidManifest.xml</ManifestDocument>
@@ -31,12 +38,16 @@
   <NativeLibraries />
   <Jars>
     <Jar>obj\Debug\lp\0\jl\Infra.jar</Jar>
-    <Jar>obj\Debug\lp\0\jl\kotlin-stdlib-jdk7-1.2.41.jar</Jar>
     <Jar>obj\Debug\lp\0\jl\lp_messaging.jar</Jar>
     <Jar>obj\Debug\lp\0\jl\messaging-3.2.0.jar</Jar>
-    <Jar>obj\Debug\lp\0\jl\messaging_ui.jar</Jar>
     <Jar>obj\Debug\lp\0\jl\monitoring-3.2.0.jar</Jar>
     <Jar>obj\Debug\lp\0\jl\ui.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\infra-3.2.0.aar\jars\classes.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\lp_messaging_sdk-3.2.0.aar\jars\classes.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\messaging-3.2.0.aar\jars\classes.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\messaging_ui-3.2.0.aar\jars\classes.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\monitoring-3.2.0.aar\jars\classes.jar</Jar>
+    <Jar>obj\Debug\lp\0\jl\ui-3.2.0.aar\jars\classes.jar</Jar>
     <Jar>obj\Debug\lp\10\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\11\jl\constraint-layout-solver.jar</Jar>
     <Jar>obj\Debug\lp\12\jl\bin\classes.jar</Jar>
@@ -60,13 +71,11 @@
     <Jar>obj\Debug\lp\30\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\31\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\32\jl\classes.jar</Jar>
-    <Jar>obj\Debug\lp\33\jl\__reference__kotlin-stdlib.jar</Jar>
-    <Jar>obj\Debug\lp\34\jl\__reference__kotlin-stdlib-jre7.jar</Jar>
-    <Jar>obj\Debug\lp\35\jl\okhttp3.jar</Jar>
-    <Jar>obj\Debug\lp\36\jl\picasso-2.5.2.jar</Jar>
-    <Jar>obj\Debug\lp\39\jl\okio.jar</Jar>
+    <Jar>obj\Debug\lp\33\jl\okhttp3.jar</Jar>
+    <Jar>obj\Debug\lp\34\jl\picasso-2.5.2.jar</Jar>
+    <Jar>obj\Debug\lp\37\jl\okio.jar</Jar>
+    <Jar>obj\Debug\lp\38\jl\okhttp-2.4.0.jar</Jar>
     <Jar>obj\Debug\lp\4\jl\arch-core-common.jar</Jar>
-    <Jar>obj\Debug\lp\40\jl\okhttp-2.4.0.jar</Jar>
     <Jar>obj\Debug\lp\5\jl\arch-lifecycle-common.jar</Jar>
     <Jar>obj\Debug\lp\6\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\lp\7\jl\bin\classes.jar</Jar>

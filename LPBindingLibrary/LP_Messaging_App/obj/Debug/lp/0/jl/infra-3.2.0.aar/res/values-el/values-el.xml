@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Τα προσωπικά δεδομένα σας έχουν καλυφθεί για την προστασία της ασφάλειάς σας. Μόνο ο εκπρόσωπος μπορεί να τα διαβάσει.</string>
+    <string name="lp_system_message_real_time_masked">Τα προσωπικά δεδομένα σας έχουν καλυφθεί για την προστασία της ασφάλειάς σας και δεν είναι ορατά στον εκπρόσωπο.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Pulsante menu allegati compresso</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Pulsante menu allegati espanso</string>
+    <string name="lp_accessibility_chat_message">Messaggio Chat</string>
+    <string name="lp_accessibility_message_preview_close_description">Chiudi</string>
+    <string name="lp_enter_message">Scrivi un messaggio</string>
+    <string name="lp_message_time_min_ago">%1$s min fa</string>
+    <string name="lp_message_time_now">Ora</string>
+    <string name="lp_message_time_now_with_state">Ora</string>
+    <string name="lp_no_network_toast_message">Nessuna connessione Internet. Verifica la tua connessione e riprova.</string>
+    <string name="lp_send">Invia</string>
+    <string name="lp_today">Oggi</string>
+    <string name="lp_yesterday">Ieri</string>
+</resources>

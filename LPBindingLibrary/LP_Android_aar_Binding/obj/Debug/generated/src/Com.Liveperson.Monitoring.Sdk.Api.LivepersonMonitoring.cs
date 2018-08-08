@@ -43,45 +43,5 @@ namespace Com.Liveperson.Monitoring.Sdk.Api {
 			}
 		}
 
-		static IntPtr id_getEngagement_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_sdk_callbacks_EngagementCallback_;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.sdk.api']/class[@name='LivepersonMonitoring']/method[@name='getEngagement' and count(parameter)=4 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;'] and parameter[3][@type='com.liveperson.sdk.MonitoringParams'] and parameter[4][@type='com.liveperson.sdk.callbacks.EngagementCallback']]"
-		[Register ("getEngagement", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;Lcom/liveperson/sdk/callbacks/EngagementCallback;)V", "")]
-		public static unsafe void GetEngagement (global::Android.Content.Context p0, global::System.Collections.Generic.IList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity> p1, global::Com.Liveperson.Sdk.MonitoringParams p2, global::Com.Liveperson.Sdk.Callbacks.IEngagementCallback p3)
-		{
-			if (id_getEngagement_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_sdk_callbacks_EngagementCallback_ == IntPtr.Zero)
-				id_getEngagement_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_sdk_callbacks_EngagementCallback_ = JNIEnv.GetStaticMethodID (class_ref, "getEngagement", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;Lcom/liveperson/sdk/callbacks/EngagementCallback;)V");
-			IntPtr native_p1 = global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.ToLocalJniHandle (p1);
-			try {
-				JValue* __args = stackalloc JValue [4];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (native_p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				JNIEnv.CallStaticVoidMethod  (class_ref, id_getEngagement_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_sdk_callbacks_EngagementCallback_, __args);
-			} finally {
-				JNIEnv.DeleteLocalRef (native_p1);
-			}
-		}
-
-		static IntPtr id_sendSde_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_monitoring_sdk_callbacks_SdeCallback_;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.sdk.api']/class[@name='LivepersonMonitoring']/method[@name='sendSde' and count(parameter)=4 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;'] and parameter[3][@type='com.liveperson.sdk.MonitoringParams'] and parameter[4][@type='com.liveperson.monitoring.sdk.callbacks.SdeCallback']]"
-		[Register ("sendSde", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;Lcom/liveperson/monitoring/sdk/callbacks/SdeCallback;)V", "")]
-		public static unsafe void SendSde (global::Android.Content.Context p0, global::System.Collections.Generic.IList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity> p1, global::Com.Liveperson.Sdk.MonitoringParams p2, global::Com.Liveperson.Monitoring.Sdk.Callbacks.ISdeCallback p3)
-		{
-			if (id_sendSde_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_monitoring_sdk_callbacks_SdeCallback_ == IntPtr.Zero)
-				id_sendSde_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_monitoring_sdk_callbacks_SdeCallback_ = JNIEnv.GetStaticMethodID (class_ref, "sendSde", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;Lcom/liveperson/monitoring/sdk/callbacks/SdeCallback;)V");
-			IntPtr native_p1 = global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.ToLocalJniHandle (p1);
-			try {
-				JValue* __args = stackalloc JValue [4];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (native_p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				JNIEnv.CallStaticVoidMethod  (class_ref, id_sendSde_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Lcom_liveperson_monitoring_sdk_callbacks_SdeCallback_, __args);
-			} finally {
-				JNIEnv.DeleteLocalRef (native_p1);
-			}
-		}
-
 	}
 }

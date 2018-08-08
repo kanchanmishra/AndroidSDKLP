@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Отправлено"</item>
+        <item>"Получено"</item>
+        <item>"Прочитано"</item>
+        <item>"Не получено"</item>
+        <item>"Отправка"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s дн."</item>
+        <item quantity="other">" %1$s д."</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s ч"</item>
+        <item quantity="other">" %1$s ч."</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s мин."</item>
+        <item quantity="other">" %1$s мин."</item>
+    </plurals>
+    <string name="brand_name">Мой брэнд</string>
+    <string name="lp_accessibility_agent">Агент</string>
+    <string name="lp_accessibility_agent_icon">Значок агента </string>
+    <string name="lp_accessibility_agent_is_typing">Оператор вводит текст</string>
+    <string name="lp_accessibility_attachment_menu">Меню вложений</string>
+    <string name="lp_accessibility_camera">Камера</string>
+    <string name="lp_accessibility_full_image">Полное изображение</string>
+    <string name="lp_accessibility_gallery">Галерея</string>
+    <string name="lp_accessibility_image">Изображение</string>
+    <string name="lp_accessibility_image_caption">Подпись к изображению</string>
+    <string name="lp_accessibility_is_typing">%1$s вводит текст</string>
+    <string name="lp_accessibility_new_agent_message">Новое сообщение агента: </string>
+    <string name="lp_accessibility_new_system_message">Новое системное сообщение: </string>
+    <string name="lp_accessibility_photo">фото</string>
+    <string name="lp_accessibility_photo_preview">Просмотр фото</string>
+    <string name="lp_accessibility_received">получено</string>
+    <string name="lp_accessibility_resend">Отправить еще раз</string>
+    <string name="lp_accessibility_sc_button">Кнопка</string>
+    <string name="lp_accessibility_sc_image">Изображение</string>
+    <string name="lp_accessibility_sc_map">Карта</string>
+    <string name="lp_accessibility_sc_text">Текст</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">прокрутка вниз</string>
+    <string name="lp_accessibility_selected">выбрано</string>
+    <string name="lp_accessibility_you">Вы</string>
+    <string name="lp_add_a_caption">Добавить подпись</string>
+    <string name="lp_attachment_menu_camera_item_text">Камера</string>
+    <string name="lp_attachment_menu_gallery_item_text">Галерея</string>
+    <string name="lp_cancel">Отменить</string>
+    <string name="lp_clear_history_dialog_message">Вся история сообщений будет утеряна. Продолжить?</string>
+    <string name="lp_clear_history_dialog_positive_button">Очистить</string>
+    <string name="lp_clear_history_dialog_title">Очистить историю</string>
+    <string name="lp_clear_history_menu_text">Очистить историю</string>
+    <string name="lp_connection_status_connecting">Подключение…</string>
+    <string name="lp_connection_status_failed_to_connect">Не удалось подключиться к серверу. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Нет подключения. Проверьте соединение.</string>
+    <string name="lp_connection_status_trying_to_connect">Попытка подключения …</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Отменить срочность</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Отменить\nсрочность</string>
+    <string name="lp_dismiss_urgent_dialog_header">Присвоить разговору метку «несрочный»?</string>
+    <string name="lp_dismiss_urgent_dialog_message">В таком случае, разговору будет присвоена обычная степень важности.</string>
+    <string name="lp_done">Сделано</string>
+    <string name="lp_end">Да</string>
+    <string name="lp_end_conversation">Завершить разговор</string>
+    <string name="lp_end_conversation_first">Сначала разрешите разговор.</string>
+    <string name="lp_failed_download_toast_message">Не удалось скачать файл </string>
+    <string name="lp_failed_upload_toast_message">Не удалось загрузить файл </string>
+    <string name="lp_feedback_1">Совершенно недоволен</string>
+    <string name="lp_feedback_2">Недоволен</string>
+    <string name="lp_feedback_3">нет мнения</string>
+    <string name="lp_feedback_4">Доволен</string>
+    <string name="lp_feedback_5">Очень доволен</string>
+    <string name="lp_feedback_question">Оцените уровень обслуживания оператора</string>
+    <string name="lp_feedback_submit">Отправить</string>
+    <string name="lp_feedback_submit_message">Ваши отзывы помогают нам работать лучше.\nОператоры не имеют доступа к отзывам клиентов.</string>
+    <string name="lp_feedback_thank_you">Опрос отправлен.\nСпасибо!</string>
+    <string name="lp_feedback_yesno_negative_title">Нет</string>
+    <string name="lp_feedback_yesno_positive_title">Да</string>
+    <string name="lp_feedback_yesno_question">Удалось ли нам решить проблему?</string>
+    <string name="lp_history_control_api_empty_state">Соотвествующих разговоров сейчас нет</string>
+    <string name="lp_is_typing">ввод текста...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Вопрос действительно решен?</string>
+    <string name="lp_mark_as_resolved_menu_text">Присвоить метку «завершен»</string>
+    <string name="lp_mark_as_urgent_dialog_header">Присвоить разговору метку «срочный»?</string>
+    <string name="lp_mark_as_urgent_dialog_message">В таком случае, разговору будет присвоена наивысшая степень важности.</string>
+    <string name="lp_mark_as_urgent_menu_text">Присвоить метку «срочный»</string>
+    <string name="lp_menu_copy">Скопировать</string>
+    <string name="lp_menu_send_image">Отправить</string>
+    <string name="lp_new_messages">новые сообщения</string>
+    <string name="lp_no_action_not_available_toast_message">Действие недоступно – нет открытых разговоров</string>
+    <string name="lp_no_network_toast_message">Нет соединения с интернетом. Пожалуйста, проверьте соединение и попробуйте еще раз.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Отправить</string>
+    <string name="lp_skip">Пропустить</string>
+    <string name="lp_structured_content_display_failed">Ошибка отображения</string>
+    <string name="lp_tap_to_add_a_caption">Коснитесь, чтобы добавить подпись </string>
+    <string name="lp_today">"Сегодня"</string>
+    <string name="lp_ttr_message_no_timestamp">Агент скоро ответит</string>
+    <string name="lp_ttr_message_off_hours_message">Спасибо за сообщение. Мы снова будем онлайн сегодня в %1$s в %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Спасибо за сообщение. Мы снова будем онлайн сегодня в %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Спасибо за сообщение. Мы снова будем онлайн завтра в %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Агент ответит в течение %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Заполнить форму</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">ОСТАТЬСЯ</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Повторного доступа к форме не будет.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Продолжить?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Ошибка при загрузке формы. Пожалуйста попросите оператора заново выслать форму.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Срок действия формы истек. Пожалуйста попросите оператора заново выслать форму.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Форма отправлена и не подлежит повторному просмотру в целях сохранения информационной безопасности.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Ввод данных производится в защищенном режиме Вводимая информация защищена, после ее отправки доступ к ней невозможен.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Форма уже была просмотрена. Пожалуйста попросите оператора заново выслать форму.</string>
+</resources>

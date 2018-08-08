@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Odoslané"</item>
+        <item>"Doručené"</item>
+        <item>"Prečítané"</item>
+        <item>"Nedoručené"</item>
+        <item>"Posiela sa"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s deň"</item>
+        <item quantity="other">" %1$s dní"</item>
+        <item quantity="few">" %1$d dní"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s hod."</item>
+        <item quantity="other">" %1$s hod."</item>
+        <item quantity="few">" %1$d hodín"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minúta"</item>
+        <item quantity="other">" %1$s minút"</item>
+        <item quantity="few">" %1$d minút"</item>
+    </plurals>
+    <string name="brand_name">Moja značka</string>
+    <string name="lp_accessibility_agent">Zástupca</string>
+    <string name="lp_accessibility_agent_icon">Ikonka zástupcu</string>
+    <string name="lp_accessibility_agent_is_typing">Zástupca píše</string>
+    <string name="lp_accessibility_attachment_menu">Ponuka príloh</string>
+    <string name="lp_accessibility_camera">Fotoaparát</string>
+    <string name="lp_accessibility_full_image">Celý obrázok</string>
+    <string name="lp_accessibility_gallery">Galéria</string>
+    <string name="lp_accessibility_image">Obrázok</string>
+    <string name="lp_accessibility_image_caption">Titulok k obrázku</string>
+    <string name="lp_accessibility_is_typing">%1$s píše</string>
+    <string name="lp_accessibility_new_agent_message">Správa nového zástupcu: </string>
+    <string name="lp_accessibility_new_system_message">Správa nového systému: </string>
+    <string name="lp_accessibility_photo">fotka</string>
+    <string name="lp_accessibility_photo_preview">Náhľad fotky</string>
+    <string name="lp_accessibility_received">doručené</string>
+    <string name="lp_accessibility_resend">Poslať znova</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">posunúť nadol</string>
+    <string name="lp_accessibility_selected">zvolené</string>
+    <string name="lp_accessibility_you">Ty</string>
+    <string name="lp_add_a_caption">Pridať titulok</string>
+    <string name="lp_attachment_menu_camera_item_text">Fotoaparát</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galéria</string>
+    <string name="lp_cancel">Zrušiť</string>
+    <string name="lp_clear_history_dialog_message">Celá existujúca história konverzácie sa zruší. Naozaj?</string>
+    <string name="lp_clear_history_dialog_positive_button">Vyčistiť</string>
+    <string name="lp_clear_history_dialog_title">Vymazať históriu</string>
+    <string name="lp_clear_history_menu_text">Vymazať históriu</string>
+    <string name="lp_connection_status_connecting">Pripája sa…</string>
+    <string name="lp_connection_status_failed_to_connect">Nepodarilo sa pripojiť k serveru. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Bez pripojenia. Skontroluj si svoje pripojenie.</string>
+    <string name="lp_connection_status_trying_to_connect">Prebieha pokus o pripojenie…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Zrušiť urgentnosť</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Zrušiť urgentnosť \n</string>
+    <string name="lp_dismiss_urgent_dialog_header">Naozaj chcete označiť túto konverzáciu ako neurgentnú?</string>
+    <string name="lp_dismiss_urgent_dialog_message">To znamená, že vaša konverzácia bude mať normálnu prioritu.</string>
+    <string name="lp_done">Hotovo</string>
+    <string name="lp_end">Koniec</string>
+    <string name="lp_end_conversation">Zavrieť konverzáciu</string>
+    <string name="lp_end_conversation_first">Najskôr ukončite konverzáciu.</string>
+    <string name="lp_failed_download_toast_message">Súbor sa nepodarilo stiahnuť</string>
+    <string name="lp_failed_upload_toast_message">Súbor sa nepodarilo nahrať</string>
+    <string name="lp_feedback_1">Veľmi nespokojný</string>
+    <string name="lp_feedback_2">Nespokojný</string>
+    <string name="lp_feedback_3">Neviem</string>
+    <string name="lp_feedback_4">Spokojný</string>
+    <string name="lp_feedback_5">Veľmi spokojný</string>
+    <string name="lp_feedback_question">Ako by ste hodnotili spojenie s naším agentom?</string>
+    <string name="lp_feedback_submit">Zadať</string>
+    <string name="lp_feedback_submit_message">Vaša odozva nám pomáha zlepšovať naše služby.\nNebude sa zdieľať so žiadnym zástupcom oddelenia služieb pre zákazníkov.</string>
+    <string name="lp_feedback_thank_you">Prieskum bol úspešne odoslaný.\nĎakujeme vám</string>
+    <string name="lp_feedback_yesno_negative_title">Nie</string>
+    <string name="lp_feedback_yesno_positive_title">Áno</string>
+    <string name="lp_feedback_yesno_question">Vyriešili sme dnes váš problém?</string>
+    <string name="lp_is_typing">písanie…</string>
+    <string name="lp_mark_as_resolved_dialog_message">Naozaj je táto téma uzavretá?</string>
+    <string name="lp_mark_as_resolved_menu_text">Označiť ako zatvorené</string>
+    <string name="lp_mark_as_urgent_dialog_header">Naozaj chcete túto konverzáciu označiť ako urgentnú?</string>
+    <string name="lp_mark_as_urgent_dialog_message">To znamená, že vaša konverzácia bude mať najvyššiu prioritu.</string>
+    <string name="lp_mark_as_urgent_menu_text">Označiť ako urgentné</string>
+    <string name="lp_menu_copy">Kopírovať</string>
+    <string name="lp_menu_send_image">Poslať</string>
+    <string name="lp_new_messages">nové správy</string>
+    <string name="lp_no_action_not_available_toast_message">Krok nie je dostupný – žiadna otvorená konverzácia</string>
+    <string name="lp_no_network_toast_message">Žiadne internetové pripojenie. Overte svoje pripojenie a skúste to znova.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Odoslať</string>
+    <string name="lp_skip">Vynechať</string>
+    <string name="lp_tap_to_add_a_caption">Klepnutím pridať titulok</string>
+    <string name="lp_today">Danes</string>
+    <string name="lp_ttr_message_no_timestamp">Zástupca o chvíľu odpovie</string>
+    <string name="lp_ttr_message_off_hours_message">Ďakujeme vám za správu. Budeme znova online o %1$s v %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Ďakujeme vám za správu. Dnes budeme znova online o %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Ďakujeme vám za správu. Zajtra budeme znova online o %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Zástupca odpovie v priebehu nasledujúcej/nasledujúcich %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Vyplniť formulár</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">OSTAŤ</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Po zatvorení zabezpečeného formulára nebudete znova k nemu môcť získať prístup.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Naozaj?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Pri otváraní tohto formulára sa vyskytla chyba. Požiadajte zástupcu o opätovné odoslanie formulára.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Platnosť zabezpečeného formulára uplynula. Požiadajte zástupcu o opätovné odoslanie formulára.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Tento formulár bol odoslaný a z dôvodov zabezpečenia ho nie je možné znova otvoriť.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Toto je zabezpečený formulár. Informácie, ktoré sem zadáte, sú chránené a po odoslaní nie je možné k nim získať prístup.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Tento formulár už bol zobrazený. Požiadajte zástupcu o opätovné odoslanie formulára.</string>
+</resources>

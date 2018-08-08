@@ -24,11 +24,11 @@ public class RunnableHelper
 			mono.android.TypeManager.Activate ("LP_Messaging_App.RunnableHelper, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public RunnableHelper (java.lang.String p0, java.lang.String p1)
+	public RunnableHelper (java.lang.String p0, java.lang.String p1, android.content.Context p2)
 	{
 		super ();
 		if (getClass () == RunnableHelper.class)
-			mono.android.TypeManager.Activate ("LP_Messaging_App.RunnableHelper, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "System.String, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.String, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("LP_Messaging_App.RunnableHelper, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "System.String, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.String, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

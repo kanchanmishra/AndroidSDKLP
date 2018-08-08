@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Копче на менито прилог пропадна</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Копче на менито прилог проширува</string>
+    <string name="lp_accessibility_chat_message">Чет-порака</string>
+    <string name="lp_accessibility_message_preview_close_description">Затвори</string>
+    <string name="lp_enter_message">Напишете порака</string>
+    <string name="lp_message_time_min_ago">пред %1$s мин</string>
+    <string name="lp_message_time_now">Сега</string>
+    <string name="lp_message_time_now_with_state">Сега</string>
+    <string name="lp_no_network_toast_message">Нема интернет-врска. Проверете ја врската и обидете се повторно.</string>
+    <string name="lp_send">Испрати</string>
+    <string name="lp_today">Денеска</string>
+    <string name="lp_yesterday">Вчера</string>
+</resources>

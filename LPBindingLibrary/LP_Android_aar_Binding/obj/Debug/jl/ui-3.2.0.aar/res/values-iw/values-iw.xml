@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">כפתור סגירת תפריט הוספת תמונה</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">כפתור פתיחת תפריט הוספת תמונה</string>
+    <string name="lp_accessibility_chat_message">כתוב הודעה</string>
+    <string name="lp_accessibility_message_preview_close_description">סגירה</string>
+    <string name="lp_enter_message">כתוב הודעה</string>
+    <string name="lp_message_time_min_ago">לפני %1$s דקות</string>
+    <string name="lp_message_time_now">עכשיו</string>
+    <string name="lp_message_time_now_with_state">עכשיו</string>
+    <string name="lp_no_network_toast_message">כשלון התחברות. אנא בדוק את חיבור האינטרנט</string>
+    <string name="lp_send">שלח</string>
+    <string name="lp_today">היום</string>
+    <string name="lp_yesterday">אתמול</string>
+</resources>

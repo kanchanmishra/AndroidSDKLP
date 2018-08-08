@@ -138,8 +138,6 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
-		"Xamarin.Kotlin.StdLib.dll",
-		"Xamarin.Kotlin.StdLib.Jre7.dll",
 		"Square.OkHttp3.dll",
 		"Square.OkIO.dll",
 		"Square.Picasso.dll",

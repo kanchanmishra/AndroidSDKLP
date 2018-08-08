@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Tlačidlo ponuky príloh zlyhalo</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded"> Tlačidlo ponuky príloh sa rozšírilo</string>
+    <string name="lp_accessibility_chat_message">Četová správa</string>
+    <string name="lp_accessibility_message_preview_close_description">Zavrieť</string>
+    <string name="lp_enter_message">Napíšte správu</string>
+    <string name="lp_message_time_min_ago">Pred %1$s min.</string>
+    <string name="lp_message_time_now">Teraz</string>
+    <string name="lp_message_time_now_with_state">Teraz</string>
+    <string name="lp_no_network_toast_message">Žiadne internetové pripojenie. Overte svoje pripojenie a skúste to znova.</string>
+    <string name="lp_send">Odoslať</string>
+    <string name="lp_today">Danes</string>
+    <string name="lp_yesterday">Včera</string>
+</resources>

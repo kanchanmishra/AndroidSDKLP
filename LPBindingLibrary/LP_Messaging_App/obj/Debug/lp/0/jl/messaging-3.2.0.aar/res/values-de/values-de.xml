@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d UNGELESENE NACHRICHT"</item>
+       <item quantity="other">"%1$d UNGELESENE NACHRICHTEN"</item>
+    </plurals>
+    <string name="downloading_image">Bild wird heruntergeladen...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Konversation von Mitarbeiter gelöst \n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Gespräch gelöst von %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Gespräch gelöst von Ihnen\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Datei konnte nicht heruntergeladen werden</string>
+    <string name="lp_failed_upload_toast_message">Datei konnte nicht hochgeladen werden</string>
+    <string name="lp_first_message">Wie kann ich Ihnen heute helfen?</string>
+    <string name="lp_loading_message">Wird geladen...</string>
+    <string name="lp_new_message">Neue Nachricht</string>
+    <string name="lp_resend_failed_conversation_closed">Dieses Gespräch wurde bereits gelöst.</string>
+    <string name="lp_resend_failed_masked_message"> Nachricht konnte nicht gesendet werden. Geben Sie die Nachricht erneut ein und versuchen Sie es nochmal.</string>
+    <string name="lp_still_loading_message">Unterhaltung wird noch geladen…</string>
+    <string name="uploading_image">Bild wird hochgeladen...</string>
+</resources>

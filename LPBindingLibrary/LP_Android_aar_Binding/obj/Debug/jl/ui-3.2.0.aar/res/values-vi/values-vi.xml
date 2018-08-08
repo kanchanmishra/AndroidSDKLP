@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Đã thu gọn nút Menu đính kèm</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Đã mở rộng nút Menu đính kèm</string>
+    <string name="lp_accessibility_chat_message">Tin nhắn trò chuyện</string>
+    <string name="lp_accessibility_message_preview_close_description">Đóng</string>
+    <string name="lp_enter_message">Soạn tin nhắn</string>
+    <string name="lp_message_time_min_ago">%1$s phút trước</string>
+    <string name="lp_message_time_now">Bây giờ</string>
+    <string name="lp_message_time_now_with_state">Bây giờ</string>
+    <string name="lp_no_network_toast_message">Không có kết nối Internet. Vui lòng kiểm tra kết nối của bạn và thử lại.</string>
+    <string name="lp_send">Gửi</string>
+    <string name="lp_today">"HÔM NAY"</string>
+    <string name="lp_yesterday">Hôm qua</string>
+</resources>

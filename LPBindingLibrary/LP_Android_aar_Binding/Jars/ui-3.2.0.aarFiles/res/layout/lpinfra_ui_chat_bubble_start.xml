@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="50dp">
+
+
+        <com.liveperson.infra.ui.view.ui.CustomTextView
+            android:id="@+id/lpui_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lpinfra_ui_chat_bubble_start"
+            android:layerType="software"
+            android:text="Hello Jasper!\nHow can i help you today?"
+            android:textColor="#123456"
+            android:textColorLink="#123456"
+            android:textIsSelectable="true"
+            android:textSize="14sp"
+            app:font_name="@string/custom_font_name_conversation_feed"/>
+
+
+        <com.liveperson.infra.ui.view.ui.CustomTextView
+            android:id="@+id/lpui_message_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/lpui_message_text"
+            android:layout_below="@id/lpui_message_text"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="2dp"
+            android:text="10:10"
+            android:textColor="#223344"
+            android:textSize="12sp"
+            app:font_name="@string/custom_font_name_conversation_feed"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

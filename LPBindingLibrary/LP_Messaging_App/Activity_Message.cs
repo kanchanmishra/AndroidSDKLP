@@ -1,8 +1,11 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
+
+using Android.Support.V4.App;
 using Android.Support.V7.App;
 using Android.Util;
+using Android.Views;
 using Com.Liveperson.Infra;
 using Com.Liveperson.Messaging.Sdk.Api;
 using LP_Messaging_App.Utils;
@@ -10,7 +13,7 @@ using LP_Messaging_App.Utils;
 namespace LP_Messaging_App
 {
     [Activity(Label = "Activity_Message")]
-    public class Activity_Message : AppCompatActivity
+    public class Activity_Message : Activity
     {
         private static String Tag = "Activity_Message";
         private static String livepersonFragment = "liveperson_fragment";
@@ -28,7 +31,8 @@ namespace LP_Messaging_App
             SetContentView(Resource.Layout.MessageActivity);
            
             Log.Info(Tag, "onCreate savedInstanceState = " + savedInstanceState);
-           // LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, new InitLivePersonCallBackInFragment(ApplicationContext, Tag, livepersonFragment, firstName, lastName, phone)));
+            var initLivePersonCallBackInFragment = new InitLivePersonCallBackInFragment(this, Tag, livepersonFragment, firstName, lastName, phone);
+            LivePerson.Initialize(this, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, new InitLivePersonCallBackInFragment()));
 
         }
     }

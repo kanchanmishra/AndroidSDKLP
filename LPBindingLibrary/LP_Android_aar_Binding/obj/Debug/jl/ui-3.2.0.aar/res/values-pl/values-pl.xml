@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Przycisk menu Załącznik zwinięty</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Przycisk menu Załącznik rozwinięty</string>
+    <string name="lp_accessibility_chat_message">Wiadomość rozmowy</string>
+    <string name="lp_accessibility_message_preview_close_description">Zamknij</string>
+    <string name="lp_enter_message">Napisz wiadomość</string>
+    <string name="lp_message_time_min_ago">%1$s min temu</string>
+    <string name="lp_message_time_now">Teraz</string>
+    <string name="lp_message_time_now_with_state">Teraz</string>
+    <string name="lp_no_network_toast_message">Brak połączenia internetowego. Sprawdź połączenie i spróbuj ponownie.</string>
+    <string name="lp_send">Wyślij</string>
+    <string name="lp_today">Dzisiaj</string>
+    <string name="lp_yesterday">Wczoraj</string>
+</resources>

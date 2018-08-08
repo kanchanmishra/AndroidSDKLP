@@ -155,12 +155,6 @@
     <Reference Include="Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.0\lib\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Kotlin.StdLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Kotlin.StdLib.1.1.4.3\lib\MonoAndroid\Xamarin.Kotlin.StdLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Kotlin.StdLib.Jre7, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Kotlin.StdLib.Jre7.1.1.4.3\lib\MonoAndroid\Xamarin.Kotlin.StdLib.Jre7.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activity_Message.cs" />
@@ -175,10 +169,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
-    <None Include="google-services.json" />
+    <GoogleServicesJson Include="google-services.json" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\MessageActivity.axml">
       <SubType>Designer</SubType>
@@ -191,6 +187,7 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\images\" />
     <Folder Include="Resources\mipmap-hdpi\" />
     <Folder Include="Resources\mipmap-mdpi\" />
     <Folder Include="Resources\mipmap-xhdpi\" />
@@ -210,6 +207,12 @@
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Resources\drawable\shape_left.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Resources\xml\lp_backup_rules.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\file_paths.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

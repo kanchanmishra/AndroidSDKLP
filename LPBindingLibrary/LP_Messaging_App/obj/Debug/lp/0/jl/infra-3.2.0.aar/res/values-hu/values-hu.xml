@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">A személyes adatait a biztonsága védelme érdekében elrejtettük. Csak a munkatársunk olvashatja.</string>
+    <string name="lp_system_message_real_time_masked">A személyes adatait elrejtettük, hogy megvédjük a biztonságát és a munkatársunk ne tudja elolvasni.</string>
+</resources>

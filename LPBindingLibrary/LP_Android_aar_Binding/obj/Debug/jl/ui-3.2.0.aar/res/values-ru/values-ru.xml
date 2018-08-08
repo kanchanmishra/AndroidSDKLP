@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Кнопка меню вложений скрыта</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Кнопка меню вложений показана</string>
+    <string name="lp_accessibility_chat_message">Сообщение в чате</string>
+    <string name="lp_accessibility_message_preview_close_description">Закрыть</string>
+    <string name="lp_enter_message">Напишите сообщение</string>
+    <string name="lp_message_time_min_ago">%1$s мин. назад</string>
+    <string name="lp_message_time_now">Сейчас</string>
+    <string name="lp_message_time_now_with_state">Сейчас</string>
+    <string name="lp_no_network_toast_message">Нет соединения с интернетом. Пожалуйста, проверьте соединение и попробуйте еще раз.</string>
+    <string name="lp_send">Отправить</string>
+    <string name="lp_today">"Сегодня"</string>
+    <string name="lp_yesterday">Вчера</string>
+</resources>

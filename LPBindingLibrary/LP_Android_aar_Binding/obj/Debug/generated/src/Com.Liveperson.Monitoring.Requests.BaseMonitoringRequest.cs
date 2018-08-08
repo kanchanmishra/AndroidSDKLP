@@ -25,40 +25,6 @@ namespace Com.Liveperson.Monitoring.Requests {
 
 		protected BaseMonitoringRequest (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		static IntPtr id_ctor_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_;
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/constructor[@name='BaseMonitoringRequest' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;'] and parameter[3][@type='com.liveperson.sdk.MonitoringParams']]"
-		[Register (".ctor", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)V", "")]
-		public unsafe BaseMonitoringRequest (global::Android.Content.Context p0, global::System.Collections.Generic.IList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity> p1, global::Com.Liveperson.Sdk.MonitoringParams p2)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			IntPtr native_p1 = global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.ToLocalJniHandle (p1);
-			try {
-				JValue* __args = stackalloc JValue [3];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (native_p1);
-				__args [2] = new JValue (p2);
-				if (((object) this).GetType () != typeof (BaseMonitoringRequest)) {
-					SetHandle (
-							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)V", __args),
-							JniHandleOwnership.TransferLocalRef);
-					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)V", __args);
-					return;
-				}
-
-				if (id_ctor_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ == IntPtr.Zero)
-					id_ctor_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Landroid/content/Context;Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)V");
-				SetHandle (
-						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_, __args),
-						JniHandleOwnership.TransferLocalRef);
-				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Landroid_content_Context_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_, __args);
-			} finally {
-				JNIEnv.DeleteLocalRef (native_p1);
-			}
-		}
-
 		static IntPtr id_getACR;
 		public unsafe string ACR {
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/method[@name='getACR' and count(parameter)=0]"
@@ -129,20 +95,6 @@ namespace Com.Liveperson.Monitoring.Requests {
 			}
 		}
 
-		static IntPtr id_getIdentities;
-		public unsafe global::System.Collections.Generic.IList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity> Identities {
-			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/method[@name='getIdentities' and count(parameter)=0]"
-			[Register ("getIdentities", "()Ljava/util/List;", "GetGetIdentitiesHandler")]
-			get {
-				if (id_getIdentities == IntPtr.Zero)
-					id_getIdentities = JNIEnv.GetMethodID (class_ref, "getIdentities", "()Ljava/util/List;");
-				try {
-					return global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.FromJniHandle (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getIdentities), JniHandleOwnership.TransferLocalRef);
-				} finally {
-				}
-			}
-		}
-
 		static IntPtr id_getKEY_CONSUMER_ID_ENC;
 		public unsafe string KEY_CONSUMER_ID_ENC {
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/method[@name='getKEY_CONSUMER_ID_ENC' and count(parameter)=0]"
@@ -152,20 +104,6 @@ namespace Com.Liveperson.Monitoring.Requests {
 					id_getKEY_CONSUMER_ID_ENC = JNIEnv.GetMethodID (class_ref, "getKEY_CONSUMER_ID_ENC", "()Ljava/lang/String;");
 				try {
 					return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getKEY_CONSUMER_ID_ENC), JniHandleOwnership.TransferLocalRef);
-				} finally {
-				}
-			}
-		}
-
-		static IntPtr id_getMonitoringParams;
-		public unsafe global::Com.Liveperson.Sdk.MonitoringParams MonitoringParams {
-			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/method[@name='getMonitoringParams' and count(parameter)=0]"
-			[Register ("getMonitoringParams", "()Lcom/liveperson/sdk/MonitoringParams;", "GetGetMonitoringParamsHandler")]
-			get {
-				if (id_getMonitoringParams == IntPtr.Zero)
-					id_getMonitoringParams = JNIEnv.GetMethodID (class_ref, "getMonitoringParams", "()Lcom/liveperson/sdk/MonitoringParams;");
-				try {
-					return global::Java.Lang.Object.GetObject<global::Com.Liveperson.Sdk.MonitoringParams> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getMonitoringParams), JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
 			}
@@ -279,49 +217,6 @@ namespace Com.Liveperson.Monitoring.Requests {
 					return JNIEnv.GetString (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getSUB), JniHandleOwnership.TransferLocalRef);
 				} finally {
 				}
-			}
-		}
-
-		static Delegate cb_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_;
-#pragma warning disable 0169
-		static Delegate GetBuildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Handler ()
-		{
-			if (cb_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ == null)
-				cb_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr, IntPtr, IntPtr>) n_BuildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_);
-			return cb_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_;
-		}
-
-		static IntPtr n_BuildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1)
-		{
-			global::Com.Liveperson.Monitoring.Requests.BaseMonitoringRequest __this = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Monitoring.Requests.BaseMonitoringRequest> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			var p0 = global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.FromJniHandle (native_p0, JniHandleOwnership.DoNotTransfer);
-			global::Com.Liveperson.Sdk.MonitoringParams p1 = global::Java.Lang.Object.GetObject<global::Com.Liveperson.Sdk.MonitoringParams> (native_p1, JniHandleOwnership.DoNotTransfer);
-			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.BuildRequestBody (p0, p1));
-			return __ret;
-		}
-#pragma warning restore 0169
-
-		static IntPtr id_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.requests']/class[@name='BaseMonitoringRequest']/method[@name='buildRequestBody' and count(parameter)=2 and parameter[1][@type='java.util.List&lt;com.liveperson.monitoring.model.LPMonitoringIdentity&gt;'] and parameter[2][@type='com.liveperson.sdk.MonitoringParams']]"
-		[Register ("buildRequestBody", "(Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)Lorg/json/JSONObject;", "GetBuildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_Handler")]
-		protected virtual unsafe global::Org.Json.JSONObject BuildRequestBody (global::System.Collections.Generic.IList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity> p0, global::Com.Liveperson.Sdk.MonitoringParams p1)
-		{
-			if (id_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ == IntPtr.Zero)
-				id_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_ = JNIEnv.GetMethodID (class_ref, "buildRequestBody", "(Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)Lorg/json/JSONObject;");
-			IntPtr native_p0 = global::Android.Runtime.JavaList<global::Com.Liveperson.Monitoring.Model.LPMonitoringIdentity>.ToLocalJniHandle (p0);
-			try {
-				JValue* __args = stackalloc JValue [2];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (p1);
-
-				global::Org.Json.JSONObject __ret;
-				if (((object) this).GetType () == ThresholdType)
-					__ret = global::Java.Lang.Object.GetObject<global::Org.Json.JSONObject> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_buildRequestBody_Ljava_util_List_Lcom_liveperson_sdk_MonitoringParams_, __args), JniHandleOwnership.TransferLocalRef);
-				else
-					__ret = global::Java.Lang.Object.GetObject<global::Org.Json.JSONObject> (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "buildRequestBody", "(Ljava/util/List;Lcom/liveperson/sdk/MonitoringParams;)Lorg/json/JSONObject;"), __args), JniHandleOwnership.TransferLocalRef);
-				return __ret;
-			} finally {
-				JNIEnv.DeleteLocalRef (native_p0);
 			}
 		}
 

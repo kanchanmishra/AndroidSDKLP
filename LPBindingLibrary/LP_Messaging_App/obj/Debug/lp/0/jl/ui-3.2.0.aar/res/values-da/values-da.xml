@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Menuknap til Vedhæftet fil skjult </string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Menuknap til Vedhæftet fil udvidet</string>
+    <string name="lp_accessibility_chat_message">Chatmeddelelse</string>
+    <string name="lp_accessibility_message_preview_close_description">Luk</string>
+    <string name="lp_enter_message">Skriv en besked</string>
+    <string name="lp_message_time_min_ago">%1$s min. siden</string>
+    <string name="lp_message_time_now">Nu</string>
+    <string name="lp_message_time_now_with_state">Nu</string>
+    <string name="lp_no_network_toast_message">Ingen internetforbindelse. Kontroller din forbindelse og prøv igen.</string>
+    <string name="lp_send">Send</string>
+    <string name="lp_today">"I dag"</string>
+    <string name="lp_yesterday">I går</string>
+</resources>

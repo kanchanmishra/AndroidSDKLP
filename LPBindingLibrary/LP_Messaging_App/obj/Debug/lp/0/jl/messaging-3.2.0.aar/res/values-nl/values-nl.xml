@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+               <item quantity="one">"%1$d UNREAD MESSAGE"</item>
+               <item quantity="other">"%1$d UNREAD MESSAGES"</item>
+           </plurals>
+    <string name="downloading_image">Afbeelding ophalen…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">Gesprek beëindigd door medewerker\n%1$s</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Gesprek opgelost door %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Gesprek opgelost door uu\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Downloaden van het bestand is mislulkt</string>
+    <string name="lp_failed_upload_toast_message">Uploaden van het bestand is mislukt</string>
+    <string name="lp_first_message">Goedendag, hoe kan ik u helpen\u2019</string>
+    <string name="lp_loading_message">Bezig met openen…</string>
+    <string name="lp_new_message">Nieuw bericht</string>
+    <string name="lp_resend_failed_conversation_closed">Dit gesprek is al beëindigd.</string>
+    <string name="lp_resend_failed_masked_message">Het bericht kan niet worden verstuurd. Typ uw bericht opnieuw en verstuur hem daarna nogmaals.</string>
+    <string name="lp_still_loading_message">Conversatie nog steeds aan het downloaden…</string>
+    <string name="uploading_image">Afbeelding versturen…</string>
+</resources>

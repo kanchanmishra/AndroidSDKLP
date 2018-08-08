@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+        <item quantity="one">"%1$d NELASĪTA ZIŅA"</item>
+        <item quantity="other">"%1$d NELASĪTAS ZIŅAS"</item>
+        <item quantity="zero">"%1$d NELASĪTU ZIŅU NAV"</item>
+    </plurals>
+    <string name="downloading_image">Lejupielādē attēlu…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Sarunu beidzis aģents\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Sarunu pabeidza %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Sarunu beidzāt jūs \n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Neizdevās lejupielādēt failu</string>
+    <string name="lp_failed_upload_toast_message">Neizdevās augšupielādēt failu</string>
+    <string name="lp_first_message">Kā varu jums palīdzēt?</string>
+    <string name="lp_loading_message">Notiek ielāde...</string>
+    <string name="lp_resend_failed_conversation_closed">Šī saruna jau ir beigta.</string>
+    <string name="lp_resend_failed_masked_message">Ziņojumu neizdevās nosūtīt. Lūdzu, ievadiet ziņojumu no jauna un nosūtiet vēlreiz.</string>
+    <string name="lp_still_loading_message">Joprojām ielādē sarunu…</string>
+    <string name="uploading_image">Augšupielādē attēlu…</string>
+</resources>

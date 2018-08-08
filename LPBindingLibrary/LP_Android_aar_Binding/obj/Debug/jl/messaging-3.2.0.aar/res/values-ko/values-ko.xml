@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+               <item quantity="one">"%1$d 읽지 않은 메시지"</item>
+               <item quantity="other">"%1$d 읽지 않은 메시지"</item>
+           </plurals>
+    <string name="downloading_image">이미지 다운로드 중…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">에이전트에 의해 대화 해결.\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"대화가 %1$s\n%2$s에 의해 해결됨"</string>
+    <string name="lp_conversation_ended_by_you">사용자에 의해 해결된 대화\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">파일을 다운로드하지 못했습니다</string>
+    <string name="lp_failed_upload_toast_message">파일을 업로드하지 못했습니다</string>
+    <string name="lp_first_message">오늘은 어떻게 도와 드릴까요?</string>
+    <string name="lp_loading_message">로드 중...</string>
+    <string name="lp_new_message">새 메시지</string>
+    <string name="lp_resend_failed_conversation_closed">이 대화는 이미 해결됐습니다.</string>
+    <string name="lp_resend_failed_masked_message">메시지를 보내지 못했습니다. 메시지를 다시 입력하고 다시 보내십시오.</string>
+    <string name="lp_still_loading_message">아직 대화를 로드 중입니다…</string>
+    <string name="uploading_image">이미지 업로드 중…</string>
+</resources>

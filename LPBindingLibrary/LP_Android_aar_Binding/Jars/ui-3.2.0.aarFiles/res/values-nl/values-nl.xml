@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Bijlage menuknop ingeklapt</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Bijlage menuknop uitgeklapt</string>
+    <string name="lp_accessibility_chat_message">Chatbericht</string>
+    <string name="lp_accessibility_message_preview_close_description">Sluit</string>
+    <string name="lp_enter_message">Typ een bericht…</string>
+    <string name="lp_message_time_min_ago">%1$s min. geleden</string>
+    <string name="lp_message_time_now">Nu</string>
+    <string name="lp_message_time_now_with_state">Nu</string>
+    <string name="lp_no_network_toast_message">Geen internetverbinding. Controleer uw verbinding en probeer het opnieuw.</string>
+    <string name="lp_send">Verstuur</string>
+    <string name="lp_today">Vandaag</string>
+    <string name="lp_yesterday">Gisteren</string>
+</resources>

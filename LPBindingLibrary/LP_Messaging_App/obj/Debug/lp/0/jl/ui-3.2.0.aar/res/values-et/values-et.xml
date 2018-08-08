@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Manusemenüü nupp ahendatud</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Manusemenüü nupp laiendatud</string>
+    <string name="lp_accessibility_chat_message">Vestluse sõnum</string>
+    <string name="lp_accessibility_message_preview_close_description">Sulge</string>
+    <string name="lp_enter_message">Kirjutage sõnum</string>
+    <string name="lp_message_time_min_ago">%1$s min eest</string>
+    <string name="lp_message_time_now">Nüüd</string>
+    <string name="lp_message_time_now_with_state">Nüüd</string>
+    <string name="lp_no_network_toast_message">Internetiühendus puudub. Looge internetiühendus ja proovige uuesti.</string>
+    <string name="lp_send">Saada</string>
+    <string name="lp_today">Täna</string>
+    <string name="lp_yesterday">Eile</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Εστάλη"</item>
+        <item>"Παραδόθηκε"</item>
+        <item>"Διαβάστηκε"</item>
+        <item>"Δεν παραδόθηκε"</item>
+        <item>"Γίνεται αποστολή"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s ημέρα"</item>
+        <item quantity="other">" %1$s ημέρες"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s ώρα"</item>
+        <item quantity="other">" %1$s ώρες"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s λεπτό"</item>
+        <item quantity="other">" %1$s λεπτά"</item>
+    </plurals>
+    <string name="brand_name">Η Επωνυμία μου</string>
+    <string name="lp_accessibility_agent">Πράκτορας</string>
+    <string name="lp_accessibility_agent_icon">Εικονίδιο Πράκτορα</string>
+    <string name="lp_accessibility_agent_is_typing">Ο εκπρόσωπος πληκτρολογεί</string>
+    <string name="lp_accessibility_attachment_menu">Μενού Συνημμένων</string>
+    <string name="lp_accessibility_camera">Κάμερα</string>
+    <string name="lp_accessibility_full_image">Πλήρης εικόνα</string>
+    <string name="lp_accessibility_gallery">Έκθεση</string>
+    <string name="lp_accessibility_image">Εικόνα</string>
+    <string name="lp_accessibility_image_caption">Λεζάντα εικόνας</string>
+    <string name="lp_accessibility_is_typing">%1$s πληκτρολογεί</string>
+    <string name="lp_accessibility_new_agent_message">Νέο μήνυμα πράκτορα: </string>
+    <string name="lp_accessibility_new_system_message">Νέο μήνυμα συστήματος: </string>
+    <string name="lp_accessibility_photo">photo</string>
+    <string name="lp_accessibility_photo_preview">Προεπισκόπηση φωτογραφίας</string>
+    <string name="lp_accessibility_received">ελήφθη</string>
+    <string name="lp_accessibility_resend">Αποστολή ξανά</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">κύλιση προς τα κάτω</string>
+    <string name="lp_accessibility_selected">επελέγη</string>
+    <string name="lp_accessibility_you">Εσείς</string>
+    <string name="lp_add_a_caption">Προσθέστε μια λεζάντα</string>
+    <string name="lp_attachment_menu_camera_item_text">Κάμερα</string>
+    <string name="lp_attachment_menu_gallery_item_text">Έκθεση</string>
+    <string name="lp_cancel">Ακύρωση</string>
+    <string name="lp_clear_history_dialog_message">Όλο το ιστορικό των συνομιλιών σας θα χαθεί. Είστε σίγουροι;</string>
+    <string name="lp_clear_history_dialog_positive_button">Εκκαθάριση</string>
+    <string name="lp_clear_history_dialog_title">Εκκαθάριση ιστορικού</string>
+    <string name="lp_clear_history_menu_text">Εκκαθάριση ιστορικού</string>
+    <string name="lp_connection_status_connecting">Γίνεται σύνδεση…</string>
+    <string name="lp_connection_status_failed_to_connect">Αποτυχία σύνδεσης στο διακομιστή. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Χωρίς σύνδεση. Παρακαλούμε ελέγξτε τη σύνδεσή σας.</string>
+    <string name="lp_connection_status_trying_to_connect">Γίνεται προσπάθεια σύνδεσης…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Παράβλεψη επείγουσας κατάστασης</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Παράβλεψη\nεπείγουσας κατάστασης</string>
+    <string name="lp_dismiss_urgent_dialog_header">Είστε σίγουροι ότι θέλετε να επισημάνετε αυτήν τη συνομιλία ως μη επείγουσα;</string>
+    <string name="lp_dismiss_urgent_dialog_message">Αυτό σημαίνει ότι η συζήτηση θα έχει κανονική προτεραιότητα.</string>
+    <string name="lp_done">Τέλος</string>
+    <string name="lp_end">Τέλος</string>
+    <string name="lp_end_conversation">Ολοκλήρωση συνομιλίας</string>
+    <string name="lp_end_conversation_first">Ολοκληρώστε πρώτα τη συνομιλία.</string>
+    <string name="lp_failed_download_toast_message">Αποτυχία λήψης αρχείου</string>
+    <string name="lp_failed_upload_toast_message">Αποτυχία μεταφόρτωσης αρχείου</string>
+    <string name="lp_feedback_1">Καθόλου ικανοποιητική</string>
+    <string name="lp_feedback_2">Μη ικανοποιητική</string>
+    <string name="lp_feedback_3">Κανένα από τα δύο</string>
+    <string name="lp_feedback_4">Ικανοποιητική</string>
+    <string name="lp_feedback_5">Πολύ ικανοποιητική</string>
+    <string name="lp_feedback_question">Πώς θα αξιολογούσατετην επαφή που είχατε με τον εκπρόσωπό μας;</string>
+    <string name="lp_feedback_submit">Υποβολή</string>
+    <string name="lp_feedback_submit_message">Τα σχόλια που παρέχετε μας βοηθούν να βελτιώσουμε την εξυπηρέτησή σας.\nΔεν θα κοινοποιηθούν σε κανέναν εκπρόσωπο της εξυπηρέτησης πελατών.</string>
+    <string name="lp_feedback_thank_you">Η έρευνα υποβλήθηκε με επιτυχία.\nΕυχαριστούμε!</string>
+    <string name="lp_feedback_yesno_negative_title">Όχι</string>
+    <string name="lp_feedback_yesno_positive_title">Ναι</string>
+    <string name="lp_feedback_yesno_question">Μπορέσαμε να επιλύσουμε το πρόβλημα που αντιμετωπίζατε σήμερα;</string>
+    <string name="lp_is_typing">πληκτρολογεί...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Είστε σίγουροι ότι αυτό το θέμα ολοκληρώθηκε;</string>
+    <string name="lp_mark_as_resolved_menu_text">Επισήμανση ως επιλυμένο</string>
+    <string name="lp_mark_as_urgent_dialog_header">Είστε σίγουροι ότι θέλετε να επισημάνετε αυτήν τη συζήτηση ως επείγουσα;</string>
+    <string name="lp_mark_as_urgent_dialog_message">Αυτό σημαίνει ότι η συζήτηση θα έχει κορυφαία προτεραιότητα.</string>
+    <string name="lp_mark_as_urgent_menu_text">Επισήμανση ως επείγουσα</string>
+    <string name="lp_menu_copy">Αντιγραφή</string>
+    <string name="lp_menu_send_image">Αποστολή</string>
+    <string name="lp_new_messages">νέα μηνύματα</string>
+    <string name="lp_no_action_not_available_toast_message">Η ενέργεια δεν είναι διαθέσιμη - δεν υπάρχει ανοιχτή συνομιλία</string>
+    <string name="lp_no_network_toast_message">Δεν υπάρχει σύνδεση στο Internet. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Αποστολή</string>
+    <string name="lp_skip">Παράλειψη</string>
+    <string name="lp_tap_to_add_a_caption">Αγγίξτε για να προσθέσετε λεζάντα</string>
+    <string name="lp_today">"Σημερα"</string>
+    <string name="lp_ttr_message_no_timestamp">Ένας εκπρόσωπος θα απαντήσει σύντομα</string>
+    <string name="lp_ttr_message_off_hours_message">Μήνυμα:Σας ευχαριστούμε για το μήνυμα. Θα είμαστε σε σύνδεση ξανά την %1$s στις %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Σας ευχαριστούμε για το μήνυμα. Θα είμαστε σε σύνδεση ξανά σήμερα στις %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Σας ευχαριστούμε για το μήνυμα. Θα είμαστε σε σύνδεση ξανά αύριο στις %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">Ένας εκπρόσωπος θα απαντήσει σε %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Συμπλήρωση φόρμας</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">ΠΑΡΑΜΟΝΗ</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Εάν κλείσετε τη φόρμα ασφαλείας, δεν θα μπορέσετε να έχετε ξανά πρόσβαση σε αυτήν.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Είστε βέβαιοι;</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Παρουσιάστηκε πρόβλημα κατά το άνοιγμα της φόρμας. Ζητήστε από τον εκπρόσωπο να σας στείλει ξανά τη φόρμα.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Η φόρμα ασφαλείας έχει λήξει. Ζητήστε από τον εκπρόσωπο να σας στείλει ξανά τη φόρμα.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Αυτή η φόρμα έχει υποβληθεί και δεν μπορεί να ανοίξει ξανά για λόγους ασφαλείας.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Αυτή είναι μια φόρμα ασφαλείας. Οι πληροφορίες που εισάγετε εδώ προστατεύονται και δεν είναι δυνατή η πρόσβαση σε αυτές μετά την υποβολή τους.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Έχετε προβάλει ήδη αυτήν τη φόρμα. Ζητήστε από τον εκπρόσωπο να σας στείλει ξανά τη φόρμα.</string>
+</resources>

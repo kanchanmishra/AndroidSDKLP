@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d ULÆST MEDDELELSE"</item>
+       <item quantity="other">"%1$d ULÆSTE MEDDELELSER "</item>
+    </plurals>
+    <string name="downloading_image">Downloader billede...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Samtale afsluttet af medarbejder\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Samtale løst af %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Samtale løst af dig\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Kunne ikke hente fil</string>
+    <string name="lp_failed_upload_toast_message">Kunne ikke overføre fil</string>
+    <string name="lp_first_message">Hvad kan jeg hjælpe dig med?</string>
+    <string name="lp_loading_message">Indlæser...</string>
+    <string name="lp_new_message">Ny besked</string>
+    <string name="lp_resend_failed_conversation_closed">Samtalen er allerede løst.</string>
+    <string name="lp_resend_failed_masked_message">Beskeden kunne ikke sendes. Indtast beskeden og send igen.</string>
+    <string name="lp_still_loading_message">Indlæser stadig conversation…</string>
+    <string name="uploading_image">Uploader billede...</string>
+</resources>

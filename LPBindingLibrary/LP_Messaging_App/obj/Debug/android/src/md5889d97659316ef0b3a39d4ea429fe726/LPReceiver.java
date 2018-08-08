@@ -23,11 +23,11 @@ public class LPReceiver
 			mono.android.TypeManager.Activate ("LP_Messaging_App.LPReceiver, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public LPReceiver (android.content.Context p0, boolean p1)
+	public LPReceiver (android.content.Context p0, boolean p1, android.content.Intent p2)
 	{
 		super ();
 		if (getClass () == LPReceiver.class)
-			mono.android.TypeManager.Activate ("LP_Messaging_App.LPReceiver, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:System.Boolean, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("LP_Messaging_App.LPReceiver, LP_Messaging_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:System.Boolean, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:Android.Content.Intent, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

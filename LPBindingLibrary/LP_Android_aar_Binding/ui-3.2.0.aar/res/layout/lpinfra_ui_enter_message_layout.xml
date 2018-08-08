@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/lpui_drop_preview_view"
+        layout="@layout/lpinfra_ui_enter_message_preview_content_layout"
+        android:gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <!--This was configurable before but is now visible only-->
+    <View
+        android:id="@+id/lpui_enter_message_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/enter_message_top_separator_color"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/lpui_base_enter_message"
+        layout="@layout/lpinfra_ui_enter_message_with_mic_layout"/>
+
+</LinearLayout>

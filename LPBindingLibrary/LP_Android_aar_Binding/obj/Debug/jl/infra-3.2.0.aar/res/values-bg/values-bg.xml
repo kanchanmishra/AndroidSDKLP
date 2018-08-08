@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_system_message_client_only_masked">Личните Ви данни са маскирани за защита на Вашата сигурност. Само представителят може да ги прочете.</string>
+    <string name="lp_system_message_real_time_masked">Личните Ви данни са маскирани за защита на Вашата сигурност и не могат да бъдат прочетени от представителя.</string>
+</resources>

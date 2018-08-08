@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">附件功能表按鈕已摺疊</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">附件功能表按鈕已展開</string>
+    <string name="lp_accessibility_chat_message">聊天訊息</string>
+    <string name="lp_accessibility_message_preview_close_description">關閉</string>
+    <string name="lp_enter_message">撰寫訊息</string>
+    <string name="lp_message_time_min_ago">%1$s 分鐘前</string>
+    <string name="lp_message_time_now">現在</string>
+    <string name="lp_message_time_now_with_state">現在</string>
+    <string name="lp_no_network_toast_message">無網際網路連線。請檢查連線然後再試一次。</string>
+    <string name="lp_send">傳送</string>
+    <string name="lp_today">「今天」</string>
+    <string name="lp_yesterday">昨天</string>
+</resources>

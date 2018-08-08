@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">अटैचमेंट मेन्यू बटन सिकुड़ गया</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">अटैचमेंट मेन्यू बटन बढ़ गया</string>
+    <string name="lp_accessibility_chat_message">चैट मेसेज</string>
+    <string name="lp_accessibility_message_preview_close_description">बंद करें</string>
+    <string name="lp_enter_message">संदेश लिखें</string>
+    <string name="lp_message_time_min_ago">%1$s मिनट पहले</string>
+    <string name="lp_message_time_now">अभी</string>
+    <string name="lp_message_time_now_with_state">अभी</string>
+    <string name="lp_no_network_toast_message">कोई इंटरनेट कनेक्शन नहीं कृपया अपना कनेक्शन जांचें और पुनः प्रयास करें।</string>
+    <string name="lp_send">भेजें</string>
+    <string name="lp_today">"आज"</string>
+    <string name="lp_yesterday">बीता कल</string>
+</resources>

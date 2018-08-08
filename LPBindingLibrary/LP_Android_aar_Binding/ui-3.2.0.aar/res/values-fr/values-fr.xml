@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Bouton du menu Pièces jointes réduit</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Bouton du menu Pièces jointes développé</string>
+    <string name="lp_accessibility_chat_message">Message de conversation</string>
+    <string name="lp_accessibility_message_preview_close_description">Fermer</string>
+    <string name="lp_enter_message">Écrire un message</string>
+    <string name="lp_message_time_min_ago">Il y a %1$s min </string>
+    <string name="lp_message_time_now">Maintenant</string>
+    <string name="lp_message_time_now_with_state">Maintenant</string>
+    <string name="lp_no_network_toast_message">Aucune connexion Internet. Veuillez vérifier votre connexion et réessayer.</string>
+    <string name="lp_send">Envoyer</string>
+    <string name="lp_today">"Aujourd’hui"</string>
+    <string name="lp_yesterday">Hier</string>
+</resources>

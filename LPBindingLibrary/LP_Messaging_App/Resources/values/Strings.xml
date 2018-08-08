@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">LP_Messaging_App</string>
+  <string name="lp_google_maps_key"></string>
+
+  <style name="SDKAppTheme" ></style>
 </resources>

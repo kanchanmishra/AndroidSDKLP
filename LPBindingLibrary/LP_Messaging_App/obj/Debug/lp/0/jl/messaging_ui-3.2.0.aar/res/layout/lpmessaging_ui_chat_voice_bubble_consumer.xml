@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lpmessaging_ui_background_color_selector"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_half">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_regular">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end|bottom"
+            app:layout_widthPercent="75%">
+
+            <!--todo nn : get all dimensions from dimens file-->
+
+            <include
+                layout="@layout/lpmessaging_ui_status_image" />
+
+            <android.support.constraint.ConstraintLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lpmessaging_ui_consumer_bubble_background">
+
+
+                <ImageView
+                    android:id="@+id/lpui_voice_play_pause_button"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:elevation="@dimen/margin_half"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/lp_messaging_ui_ic_voice_play" />
+
+                <ImageView
+                    android:id="@+id/lpui_message_status_image"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:elevation="@dimen/margin_half"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/lpmessaging_ui_voice_download" />
+
+                <ProgressBar
+                    android:id="@+id/lpui_voice_play_progress_bar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:progressTint="@color/lp_light_blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lpui_message_status_image"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.liveperson.infra.ui.view.ui.CustomTextView
+                    android:id="@+id/lpui_voice_duration_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="00:00"
+                    android:textSize="@dimen/small_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lpui_voice_play_progress_bar" />
+
+                <!--This is here just to be the same as other consumer messages (some base classes use this)-->
+                <com.liveperson.infra.ui.view.ui.CustomTextView
+                    android:id="@+id/lpui_message_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/LpConsumerMessageStyle"
+                    android:text="This is the image of the item"
+                    android:importantForAccessibility="no"
+                    app:font_name="@string/custom_font_name_conversation_feed"
+                    android:visibility="gone"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <include
+        layout="@layout/lpmessaging_ui_status_text"/>
+
+</LinearLayout>

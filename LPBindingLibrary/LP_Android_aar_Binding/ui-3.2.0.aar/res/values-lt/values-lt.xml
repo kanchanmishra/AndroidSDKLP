@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Priedų sąrašo mygtukas suskleistas</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Priedų sąrašo mygtukas išskleistas</string>
+    <string name="lp_accessibility_chat_message">Čato pranešimas</string>
+    <string name="lp_accessibility_message_preview_close_description">Užverti</string>
+    <string name="lp_enter_message">Rašyti žinutę</string>
+    <string name="lp_message_time_min_ago">Prieš %1$s min.</string>
+    <string name="lp_message_time_now">Dabar</string>
+    <string name="lp_message_time_now_with_state">Dabar</string>
+    <string name="lp_no_network_toast_message">Nėra interneto ryšio. Patikrinkite savo ryšį ir bandykite vėl.</string>
+    <string name="lp_send">Siųsti</string>
+    <string name="lp_today">Šiandien</string>
+    <string name="lp_yesterday">Vakar</string>
+</resources>

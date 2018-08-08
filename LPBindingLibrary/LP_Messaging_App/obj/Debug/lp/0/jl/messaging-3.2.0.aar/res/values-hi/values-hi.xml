@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d बिना पढ़ा मेसेज"</item>
+       <item quantity="other">"%1$d बिना पढ़े मेसेज"</item>
+    </plurals>
+    <string name="downloading_image">छवि डाउनलोड कर रहा है...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"एजेंट द्वारा चर्चा का समाधान किया गया\n%1$s "</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"बातचीत समापनकर्ता %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"आपके द्वारा चर्चा का समाधान किया गया\n%1$s "</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">फाइल डाउनलोड करने में असफल</string>
+    <string name="lp_failed_upload_toast_message">फाइल अपलोड करने में असफल</string>
+    <string name="lp_first_message">मैं आज आपकी क्या सहायता कर सकता हूँ?</string>
+    <string name="lp_loading_message">लोड हो रहा है...</string>
+    <string name="lp_resend_failed_conversation_closed">इस चर्चा का पहले ही समाधान हो चुका है। </string>
+    <string name="lp_resend_failed_masked_message">संदेश प्रेषण विफल रहा। कृपया संदेश पुनः दर्ज करें और फिर से भेजें।</string>
+    <string name="lp_still_loading_message">अभी भी बातचीत लाई जा रही है…</string>
+    <string name="uploading_image">छवि अपलोड कर रहा है...</string>
+</resources>

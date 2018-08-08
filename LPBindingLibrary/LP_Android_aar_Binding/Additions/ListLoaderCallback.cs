@@ -17,7 +17,7 @@ namespace Com.Liveperson.Infra.Messaging_ui.Uicomponents
 {
     public partial class ChatMessageRecyclerView
     {
-        public partial class ListLoaderCallback : Android.Support.V4.App.LoaderManager.ILoaderCallbacks
+        public partial class ListLoaderCallback //: Android.Support.V4.App.LoaderManager.ILoaderCallbacks
         {
             public IntPtr Handle => throw new NotImplementedException();
 
@@ -30,16 +30,18 @@ namespace Com.Liveperson.Infra.Messaging_ui.Uicomponents
             //{
             //    throw new NotImplementedException();
             //}
+            
 
             public void OnLoadFinished(Android.Support.V4.Content.Loader loader, Java.Lang.Object data)
             {
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
             }
 
-            Android.Support.V4.Content.Loader Android.Support.V4.App.LoaderManager.ILoaderCallbacks.OnCreateLoader(int id, Bundle args)
-            {
-                throw new NotImplementedException();
-            }
+            //public Android.Support.V4.Content.Loader OnCreateLoader(int id, Bundle args)
+            //{
+            //    //throw new NotImplementedException();
+            //    return OnCreateLoader( id,  args);
+            //}
         }
     }
 }

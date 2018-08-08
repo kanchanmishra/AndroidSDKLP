@@ -80,7 +80,7 @@ namespace Com.Liveperson.Infra.Messaging_ui.Uicomponents {
 			static IntPtr id_onCreateLoader_ILandroid_os_Bundle_;
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.infra.messaging_ui.uicomponents']/class[@name='ChatMessageRecyclerView.ListLoaderCallback']/method[@name='onCreateLoader' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.os.Bundle']]"
 			[Register ("onCreateLoader", "(ILandroid/os/Bundle;)Landroid/support/v4/content/CursorLoader;", "GetOnCreateLoader_ILandroid_os_Bundle_Handler")]
-			public virtual unsafe global::Android.Support.V4.Content.CursorLoader OnCreateLoader (int p0, global::Android.OS.Bundle p1)
+			public virtual unsafe global::Android.Support.V4.Content.Loader OnCreateLoader (int p0, global::Android.OS.Bundle p1)
 			{
 				if (id_onCreateLoader_ILandroid_os_Bundle_ == IntPtr.Zero)
 					id_onCreateLoader_ILandroid_os_Bundle_ = JNIEnv.GetMethodID (class_ref, "onCreateLoader", "(ILandroid/os/Bundle;)Landroid/support/v4/content/CursorLoader;");
@@ -89,11 +89,11 @@ namespace Com.Liveperson.Infra.Messaging_ui.Uicomponents {
 					__args [0] = new JValue (p0);
 					__args [1] = new JValue (p1);
 
-					global::Android.Support.V4.Content.CursorLoader __ret;
+					global::Android.Support.V4.Content.Loader __ret;
 					if (((object) this).GetType () == ThresholdType)
-						__ret = global::Java.Lang.Object.GetObject<global::Android.Support.V4.Content.CursorLoader> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_onCreateLoader_ILandroid_os_Bundle_, __args), JniHandleOwnership.TransferLocalRef);
+						__ret = global::Java.Lang.Object.GetObject<global::Android.Support.V4.Content.Loader> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_onCreateLoader_ILandroid_os_Bundle_, __args), JniHandleOwnership.TransferLocalRef);
 					else
-						__ret = global::Java.Lang.Object.GetObject<global::Android.Support.V4.Content.CursorLoader> (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "onCreateLoader", "(ILandroid/os/Bundle;)Landroid/support/v4/content/CursorLoader;"), __args), JniHandleOwnership.TransferLocalRef);
+						__ret = global::Java.Lang.Object.GetObject<global::Android.Support.V4.Content.Loader> (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "onCreateLoader", "(ILandroid/os/Bundle;)Landroid/support/v4/content/CursorLoader;"), __args), JniHandleOwnership.TransferLocalRef);
 					return __ret;
 				} finally {
 				}

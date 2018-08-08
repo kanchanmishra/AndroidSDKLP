@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>נשלח</item>
+        <item>התקבל</item>
+        <item>נקרא</item>
+        <item>לא נשלח</item>
+        <item>שולח</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s יום"</item>
+        <item quantity="other">" %1$s ימים"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s שעה"</item>
+        <item quantity="other">" %1$s שעות"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s דקה"</item>
+        <item quantity="other">" %1$s דקות"</item>
+    </plurals>
+    <string name="brand_name">המותג שלי</string>
+    <string name="lp_accessibility_agent">נציג</string>
+    <string name="lp_accessibility_agent_icon">תמונת נציג</string>
+    <string name="lp_accessibility_agent_is_typing">הנציג מקליד</string>
+    <string name="lp_accessibility_attachment_menu">תפריט הוספת תמונה</string>
+    <string name="lp_accessibility_camera">מצלמה</string>
+    <string name="lp_accessibility_full_image">תמונה מלאה</string>
+    <string name="lp_accessibility_gallery">גלריית תמונות</string>
+    <string name="lp_accessibility_image">תמונה</string>
+    <string name="lp_accessibility_image_caption">הערת תמונה</string>
+    <string name="lp_accessibility_is_typing">%1$s מקליד</string>
+    <string name="lp_accessibility_new_agent_message">הודעה חדשה מנציג:  </string>
+    <string name="lp_accessibility_new_system_message">הודעת מערכת חדשה: </string>
+    <string name="lp_accessibility_photo">תמונה</string>
+    <string name="lp_accessibility_photo_preview">תצוגה מקדימה</string>
+    <string name="lp_accessibility_received">התקבלה</string>
+    <string name="lp_accessibility_resend">שלח שוב</string>
+    <string name="lp_accessibility_sc_button">כפתור</string>
+    <string name="lp_accessibility_sc_destination">יעד</string>
+    <string name="lp_accessibility_sc_image">תמונה</string>
+    <string name="lp_accessibility_sc_map">מפה</string>
+    <string name="lp_accessibility_sc_text">טקסט</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">גלול למטה</string>
+    <string name="lp_accessibility_selected">נבחר</string>
+    <string name="lp_accessibility_you">אתה</string>
+    <string name="lp_add_a_caption">הוסף הערה</string>
+    <string name="lp_attachment_menu_camera_item_text">מצלמה</string>
+    <string name="lp_attachment_menu_gallery_item_text">גלריית תמונות</string>
+    <string name="lp_cancel">ביטול</string>
+    <string name="lp_clear_history_dialog_message">כל היסטורית השיחות הקיימת תימחק. האם אתה בטוח?</string>
+    <string name="lp_clear_history_dialog_positive_button">נקה</string>
+    <string name="lp_clear_history_dialog_title">נקה היסטוריה</string>
+    <string name="lp_clear_history_menu_text">נקה היסטוריה</string>
+    <string name="lp_connection_status_connecting">מתחבר…</string>
+    <string name="lp_connection_status_failed_to_connect">התחברות לשרת נכשלה <u>נסה שוב</u></string>
+    <string name="lp_connection_status_no_connection">כשלון התחברות. אנא בדוק את החיבור לאינטרנט.</string>
+    <string name="lp_connection_status_trying_to_connect">טעינת השיחה נמשכת…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">סמן כלא דחוף</string>
+    <string name="lp_dismiss_as_urgent_two_lines">סמן כלא דחוף</string>
+    <string name="lp_dismiss_urgent_dialog_header">האם אתה בטוח שאתה מעוניין לסמן את השיחה כלא דחופה?</string>
+    <string name="lp_dismiss_urgent_dialog_message">פנייתך תקבל עדיפות רגילה.</string>
+    <string name="lp_done">סיים</string>
+    <string name="lp_end">סיים</string>
+    <string name="lp_end_conversation">סיים את השיחה</string>
+    <string name="lp_end_conversation_first">אנא סגור את השיחה תחילה.</string>
+    <string name="lp_failed_download_toast_message">הורדה נכשלה</string>
+    <string name="lp_failed_upload_toast_message">העלאת קובץ נכשלה</string>
+    <string name="lp_feedback_1">מאוד לא מרוצה</string>
+    <string name="lp_feedback_2">לא מרוצה</string>
+    <string name="lp_feedback_3">נייטרלי</string>
+    <string name="lp_feedback_4">מרוצה</string>
+    <string name="lp_feedback_5">מאוד מרוצה</string>
+    <string name="lp_feedback_question">כיצד תדרג את שיחתך עם הנציג?</string>
+    <string name="lp_feedback_submit">שלח</string>
+    <string name="lp_feedback_submit_message">המשוב עוזר לנו לשפר את השרות עבורך.\nלא נשתף את המשוב שלך עם אף נציג שירות לקוחות.</string>
+    <string name="lp_feedback_thank_you">השאלון נשלח בהצלחה.\nתודה רבה!</string>
+    <string name="lp_feedback_yesno_negative_title">לא</string>
+    <string name="lp_feedback_yesno_positive_title">כן</string>
+    <string name="lp_feedback_yesno_question">האם פתרנו את הפניה שלך היום?</string>
+    <string name="lp_is_typing">מקליד…</string>
+    <string name="lp_mark_as_resolved_dialog_message">האם אתה בטוח כי ברצונך לסיים את השיחה?</string>
+    <string name="lp_mark_as_resolved_menu_text">סיים שיחה</string>
+    <string name="lp_mark_as_urgent_dialog_header">האם אתה בטוח שאתה מעוניין לסמן את השיחה כדחופה?</string>
+    <string name="lp_mark_as_urgent_dialog_message">פנייתך תקבל עדיפות גבוהה.</string>
+    <string name="lp_mark_as_urgent_menu_text">סמן כדחוף</string>
+    <string name="lp_menu_copy">העתק</string>
+    <string name="lp_menu_send_image">שלח</string>
+    <string name="lp_new_messages">הודעות חדשות</string>
+    <string name="lp_no_action_not_available_toast_message">פעולה לא זמינה. אין שיחה פתוחה.</string>
+    <string name="lp_no_network_toast_message">כשלון התחברות. אנא בדוק את חיבור האינטרנט</string>
+    <string name="lp_ok">אישור</string>
+    <string name="lp_send">שלח</string>
+    <string name="lp_send_photo">שלח תמונה</string>
+    <string name="lp_skip">דלג</string>
+    <string name="lp_structured_content_display_failed">לא ניתן להציג את התוכן</string>
+    <string name="lp_tap_to_add_a_caption">הקלק בשביל להוסיף הערה</string>
+    <string name="lp_today">היום</string>
+    <string name="lp_ttr_message_no_timestamp">תגובה מהנציג תתקבל תוך זמן קצר</string>
+    <string name="lp_ttr_message_off_hours_message">תודה על ההודעה. השירות יחזור לפעול ב%1$s בשעה %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">תודה רבה על הודעתך. נשוב לפעילות היום ב %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">תודה רבה על הודעתך. נשוב לפעילות מחר ב %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">תגובה מהנציג תתקבל בתוך %1$s</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">מילוי הטופס</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">השאר</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">אישור</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">אי השלמת מילוי הטופס תחייב שליחת טופס מחדש.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">האם אתה בטוח?</string>
+    <string name="lpmessaging_ui_secure_form_consumer_submitted_message">הטופס %s נשלח</string>
+    <string name="lpmessaging_ui_secure_form_error_message">לא ניתן לפתוח את הטופס המאובטח. אנא בקש מהנציג שישלח אותו מחדש.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">פג תוקף הטופס המאובטח. אנא בקש מהנציג שישלח את הטופס מחדש.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">על מנת להגן על המידע ששלחת, לא ניתן לפתוח את הטופס לאחר שליחתו.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">זהו טופס מאובטח. על מנת להגן על המידע ששלחת, לא ניתן לפתוח את הטופס לאחר שליחתו.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">הטופס המאובטח כבר נצפה. אנא בקש מהנציג שישלח את הטופס מחדש.</string>
+</resources>

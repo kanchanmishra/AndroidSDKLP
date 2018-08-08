@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d條未讀訊息"</item>
+       <item quantity="other">"%1$d條未讀訊息"</item>
+   </plurals>
+    <string name="downloading_image">正在下載影像...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"專員\n%1$s 已解決對話"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">「對談已由 %1$s\n%2$s 處理完成」</string>
+    <string name="lp_conversation_ended_by_you">「對話已由您處理完成\n%1$s」</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">檔案下載失敗</string>
+    <string name="lp_failed_upload_toast_message">檔案上傳失敗</string>
+    <string name="lp_first_message">我能為您提供哪些協助？</string>
+    <string name="lp_loading_message">載入中…</string>
+    <string name="lp_resend_failed_conversation_closed">此對話已解決。</string>
+    <string name="lp_resend_failed_masked_message">無法傳送訊息。請重新輸入並再次傳送訊息。</string>
+    <string name="lp_still_loading_message">仍在載入交談…</string>
+    <string name="uploading_image">正在上傳影像...</string>
+</resources>

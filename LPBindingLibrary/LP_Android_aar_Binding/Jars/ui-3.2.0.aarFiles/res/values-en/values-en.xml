@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Attachment menu button collapsed</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Attachment menu button expanded</string>
+    <string name="lp_accessibility_chat_message">Chat message</string>
+    <string name="lp_accessibility_message_preview_close_description">Close</string>
+    <string name="lp_enter_message">Write a message</string>
+    <string name="lp_message_time_min_ago">%1$s min ago</string>
+    <string name="lp_message_time_now">Now</string>
+    <string name="lp_message_time_now_with_state">Now</string>
+    <string name="lp_no_network_toast_message">No internet connection. Please check your connection and try again.</string>
+    <string name="lp_send">SEND</string>
+    <string name="lp_today">Today</string>
+    <string name="lp_yesterday">Yesterday</string>
+</resources>

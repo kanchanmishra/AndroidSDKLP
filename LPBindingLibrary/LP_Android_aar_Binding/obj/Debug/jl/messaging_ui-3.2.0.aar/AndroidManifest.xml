@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liveperson.infra.messaging_ui"
+    android:versionCode="320"
+    android:versionName="3.2.0.327" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application>
+        <activity
+            android:name="com.liveperson.infra.messaging_ui.ConversationActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/SDKAppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.liveperson.infra.messaging_ui.screens.CaptionPreviewActivity"
+            android:theme="@style/SDKAppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <provider
+            android:name="com.liveperson.infra.messaging_ui.utils.LpFileProvider"
+            android:authorities="com.liveperson.infra.provider.${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/lp_google_maps_key" />
+    </application>
+
+</manifest>

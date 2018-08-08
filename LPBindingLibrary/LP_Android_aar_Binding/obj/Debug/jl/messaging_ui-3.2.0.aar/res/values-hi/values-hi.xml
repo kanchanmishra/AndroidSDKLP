@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"प्रेषित"</item>
+        <item>"डिलेवर हो गया"</item>
+        <item>"पढ़ें"</item>
+        <item>"डिलेवर नहीं हुआ"</item>
+        <item>"भेजा जा रहा है"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s दिन"</item>
+        <item quantity="other">" %1$s दिन"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s घंटा"</item>
+        <item quantity="other">" %1$s घंटे"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s मिनट"</item>
+        <item quantity="other">" %1$s मिनट"</item>
+    </plurals>
+    <string name="brand_name">मेरा ब्रांड</string>
+    <string name="lp_accessibility_agent">एजेंट</string>
+    <string name="lp_accessibility_agent_icon">एजेंट आइकन</string>
+    <string name="lp_accessibility_agent_is_typing">एजेंट टाइप कर रहा ह</string>
+    <string name="lp_accessibility_attachment_menu">अटैचमेंट मेन्यू</string>
+    <string name="lp_accessibility_camera">कैमरा</string>
+    <string name="lp_accessibility_full_image">फुल इमेज</string>
+    <string name="lp_accessibility_gallery">गैलरी</string>
+    <string name="lp_accessibility_image">इमेज</string>
+    <string name="lp_accessibility_image_caption">इमेज कैप्शन</string>
+    <string name="lp_accessibility_is_typing">%1$s टाइप कर रहा ह</string>
+    <string name="lp_accessibility_new_agent_message">नया एजेंट मेसेजः</string>
+    <string name="lp_accessibility_new_system_message">नया सिस्टम मेसेजः</string>
+    <string name="lp_accessibility_photo">फोटो</string>
+    <string name="lp_accessibility_photo_preview">फोटो प्रिव्यू</string>
+    <string name="lp_accessibility_received">प्राप्त हुआ</string>
+    <string name="lp_accessibility_resend">दोबारा भेजें</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">नीचे स्क्रोल करें</string>
+    <string name="lp_accessibility_selected">चुना गया</string>
+    <string name="lp_accessibility_you">आप</string>
+    <string name="lp_add_a_caption">एक कैप्शन जोड़ें</string>
+    <string name="lp_attachment_menu_camera_item_text">कैमरा</string>
+    <string name="lp_attachment_menu_gallery_item_text">गैलरी</string>
+    <string name="lp_cancel">निरस्त करें</string>
+    <string name="lp_clear_history_dialog_message">आपकी मौजूदा चर्चा का इतिहास समाप्त हो जाएगा। क्या आपको विश्वास है?</string>
+    <string name="lp_clear_history_dialog_positive_button">स्पष्ट</string>
+    <string name="lp_clear_history_dialog_title">इतिहास साफ करें</string>
+    <string name="lp_clear_history_menu_text">इतिहास साफ करें</string>
+    <string name="lp_connection_status_connecting">कनेक्ट किया जा रहा है...</string>
+    <string name="lp_connection_status_failed_to_connect">सर्वर से कनेक्ट करने में अक्षम। <u>दोबारा प्रयास करें</u></string>
+    <string name="lp_connection_status_no_connection">कोई कनेक्शन नहीं। कृपया अपना कनेक्शन जांचें।</string>
+    <string name="lp_connection_status_trying_to_connect">कनेक्ट करने का प्रयास किया जा रहा हैÖ</string>
+    <string name="lp_dismiss_as_urgent_menu_text">तात्कालिकता समाप्त करें</string>
+    <string name="lp_dismiss_as_urgent_two_lines">तात्कालिकता\nसमाप्त करें</string>
+    <string name="lp_dismiss_urgent_dialog_header">क्या आप वाकई इस चर्चा को जरूरी नहीं चिह्नित करना चाहते हैं? </string>
+    <string name="lp_dismiss_urgent_dialog_message">इसका अर्थ है कि आपकी बातचीत को सामान्य वरीयता मिलेगी।</string>
+    <string name="lp_done">हो गया</string>
+    <string name="lp_end">समाप्त</string>
+    <string name="lp_end_conversation">चर्चा सुलझाएं</string>
+    <string name="lp_end_conversation_first">कृपया पहले चर्चा का समाधान करें।</string>
+    <string name="lp_failed_download_toast_message">फाइल डाउनलोड करने में असफल</string>
+    <string name="lp_failed_upload_toast_message">फाइल अपलोड करने में असफल</string>
+    <string name="lp_feedback_1">बेहद असंतुष्ट</string>
+    <string name="lp_feedback_2">असंतुष्ट</string>
+    <string name="lp_feedback_3">कोई भी नहीं</string>
+    <string name="lp_feedback_4">संतुष्ट</string>
+    <string name="lp_feedback_5">बेहद संतुष्ट</string>
+    <string name="lp_feedback_question">हमारे एजेंट के साथ कनेक्शनको आप क्या मूल्यांकन देंगे(गी)</string>
+    <string name="lp_feedback_submit">प्रस्तुत करें</string>
+    <string name="lp_feedback_submit_message">आपकी प्रतिक्रिया हमें आपकी बेहतर सेवा में सहायता करती है।\nइसे किसी ग्राहक सेवा प्रतिनिधि के साथ साझा नहीं किया जाएगा।</string>
+    <string name="lp_feedback_thank_you">सर्वे सफलतापूर्वक प्रस्तुत किया गया।\nधन्यवाद</string>
+    <string name="lp_feedback_yesno_negative_title">नहीं</string>
+    <string name="lp_feedback_yesno_positive_title">हाँ</string>
+    <string name="lp_feedback_yesno_question">क्या हमने आपके मामले को आज हल कर दिया?</string>
+    <string name="lp_is_typing">टाइप कर रहा है...</string>
+    <string name="lp_mark_as_resolved_dialog_message">क्या आपको विश्वास है कि यह विषय सुलझ गया है?</string>
+    <string name="lp_mark_as_resolved_menu_text">समाप्त चिह्नित करें</string>
+    <string name="lp_mark_as_urgent_dialog_header">क्या आप वाकई इस बातचीत को अति आवश्यक चिह्नित करना चाहते(ती) हैं?</string>
+    <string name="lp_mark_as_urgent_dialog_message">इसका अर्थ है कि आपकी बातचीत को शीर्ष वरीयता मिलेगी।</string>
+    <string name="lp_mark_as_urgent_menu_text">अति आवश्यक चिह्नित करें</string>
+    <string name="lp_menu_copy">कॉपी करें</string>
+    <string name="lp_menu_send_image">भेजें</string>
+    <string name="lp_new_messages">नई छवियां</string>
+    <string name="lp_no_action_not_available_toast_message">कार्रवाई उपलब्ध नहीं - कोई खुली चर्चा नहीं</string>
+    <string name="lp_no_network_toast_message">कोई इंटरनेट कनेक्शन नहीं कृपया अपना कनेक्शन जांचें और पुनः प्रयास करें।</string>
+    <string name="lp_ok">ओके</string>
+    <string name="lp_send">भेजें</string>
+    <string name="lp_skip">छोड़ें</string>
+    <string name="lp_tap_to_add_a_caption">एक कैप्शन जोड़ने के लिए टैप करें</string>
+    <string name="lp_today">"आज"</string>
+    <string name="lp_ttr_message_no_timestamp">एक एजेंट जल्दी ही प्रतिक्रिया देगा</string>
+    <string name="lp_ttr_message_off_hours_message">आपके संदेश के लिए धन्यवाद। हम %1$s को वापस %2$s बजे ऑनलाइन होंगे</string>
+    <string name="lp_ttr_message_off_hours_message_today">आपके संदेश के लिए धन्यवाद। हम %1$s पर आज ऑनलाइन वापस आएंगे</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">आपके संदेश के लिए धन्यवाद। हम %1$s पर कल ऑनलाइन वापस आएंगे</string>
+    <string name="lp_ttr_message_with_timestamp">एक एजेंट इस पर अगले %1$s में प्रतिक्रिया करेगा </string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">फार्म भरें</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">रुकें</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">ओके</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">एक बार सिक्योर फार्म छोड़ने बाद, आप इस पर दोबारा नहीं आ पाएंगे।</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">क्या आपको विश्वास है?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">इस फार्म को खोलने में समस्या आयी थी। कृपया एजेंट से फार्म पुनः भेजने को कहें।</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">सिक्योर फार्म की अवधि खत्म हो गयी। कृपया एजेंट से फार्म पुनः भेजने को कहें।</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">यह फार्म प्रस्तुत हो चुका है और सुरक्षा कारणों से फिर से खोला नहीं जा सकता है।</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">यह एक सुरक्षित फॉर्म है यहां दी गयी जानकारी सुरक्षित है तथा देने के बाद दोबारा देखी नहीं जा सकती।</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">यह फार्म पहले ही देखा जा चुका है। कृपया एजेंट से फार्म पुनः भेजने को कहें।</string>
+</resources>

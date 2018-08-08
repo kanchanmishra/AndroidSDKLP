@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Pielikuma izvēlnes poga sakļauta</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Pielikuma izvēlnes poga izvērsta</string>
+    <string name="lp_accessibility_chat_message">Čata ziņojums</string>
+    <string name="lp_accessibility_message_preview_close_description">Aizvērt</string>
+    <string name="lp_enter_message">Rakstīt ziņojumu</string>
+    <string name="lp_message_time_min_ago">Pirms %1$s min</string>
+    <string name="lp_message_time_now">Tikko</string>
+    <string name="lp_message_time_now_with_state">Tikko</string>
+    <string name="lp_no_network_toast_message">Nav interneta savienojuma. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.</string>
+    <string name="lp_send">Sūtīt</string>
+    <string name="lp_today">"Šodien"</string>
+    <string name="lp_yesterday">Vakar</string>
+</resources>

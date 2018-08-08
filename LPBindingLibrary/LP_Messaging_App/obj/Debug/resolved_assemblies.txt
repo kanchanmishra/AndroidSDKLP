@@ -41,8 +41,6 @@ C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Deb
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\Xamarin.GooglePlayServices.Basement.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\Xamarin.GooglePlayServices.Maps.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\Xamarin.GooglePlayServices.Tasks.dll
-C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\Xamarin.Kotlin.StdLib.dll
-C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\Xamarin.Kotlin.StdLib.Jre7.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\System.Threading.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\System.Collections.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Messaging_App\obj\Debug\android\assets\System.Collections.Concurrent.dll

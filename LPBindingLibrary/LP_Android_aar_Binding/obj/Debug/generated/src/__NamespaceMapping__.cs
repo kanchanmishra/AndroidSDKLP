@@ -105,7 +105,6 @@
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.monitoring.requests", Managed="Com.Liveperson.Monitoring.Requests")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.monitoring.sdk.api", Managed="Com.Liveperson.Monitoring.Sdk.Api")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.monitoring.sdk.callbacks", Managed="Com.Liveperson.Monitoring.Sdk.Callbacks")]
-[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.monitoring.sdk.responses", Managed="Com.Liveperson.Monitoring.Sdk.Responses")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.monitoring.utils", Managed="Com.Liveperson.Monitoring.Utils")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.network.http.requests", Managed="Com.Liveperson.Network.Http.Requests")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.liveperson.sdk", Managed="Com.Liveperson.Sdk")]

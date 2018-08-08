@@ -688,25 +688,7 @@
       <constructor deprecated="not deprecated" final="false" name="SubscribeExConversations.Response.Body" static="false" type="com.liveperson.api.request.SubscribeExConversations.Response.Body" visibility="public"></constructor>
       <field deprecated="not deprecated" final="false" name="subscriptionId" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
     </class>
-    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.api.request.AbstractRequest" extends-generic-aware="com.liveperson.api.request.AbstractRequest" final="true" name="SubscribeMessagingEvents" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEvents" static="false" type="com.liveperson.api.request.SubscribeMessagingEvents" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.Integer"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEvents" static="false" type="com.liveperson.api.request.SubscribeMessagingEvents" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.Integer"></parameter>
-        <parameter name="p2" type="int"></parameter>
-        <parameter name="p3" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getConvId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getFromSeq" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getMessageType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="toJson" native="false" return="void" static="false" synchronized="false" visibility="protected">
-        <parameter name="p0" type="org.json.JSONObject"></parameter>
-      </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.api.response.AbstractResponse" extends-generic-aware="com.liveperson.api.response.AbstractResponse&lt;kotlin.Unit&gt;" final="true" name="SubscribeMessagingEvents.Response" static="true" visibility="public">
+    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.api.response.AbstractResponse" extends-generic-aware="com.liveperson.api.response.AbstractResponse" final="true" name="SubscribeMessagingEvents.Response" static="true" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEvents.Response" static="false" type="com.liveperson.api.request.SubscribeMessagingEvents.Response" visibility="public">
         <parameter name="p0" type="org.json.JSONObject"></parameter>
       </constructor>
@@ -963,16 +945,6 @@
       <method abstract="false" deprecated="not deprecated" final="true" name="getTAG" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
       <method abstract="false" deprecated="not deprecated" final="true" name="getType" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public"></method>
       <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.api.response.events.MessagingEventNotification.Companion" type-generic-aware="com.liveperson.api.response.events.MessagingEventNotification.Companion" visibility="public" volatile="false"></field>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MessagingEventNotification.Companion" static="true" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="MessagingEventNotification.Companion" static="false" type="com.liveperson.api.response.events.MessagingEventNotification.Companion" visibility="public">
-        <parameter name="p0" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getMESSAGING_EVENT_NOTIFICATION_TYPE" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getResponseHandler" native="false" return="com.liveperson.messaging.network.socket.MessagingEventNotificationHandler" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="com.liveperson.messaging.Messaging"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
     </class>
   </package>
   <package name="com.liveperson.api.response.model">
@@ -3997,7 +3969,7 @@
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChatMessageRecyclerView.ListLoaderCallback" static="false" visibility="public">
       <implements name="android.support.v4.app.LoaderManager.LoaderCallbacks" name-generic-aware="android.support.v4.app.LoaderManager.LoaderCallbacks&lt;android.database.Cursor&gt;"></implements>
       <constructor deprecated="not deprecated" final="false" name="ChatMessageRecyclerView.ListLoaderCallback" static="false" type="com.liveperson.infra.messaging_ui.uicomponents.ChatMessageRecyclerView.ListLoaderCallback" visibility="public"></constructor>
-      <method abstract="false" deprecated="not deprecated" final="false" name="onCreateLoader" native="false" return="android.support.v4.content.CursorLoader" static="false" synchronized="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCreateLoader" native="false" return="android.support.v4.content.CursorLoader" static="false" synchronized="false" visibility="public" managedReturn="Android.Support.V4.Content.Loader">
         <parameter name="p0" type="int"></parameter>
         <parameter name="p1" type="android.os.Bundle"></parameter>
       </method>
@@ -10885,17 +10857,6 @@
       </method>
       <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.messaging.commands.tasks.MessagingEventSubscriptionManager.Companion" type-generic-aware="com.liveperson.messaging.commands.tasks.MessagingEventSubscriptionManager.Companion" visibility="public" volatile="false"></field>
     </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MessagingEventSubscriptionManager.Companion" static="true" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="MessagingEventSubscriptionManager.Companion" static="false" type="com.liveperson.messaging.commands.tasks.MessagingEventSubscriptionManager.Companion" visibility="public">
-        <parameter name="p0" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getERROR_MESSAGE" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getMESSAGE_EVENT_COMPLETED" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getSUCCESS" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-    </class>
     <class abstract="false" deprecated="not deprecated" extends="com.liveperson.messaging.commands.tasks.BaseAmsAccountConnectionTask" extends-generic-aware="com.liveperson.messaging.commands.tasks.BaseAmsAccountConnectionTask" final="false" name="OpenSocketTask" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="OpenSocketTask" static="false" type="com.liveperson.messaging.commands.tasks.OpenSocketTask" visibility="public">
         <parameter name="p0" type="com.liveperson.messaging.controller.AccountsController"></parameter>
@@ -14255,36 +14216,6 @@
       <method abstract="false" deprecated="not deprecated" final="false" name="onTaskSuccess" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExConversationChangeNotificationResponseHandler.7" static="true" visibility="" />
-    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.network.socket.BaseResponseHandler" extends-generic-aware="com.liveperson.infra.network.socket.BaseResponseHandler&lt;com.liveperson.api.response.events.MessagingEventNotification, com.liveperson.infra.network.socket.BaseSocketRequest&lt;?, ?&gt;&gt;" final="true" name="MessagingEventNotificationHandler" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="MessagingEventNotificationHandler" static="false" type="com.liveperson.messaging.network.socket.MessagingEventNotificationHandler" visibility="public">
-        <parameter name="p0" type="com.liveperson.messaging.Messaging"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="extractLinks" native="false" return="java.lang.String[]" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getAPIResponseType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getMController$messaging_debug" native="false" return="com.liveperson.messaging.Messaging" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getTAG" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="handle" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
-        <parameter name="p0" type="com.liveperson.api.response.events.MessagingEventNotification"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="parse" native="false" return="com.liveperson.api.response.events.MessagingEventNotification" static="false" synchronized="false" visibility="protected">
-        <parameter name="p0" type="org.json.JSONObject"></parameter>
-        <exception name="JSONException" type="org.json.JSONException"></exception>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setMController$messaging_debug" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="com.liveperson.messaging.Messaging"></parameter>
-      </method>
-      <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.messaging.network.socket.MessagingEventNotificationHandler.Companion" type-generic-aware="com.liveperson.messaging.network.socket.MessagingEventNotificationHandler.Companion" visibility="public" volatile="false"></field>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MessagingEventNotificationHandler.Companion" static="true" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="MessagingEventNotificationHandler.Companion" static="false" type="com.liveperson.messaging.network.socket.MessagingEventNotificationHandler.Companion" visibility="public">
-        <parameter name="p0" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getAGENT_TYPING_ACTION" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getAGENT_TYPING_ACTION_IS_TYPING_EXTRA" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getORIGINATOR_ID_EXTRA" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-    </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MessagingEventNotificationHandler.WhenMappings" static="false" visibility="public" obfuscated="false">
       <field deprecated="not deprecated" final="true" name="$EnumSwitchMapping$0" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false"></field>
       <field deprecated="not deprecated" final="true" name="$EnumSwitchMapping$1" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false"></field>
@@ -14803,25 +14734,6 @@
         <parameter name="p0" type="org.json.JSONObject"></parameter>
         <exception name="JSONException" type="org.json.JSONException"></exception>
       </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.api.request.BaseAMSSocketRequest" extends-generic-aware="com.liveperson.api.request.BaseAMSSocketRequest&lt;com.liveperson.api.request.SubscribeMessagingEvents.Response, com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest&gt;" final="true" name="SubscribeMessagingEventsRequest" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEventsRequest" static="false" type="com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.Integer"></parameter>
-        <parameter name="p3" type="int"></parameter>
-        <parameter name="p4" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEventsRequest" static="false" type="com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.Integer"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getConversationId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getFromSeq" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getResponseHandler" native="false" return="com.liveperson.infra.network.socket.BaseResponseHandler&lt;com.liveperson.api.request.SubscribeMessagingEvents.Response, com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest&gt;" static="false" synchronized="false" visibility="protected"></method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="com.liveperson.infra.network.socket.BaseResponseHandler" extends-generic-aware="com.liveperson.infra.network.socket.BaseResponseHandler&lt;com.liveperson.api.request.SubscribeMessagingEvents.Response, com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest&gt;" final="true" name="SubscribeMessagingEventsRequest.SubscribeMessagingEventsResponseHandler" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="SubscribeMessagingEventsRequest.SubscribeMessagingEventsResponseHandler" static="false" type="com.liveperson.messaging.network.socket.requests.SubscribeMessagingEventsRequest.SubscribeMessagingEventsResponseHandler" visibility="public"></constructor>
@@ -15669,53 +15581,6 @@
     </class>
   </package>
   <package name="com.liveperson.monitoring.model">
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="EngagementDetails" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="EngagementDetails" static="false" type="com.liveperson.monitoring.model.EngagementDetails" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-        <parameter name="p3" type="java.lang.String"></parameter>
-        <parameter name="p4" type="java.lang.String"></parameter>
-        <parameter name="p5" type="java.lang.String"></parameter>
-        <parameter name="p6" type="java.lang.String"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="EngagementDetails" static="false" type="com.liveperson.monitoring.model.EngagementDetails" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-        <parameter name="p3" type="java.lang.String"></parameter>
-        <parameter name="p4" type="java.lang.String"></parameter>
-        <parameter name="p5" type="java.lang.String"></parameter>
-        <parameter name="p6" type="java.lang.String"></parameter>
-        <parameter name="p7" type="int"></parameter>
-        <parameter name="p8" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getCampaignId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getConnectorId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getContextId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getConversationId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getEngagementId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getEngagementRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getStatus" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setConnectorId" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setConversationId" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setStatus" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-      <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.monitoring.model.EngagementDetails.Companion" type-generic-aware="com.liveperson.monitoring.model.EngagementDetails.Companion" visibility="public" volatile="false"></field>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="EngagementDetails.Companion" static="true" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="EngagementDetails.Companion" static="false" type="com.liveperson.monitoring.model.EngagementDetails.Companion" visibility="public">
-        <parameter name="p0" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="invoke" native="false" return="com.liveperson.monitoring.model.EngagementDetails" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="org.json.JSONObject"></parameter>
-      </method>
-    </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="EngagementWithSession" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="EngagementWithSession" static="false" type="com.liveperson.monitoring.model.EngagementWithSession" visibility="public">
         <parameter name="p0" type="java.lang.String"></parameter>
@@ -15731,29 +15596,6 @@
         <parameter name="p0" type="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;"></parameter>
       </method>
       <field deprecated="not deprecated" final="true" name="Companion" static="true" transient="false" type="com.liveperson.monitoring.model.EngagementWithSession.Companion" type-generic-aware="com.liveperson.monitoring.model.EngagementWithSession.Companion" visibility="public" volatile="false"></field>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="EngagementWithSession.Companion" static="true" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="EngagementWithSession.Companion" static="false" type="com.liveperson.monitoring.model.EngagementWithSession.Companion" visibility="public">
-        <parameter name="p0" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="invoke" native="false" return="com.liveperson.monitoring.model.EngagementWithSession" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="LPMonitoringIdentity" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="LPMonitoringIdentity" static="false" type="com.liveperson.monitoring.model.LPMonitoringIdentity" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="int"></parameter>
-        <parameter name="p3" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPMonitoringIdentity" static="false" type="com.liveperson.monitoring.model.LPMonitoringIdentity" visibility="public"></constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPMonitoringIdentity" static="false" type="com.liveperson.monitoring.model.LPMonitoringIdentity" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getConsumerId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getIssuer" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ModelKeyNames" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="ModelKeyNames" static="false" type="com.liveperson.monitoring.model.ModelKeyNames" visibility="public"></constructor>
@@ -15932,54 +15774,7 @@
       </method>
     </interface>
   </package>
-  <package name="com.liveperson.monitoring.sdk.responses">
-    <class abstract="false" deprecated="not deprecated" extends="com.liveperson.monitoring.sdk.responses.LPSdeResponse" extends-generic-aware="com.liveperson.monitoring.sdk.responses.LPSdeResponse" final="true" name="LPEngagementResponse" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="LPEngagementResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPEngagementResponse" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-        <parameter name="p3" type="java.util.List"></parameter>
-        <parameter name="p4" type="int"></parameter>
-        <parameter name="p5" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPEngagementResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPEngagementResponse" visibility="public">
-        <parameter name="p0" type="com.liveperson.monitoring.model.EngagementWithSession"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPEngagementResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPEngagementResponse" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-        <parameter name="p3" type="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getEngagementDetailsList" native="false" return="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setEngagementDetailsList" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.util.List&lt;com.liveperson.monitoring.model.EngagementDetails&gt;"></parameter>
-      </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LPSdeResponse" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="LPSdeResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPSdeResponse" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPSdeResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPSdeResponse" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="java.lang.String"></parameter>
-        <parameter name="p2" type="java.lang.String"></parameter>
-        <parameter name="p3" type="int"></parameter>
-        <parameter name="p4" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="LPSdeResponse" static="false" type="com.liveperson.monitoring.sdk.responses.LPSdeResponse" visibility="public">
-        <parameter name="p0" type="com.liveperson.monitoring.model.EngagementWithSession"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getPageId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getSessionId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getVisitorId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="setPageId" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-      </method>
-    </class>
-  </package>
+  <package name="com.liveperson.monitoring.sdk.responses" />
   <package name="com.liveperson.monitoring.utils">
     <interface abstract="true" deprecated="not deprecated" final="false" name="Clearable" static="false" visibility="public">
       <method abstract="true" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
@@ -16066,32 +15861,6 @@
       <method abstract="false" deprecated="not deprecated" final="true" name="getAccountId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
       <method abstract="false" deprecated="not deprecated" final="true" name="getAppInstallId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
       <method abstract="false" deprecated="not deprecated" final="true" name="getApplicationContext" native="false" return="android.content.Context" static="false" synchronized="false" visibility="public"></method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="MonitoringParams" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="MonitoringParams" static="false" type="com.liveperson.sdk.MonitoringParams" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="org.json.JSONArray"></parameter>
-        <parameter name="p2" type="org.json.JSONArray"></parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="MonitoringParams" static="false" type="com.liveperson.sdk.MonitoringParams" visibility="public"></constructor>
-      <constructor deprecated="not deprecated" final="false" name="MonitoringParams" static="false" type="com.liveperson.sdk.MonitoringParams" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="org.json.JSONArray"></parameter>
-        <parameter name="p2" type="org.json.JSONArray"></parameter>
-        <parameter name="p3" type="int"></parameter>
-        <parameter name="p4" type="kotlin.jvm.internal.DefaultConstructorMarker"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="true" name="component1" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="component2" native="false" return="org.json.JSONArray" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="component3" native="false" return="org.json.JSONArray" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="copy" native="false" return="com.liveperson.sdk.MonitoringParams" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="java.lang.String"></parameter>
-        <parameter name="p1" type="org.json.JSONArray"></parameter>
-        <parameter name="p2" type="org.json.JSONArray"></parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getEngagementAttributes" native="false" return="org.json.JSONArray" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getEntryPoints" native="false" return="org.json.JSONArray" static="false" synchronized="false" visibility="public"></method>
-      <method abstract="false" deprecated="not deprecated" final="true" name="getPageId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
     </class>
   </package>
   <package name="com.liveperson.sdk.callbacks">

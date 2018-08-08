@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+       <item quantity="one">"%1$d MESSAGGIO DA LEGGERE"</item>
+       <item quantity="other">"%1$d MESSAGGI DA LEGGERE"</item>
+   </plurals>
+    <string name="downloading_image">Download immagine…</string>
+    <string name="lp_conversation_ended_by_agent_no_name">Conversazione risolta dall\u0027agente\n%1$s</string>
+    <string name="lp_conversation_ended_by_agent_with_name">"Conversazione risolta da %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">"Conversazione risolta da te\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message">Download file non riuscito</string>
+    <string name="lp_failed_upload_toast_message">Caricamento file non riuscito</string>
+    <string name="lp_first_message">Come posso essere d\u0027aiuto oggi?</string>
+    <string name="lp_loading_message">Caricamento in corso…</string>
+    <string name="lp_new_message">Nuovo messaggio</string>
+    <string name="lp_resend_failed_conversation_closed">La conversazione è già stata risolta</string>
+    <string name="lp_resend_failed_masked_message">Messaggio non inviato. Inserire nuovamente il messaggio e reinviarlo.</string>
+    <string name="lp_still_loading_message">Caricamento conversazione … ancora in corso</string>
+    <string name="uploading_image">Caricamento immagine…</string>
+</resources>

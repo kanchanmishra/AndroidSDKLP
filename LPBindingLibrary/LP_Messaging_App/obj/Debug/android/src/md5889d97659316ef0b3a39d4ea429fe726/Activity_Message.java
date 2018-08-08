@@ -2,7 +2,7 @@ package md5889d97659316ef0b3a39d4ea429fe726;
 
 
 public class Activity_Message
-	extends android.support.v7.app.AppCompatActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
 {

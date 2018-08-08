@@ -27,15 +27,20 @@ namespace LP_Messaging_App
     {
         private static String TAG = "MainActivity";
         
-        public Context context;
+        private static Context contextRecever;
+        private static Intent intentRecever;
 
-        public LPReceiver()
-        { }
-        public LPReceiver(Context appContext,bool showToastOnCallback)
+        //public LPReceiver()
+        //{
+        //    OnReceive(contextRecever, intentRecever);
+        //}
+        public LPReceiver(Context appContext,bool showToastOnCallback, Intent intent)
         {
-            context = appContext;
+            contextRecever = appContext;
             IntentActionMethods.ShowToastOnCallback = showToastOnCallback;
             IntentActionMethods.Tag = TAG;
+            intentRecever = intent;
+            OnReceive(contextRecever, intentRecever);
         }
 
         public override void OnReceive(Context context, Intent intent)

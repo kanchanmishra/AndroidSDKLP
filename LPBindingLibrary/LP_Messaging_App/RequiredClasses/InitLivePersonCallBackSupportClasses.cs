@@ -6,148 +6,173 @@ using Android.Content;
 using Android.OS;
 
 using Android.Support.V7.App;
-
+using Android.Support.V4.App;
 using Android.Util;
 using Java.Lang;
+using Android.Views;
 using Android.Widget;
 using Com.Liveperson.Infra.Callbacks;
-using Com.Liveperson.Infra.Messaging_ui.Fragment;
-
+using Com.Liveperson.Infra.Messaging_ui.Uicomponents.List;
+using Com.Liveperson.Infra.Messaging_ui;
 using Com.Liveperson.Infra;
 using Com.Liveperson.Messaging.Sdk.Api;
 using Com.Liveperson.Messaging.Sdk.Api.Model;
-
+using Com.Liveperson.Infra.Messaging_ui.Fragment;
 
 namespace LP_Messaging_App
 {
 
     
-    public class InitLivePersonCallBackStartActivity : Java.Lang.Object, IInitLivePersonCallBack
+    public class InitLivePersonCallBackStartActivity : AppCompatActivity, IInitLivePersonCallBack
     {
-        private Context context;
+         static Context contextStartActivity;
         public InitLivePersonCallBackStartActivity() {
-           
-            var msg = Handle.GetType();
+
+            
+            try
+            {
+                OnInitSucceed();
+            }
+            catch (Java.Lang.Exception var1)
+            {
+                OnInitFailed(var1);
+            }
         }
 
         public InitLivePersonCallBackStartActivity(Context context)
         {
-            this.context = context;
-
+            contextStartActivity = context;
         }
 
         //public IntPtr Handle ;// => throw new NotImplementedException();
 
         
-        public void onInitFailed(Java.Lang.Exception var1)
-        {
-            Toast.MakeText(this.context, "Init failed", ToastLength.Long).Show();
-        }
+        //public void onInitFailed(Java.Lang.Exception var1)
+        //{
+        //    Toast.MakeText(this.context, "Init failed", ToastLength.Long).Show();
+        //}
 
         public  void OnInitFailed(Java.Lang.Exception p0)
         {
-            Toast.MakeText(this.context, "Init failed", ToastLength.Long).Show();
+            Toast.MakeText(contextStartActivity, "Init failed", ToastLength.Long).Show();
         }
-
-       
-        //public void onInitSucceed()
-        //{
-        //    Intent intent = new Intent(context, typeof(Activity_Message));
-
-        //    this.StartActivity(intent);
-        //}
 
         public  void OnInitSucceed()
         {
-            Intent intent = new Intent(context, typeof(Activity_Message));
+            Intent intent = new Intent(contextStartActivity, typeof(Activity_Message));
 
-            //this.StartActivity(intent);
+            contextStartActivity.StartActivity(intent);
+            //Application.Context.StartActivity(intent);
         }
     }
 
-    //public class InitLivePersonCallBackInFragment : AppCompatActivity, InitLivePersonCallBack
-    //{
-    //    private Context context;
-    //    private string Tag;
-    //    string LivepersonFragment;
-    //    string FirstName;
-    //    string LastName;
-    //    string Phone;
-    //    public InitLivePersonCallBackInFragment() { }
-    //    public InitLivePersonCallBackInFragment(Context context, string tag, string livepersonFragment, string firstName, string lastName, string phone)
-    //    {
-    //        this.context = context;
-    //        Tag = tag;
-    //        LivepersonFragment = livepersonFragment;
-    //        FirstName = firstName;
-    //        LastName = lastName;
-    //        Phone = phone;
-    //    }
+    public class InitLivePersonCallBackInFragment : AppCompatActivity, IInitLivePersonCallBack
+    {
+        private static Context CallBackInFragmentcontext;
+        private static string Tag;
+        private static string LivepersonFragment;
+        private static string FirstName;
+        private static string LastName;
+        private static string Phone;
+        
+        public InitLivePersonCallBackInFragment(Context context, string tag, string livepersonFragment, string firstName, string lastName, string phone)
+        {
+            CallBackInFragmentcontext = context;
+            Tag = tag;
+            LivepersonFragment = livepersonFragment;
+            FirstName = firstName;
+            LastName = lastName;
+            Phone = phone;
+        }
 
-    //    public void onInitFailed(Java.Lang.Exception p0)
-    //    {
-    //        Log.Error(Tag, "onInitFailed : " + p0.Message);
-    //    }
+        public InitLivePersonCallBackInFragment() {
 
-    //    public void onInitSucceed()
-    //    {
-    //        Log.Info(Tag, "onInitSucceed");
+            try
+            {
+                OnInitSucceed();
+            }
+            catch (System.Exception var1)
+            {
+                OnInitFailed((Java.Lang.Exception)var1);
+            }
+            //catch (Java.Lang.Exception var1)
+            //{
+            //    OnInitFailed(var1);
+            //}
+           
+        }
 
-    //        RunOnUiThread(() =>
-    //        {
-    //            var runnableHelper = new RunnableHelper(Tag, LivepersonFragment);
-    //            runnableHelper.Run();
-    //        });
+        public void OnInitFailed(Java.Lang.Exception p0)
+        {
+            Log.Error(Tag, "onInitFailed : " + p0.Message);
+        }
 
-    //        /* original Android implementaion
-    //        runOnUiThread(new Runnable() {
-    //                @Override
-    //                public void run()
-    //        {
-    //            initFragment(fragment_container_id);
-    //        }
-    //        }); */
+        public void OnInitSucceed()
+        {
+            Log.Info(Tag, "onInitSucceed");
+            var runnableHelper = new RunnableHelper(Tag, LivepersonFragment, CallBackInFragmentcontext);
 
-    //        SetCallBack();
+            //RunOnUiThread(() =>
+            //{
+            //    var runnableHelperInside = new RunnableHelper();
+            //    runnableHelperInside.Run();
+            //});
 
-    //        ConsumerProfile consumerProfile = new ConsumerProfile.Builder()
-    //                .SetFirstName(FirstName)
-    //                .SetLastName(LastName)
-    //                .SetPhoneNumber(Phone)
-    //                .Build();
-    //        LivePerson.SetUserProfile(consumerProfile);
+            RunOnUiThread(new RunnableHelper());
 
-    //        //Constructing the notification builder for the upload/download foreground service and passing it to the SDK.
-    //        /*
+            /* original Android implementaion
+            runOnUiThread(new Runnable() {
+                    @Override
+                    public void run()
+            {
+                initFragment(fragment_container_id);
+            }
+            }); */
 
-    //         Notification.Builder uploadBuilder = NotificationUI.createUploadNotificationBuilder(getApplicationContext());
-    //         Notification.Builder downloadBuilder = NotificationUI.createDownloadNotificationBuilder(getApplicationContext());
-    //         LivePerson.setImageServiceUploadNotificationBuilder(uploadBuilder);
-    //         LivePerson.setImageServiceDownloadNotificationBuilder(downloadBuilder);
-    //         */
+            SetCallBack();
 
-    //    }
+            ConsumerProfile consumerProfile = new ConsumerProfile.Builder()
+                    .SetFirstName(FirstName)
+                    .SetLastName(LastName)
+                    .SetPhoneNumber(Phone)
+                    .Build();
+            LivePerson.SetUserProfile(consumerProfile);
 
-    //    private void SetCallBack()
-    //    {
-    //        //register via callback, also available to listen via BroadCastReceiver in Main Application
-    //        MainActivity.GetInstance().RegisterToLivePersonCallbacks();
-    //    }
-    //}
+            //Constructing the notification builder for the upload/download foreground service and passing it to the SDK.
+            /*
+
+             Notification.Builder uploadBuilder = NotificationUI.createUploadNotificationBuilder(getApplicationContext());
+             Notification.Builder downloadBuilder = NotificationUI.createDownloadNotificationBuilder(getApplicationContext());
+             LivePerson.setImageServiceUploadNotificationBuilder(uploadBuilder);
+             LivePerson.setImageServiceDownloadNotificationBuilder(downloadBuilder);
+             */
+
+        }
+
+        private void SetCallBack()
+        {
+            //register via callback, also available to listen via BroadCastReceiver in Main Application
+            MainActivity.GetInstance().RegisterToLivePersonCallbacks();
+        }
+    }
 
     public class RunnableHelper : AppCompatActivity, Java.Lang.IRunnable
     {
-        private ConversationFragment mConversationFragment;
-
-        public string TAG;
-        public string LIVEPERSON_FRAGMENT;
-        public RunnableHelper(string tag, string livepersonFragment)
+        private static ConversationFragment mConversationFragment;
+        private static Context CallBackInFragmentcontext;
+        public static string TAG;
+        public static string LIVEPERSON_FRAGMENT;
+        
+        public RunnableHelper(string tag, string livepersonFragment, Context context)
         {
-
+            CallBackInFragmentcontext = context;
             TAG = tag;
             LIVEPERSON_FRAGMENT = livepersonFragment;
         }
-
+        public RunnableHelper()
+        {
+            Run();
+        }
         public void Run()
         {
             InitFragment();
@@ -157,62 +182,68 @@ namespace LP_Messaging_App
         {
             mConversationFragment = (ConversationFragment)SupportFragmentManager.FindFragmentByTag(LIVEPERSON_FRAGMENT);
             Log.Debug(TAG, "initFragment. mConversationFragment = " + mConversationFragment);
-            if (mConversationFragment == null)
+
+            try
             {
-                /*
-
-                String authCode = SampleAppStorage.getInstance(FragmentContainerActivity.this).getAuthCode();
-                String publicKey = SampleAppStorage.getInstance(FragmentContainerActivity.this).getPublicKey();
-
-                Log.d(TAG, "initFragment. authCode = "+ authCode);
-                Log.d(TAG, "initFragment. publicKey = "+ publicKey);
-                LPAuthenticationParams authParams = new LPAuthenticationParams();
-                authParams.setAuthKey(authCode);
-                authParams.addCertificatePinningKey(publicKey);
-            */
-                LPAuthenticationParams authParams = new LPAuthenticationParams();
-                CampaignInfo campaignInfo = null;//SampleAppUtils.getCampaignInfo(this);
-                ConversationViewParams conversationViewParams = new ConversationViewParams().SetCampaignInfo(campaignInfo).SetReadOnlyMode(isReadOnly());
-                mConversationFragment = (ConversationFragment)LivePerson.GetConversationFragment(authParams, conversationViewParams);
-
-                if (isValidState())
+                if (mConversationFragment == null)
                 {
+                    /*
 
-                    // Pending intent for image foreground service
-                    Intent notificationIntent = new Intent(this, typeof(Activity_Message));
-                    notificationIntent.SetFlags(Intent.Flags);
-                    PendingIntent pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, 0);
-                    LivePerson.SetImageServicePendingIntent(pendingIntent);
+                    String authCode = SampleAppStorage.getInstance(FragmentContainerActivity.this).getAuthCode();
+                    String publicKey = SampleAppStorage.getInstance(FragmentContainerActivity.this).getPublicKey();
 
-                    // Notification builder for image upload foreground service
-                    Notification.Builder uploadBuilder = new Notification.Builder(this.ApplicationContext);
-                    Notification.Builder downloadBuilder = new Notification.Builder(this.ApplicationContext);
-                    uploadBuilder.SetContentTitle("Uploading image")
-                                    //.SetSmallIcon(Android.R.drawable.arrow_up_float)
-                                    .SetContentIntent(pendingIntent)
-                                    .SetProgress(0, 0, true);
+                    Log.d(TAG, "initFragment. authCode = "+ authCode);
+                    Log.d(TAG, "initFragment. publicKey = "+ publicKey);
+                    LPAuthenticationParams authParams = new LPAuthenticationParams();
+                    authParams.setAuthKey(authCode);
+                    authParams.addCertificatePinningKey(publicKey);
+                */
+                    LPAuthenticationParams authParams = new LPAuthenticationParams();
+                    CampaignInfo campaignInfo = null;//SampleAppUtils.getCampaignInfo(this);
+                    ConversationViewParams conversationViewParams = new ConversationViewParams().SetCampaignInfo(campaignInfo).SetReadOnlyMode(isReadOnly());
+                    mConversationFragment = (ConversationFragment)LivePerson.GetConversationFragment(authParams, conversationViewParams);
 
-                    downloadBuilder.SetContentTitle("Downloading image")
-                                    //.setSmallIcon(Android.R.drawable.arrow_down_float)
-                                    .SetContentIntent(pendingIntent)
-                                    .SetProgress(0, 0, true);
+                    if (isValidState())
+                    {
 
-                    LivePerson.SetImageServiceUploadNotificationBuilder(uploadBuilder);
-                    LivePerson.SetImageServiceDownloadNotificationBuilder(downloadBuilder);
+                        // Pending intent for image foreground service
+                        Intent notificationIntent = new Intent(CallBackInFragmentcontext, typeof(Activity_Message));
+                        //notificationIntent.SetFlags(Intent.Flags);
+                        PendingIntent pendingIntent = PendingIntent.GetActivity(CallBackInFragmentcontext, 0, notificationIntent, 0);
+                        LivePerson.SetImageServicePendingIntent(pendingIntent);
 
-                    var ft = SupportFragmentManager.BeginTransaction();
-                    ft.Add(Resource.Id.frameLayout1, mConversationFragment, LIVEPERSON_FRAGMENT).CommitAllowingStateLoss();
+                        // Notification builder for image upload foreground service
+                        Notification.Builder uploadBuilder = new Notification.Builder(CallBackInFragmentcontext);
+                        Notification.Builder downloadBuilder = new Notification.Builder(CallBackInFragmentcontext);
+                        uploadBuilder.SetContentTitle("Uploading image")
+                                        //.SetSmallIcon(Android.R.drawable.arrow_up_float)
+                                        .SetContentIntent(pendingIntent)
+                                        .SetProgress(0, 0, true);
+
+                        downloadBuilder.SetContentTitle("Downloading image")
+                                        //.setSmallIcon(Android.R.drawable.arrow_down_float)
+                                        .SetContentIntent(pendingIntent)
+                                        .SetProgress(0, 0, true);
+
+                        LivePerson.SetImageServiceUploadNotificationBuilder(uploadBuilder);
+                        LivePerson.SetImageServiceDownloadNotificationBuilder(downloadBuilder);
+
+                        var ft = SupportFragmentManager.BeginTransaction();
+                        ft.Add(Resource.Id.frameLayout1, mConversationFragment, LIVEPERSON_FRAGMENT).CommitAllowingStateLoss();
+                    }
+                }
+                else
+                {
+                    AttachFragment();
                 }
             }
-            else
-            {
-                AttachFragment();
-            }
+            catch(System.Exception e) { throw e; }
         }
 
         private bool isReadOnly()
         {
-            return Intent.GetBooleanExtra(Infra.KeyReadOnly, false);
+            // return Intent.GetBooleanExtra(Infra.KeyReadOnly, false);
+            return false;
         }
 
         private bool isValidState()

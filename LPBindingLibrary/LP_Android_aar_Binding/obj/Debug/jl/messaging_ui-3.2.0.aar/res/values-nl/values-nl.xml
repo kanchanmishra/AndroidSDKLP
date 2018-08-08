@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Verstuurd"</item>
+        <item>"Afgeleverd"</item>
+        <item>"Gelezen"</item>
+        <item>"Niet afgeleverd"</item>
+        <item>"Sending"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s dag"</item>
+        <item quantity="other">" %1$s dagen"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s uur"</item>
+        <item quantity="other">" %1$s uur"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s minuut"</item>
+        <item quantity="other">" %1$s minuten"</item>
+    </plurals>
+    <string name="brand_name">Mijn merk</string>
+    <string name="lp_accessibility_agent">Agent</string>
+    <string name="lp_accessibility_agent_icon">Agent Icoontje</string>
+    <string name="lp_accessibility_agent_is_typing">De medewerker typt een reactie</string>
+    <string name="lp_accessibility_attachment_menu">Bijlage menu</string>
+    <string name="lp_accessibility_camera">Camera</string>
+    <string name="lp_accessibility_full_image">Volledige afbeelding</string>
+    <string name="lp_accessibility_gallery">Galerij</string>
+    <string name="lp_accessibility_image">Afbeelding</string>
+    <string name="lp_accessibility_image_caption">Afbeelding onderschrift</string>
+    <string name="lp_accessibility_is_typing">%1$s typt een reactie</string>
+    <string name="lp_accessibility_new_agent_message">Nieuw agent bericht: </string>
+    <string name="lp_accessibility_new_system_message">Nieuw systeembericht: </string>
+    <string name="lp_accessibility_photo">foto</string>
+    <string name="lp_accessibility_photo_preview">Foto voorbeeld</string>
+    <string name="lp_accessibility_received">ontvangen</string>
+    <string name="lp_accessibility_resend">Opnieuw versturen</string>
+    <string name="lp_accessibility_sc_button">Knop</string>
+    <string name="lp_accessibility_sc_image">Afbeelding</string>
+    <string name="lp_accessibility_sc_map">Kaart</string>
+    <string name="lp_accessibility_sc_text">Tekst</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">scroll omlaag</string>
+    <string name="lp_accessibility_selected">geselecteerd</string>
+    <string name="lp_accessibility_you">U</string>
+    <string name="lp_add_a_caption">Voeg onderschrift toe</string>
+    <string name="lp_attachment_menu_camera_item_text">Camera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galerij</string>
+    <string name="lp_cancel">Annuleer</string>
+    <string name="lp_clear_history_dialog_message">Uw bestaande gespreksgeschiedenis wordt verwijderd. Wilt u doorgaan?</string>
+    <string name="lp_clear_history_dialog_positive_button">Wissen</string>
+    <string name="lp_clear_history_dialog_title">Geschiedenis wissen</string>
+    <string name="lp_clear_history_menu_text">Geschiedenis wissen</string>
+    <string name="lp_connection_status_connecting">Aan het verbinden…</string>
+    <string name="lp_connection_status_failed_to_connect">Verbinden met de server is mislukt<u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Geen verbinding. Controleer uw verbinding.</string>
+    <string name="lp_connection_status_trying_to_connect">Proberen om te verbinden…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Urgentie opheffen</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Urgentie\nopheffen</string>
+    <string name="lp_dismiss_urgent_dialog_header">"Weet u zeker dat u dit gesprek wilt markeren als ”Niet urgent”?"</string>
+    <string name="lp_dismiss_urgent_dialog_message">Dit betekent dat uw gesprek normale prioriteit krijgt.</string>
+    <string name="lp_done">Gereed</string>
+    <string name="lp_end">Beëindig</string>
+    <string name="lp_end_conversation">Gesprek beëindigen</string>
+    <string name="lp_end_conversation_first">Beëindig het gesprek eerst.</string>
+    <string name="lp_failed_download_toast_message">Downloaden van het bestand is mislulkt</string>
+    <string name="lp_failed_upload_toast_message">Uploaden van het bestand is mislukt</string>
+    <string name="lp_feedback_1">Heel ontevreden</string>
+    <string name="lp_feedback_2">Ontevreden</string>
+    <string name="lp_feedback_3">Niet ontevreden en niet tevreden</string>
+    <string name="lp_feedback_4">Tevreden</string>
+    <string name="lp_feedback_5">Heel tevreden</string>
+    <string name="lp_feedback_question">"Hoe beoordeelt u de verbinding met onze medewerker?"</string>
+    <string name="lp_feedback_submit">Verstuur</string>
+    <string name="lp_feedback_submit_message">Dankzij uw feedback kunnen we u nog beter helpen.\nDe feedback wordt niet gedeeld met medewerkers van de klantenservice.</string>
+    <string name="lp_feedback_thank_you">De vragenlijst werd succesvol verstuurd.\nDank u wel!</string>
+    <string name="lp_feedback_yesno_negative_title">Nee</string>
+    <string name="lp_feedback_yesno_positive_title">Ja</string>
+    <string name="lp_feedback_yesno_question">Hebben we uw probleem vandaag opgelost?</string>
+    <string name="lp_history_control_api_empty_state">Er zijn op dit moment geen gesprekken</string>
+    <string name="lp_is_typing">bezig met typen …</string>
+    <string name="lp_mark_as_resolved_dialog_message">Weet u zeker dat dit onderwerp is opgelost?</string>
+    <string name="lp_mark_as_resolved_menu_text">Markeren als opgelost</string>
+    <string name="lp_mark_as_urgent_dialog_header">Weet u zeker dat u dit gesprek wilt markeren als “Urgent”?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Dit betekent dat uw gesprek de hoogste prioriteit krijgt.</string>
+    <string name="lp_mark_as_urgent_menu_text">Markeren als urgent</string>
+    <string name="lp_menu_copy">Kopiëren</string>
+    <string name="lp_menu_send_image">Verstuur</string>
+    <string name="lp_new_messages">nieuwe berichten</string>
+    <string name="lp_no_action_not_available_toast_message">Actie niet beschikbaar; er is geen actief gesprek</string>
+    <string name="lp_no_network_toast_message">Geen internetverbinding. Controleer uw verbinding en probeer het opnieuw.</string>
+    <string name="lp_ok">Oké</string>
+    <string name="lp_send">Verstuur</string>
+    <string name="lp_skip">Overslaan</string>
+    <string name="lp_structured_content_display_failed">Mislukt de inhoud weer te geven</string>
+    <string name="lp_tap_to_add_a_caption">Tik op een onderschrift</string>
+    <string name="lp_today">Vandaag</string>
+    <string name="lp_ttr_message_no_timestamp">U ontvangt binnenkort reactie van een medewerker</string>
+    <string name="lp_ttr_message_off_hours_message">Bedankt voor uw bericht. We zijn weer online op %1$s om %2$s</string>
+    <string name="lp_ttr_message_off_hours_message_today">Bedankt voor uw bericht. We zijn vandaag weer online om %1$s</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Bedankt voor uw bericht. We zijn morgen weer online om %1$s</string>
+    <string name="lp_ttr_message_with_timestamp">U ontvangt binnen %1$s reactie van een medewerker</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Vul het formulier in</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">Terug</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Zodra u het beveiligd formulier heeft verlaten, kunt u het niet opnieuw openen.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Weet u het zeker?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Er was een probleem met het openen van dit formulier. Vraag de medewerker om het formulier opnieuw te versturen.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Beveiligd formulier is niet meer geldig. Vraag de medewerker om het formulier opnieuw te verzenden.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Dit formulier is ingediend en kan om veiligheidsredenen niet opnieuw worden geopend.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Dit is een beveiligd formulier. De hier ingevoerde gegevens zijn beschermd en kunnen niet worden gewijzigd zodra ze zijn verzonden.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Dit formulier is al geopend. Vraag de medewerker om het formulier opnieuw te versturen.</string>
+</resources>

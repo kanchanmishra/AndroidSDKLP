@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">添付ボタンが最小化されています</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">添付ボタンが展開されています</string>
+    <string name="lp_accessibility_chat_message">メーッセージ</string>
+    <string name="lp_accessibility_message_preview_close_description">閉じる</string>
+    <string name="lp_clear_history_menu_text">履歴の消去</string>
+    <string name="lp_enter_message">メッセージを入力</string>
+    <string name="lp_message_time_min_ago">%1$s 分前</string>
+    <string name="lp_message_time_now">現在</string>
+    <string name="lp_message_time_now_with_state">現在</string>
+    <string name="lp_no_network_toast_message">インターネットに接続できません。接続を確認してからやりなおしてください。</string>
+    <string name="lp_send">送信</string>
+    <string name="lp_today">"今日"</string>
+    <string name="lp_yesterday">昨日</string>
+</resources>

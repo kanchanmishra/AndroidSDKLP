@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Botão do menu de anexos recolhido</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded"> Botão do menu de anexos expandido</string>
+    <string name="lp_accessibility_chat_message">Mensagem de chat</string>
+    <string name="lp_accessibility_message_preview_close_description">Fechar</string>
+    <string name="lp_enter_message">Escreva uma mensagem</string>
+    <string name="lp_message_time_min_ago">Há %1$s min</string>
+    <string name="lp_message_time_now">Agora</string>
+    <string name="lp_message_time_now_with_state">Agora</string>
+    <string name="lp_no_network_toast_message">Sem ligação à Internet. Verifique a sua ligação e tente novamente.</string>
+    <string name="lp_send">Enviar</string>
+    <string name="lp_today">"Hoje"</string>
+    <string name="lp_yesterday">Ontem</string>
+</resources>

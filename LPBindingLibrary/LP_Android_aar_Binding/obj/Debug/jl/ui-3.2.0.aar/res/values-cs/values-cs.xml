@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Tlačítko sbalené nabídky přílohy</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Tlačítko rozbalené nabídky přílohy</string>
+    <string name="lp_accessibility_chat_message">Zpráva chatu</string>
+    <string name="lp_accessibility_message_preview_close_description">Zavřít</string>
+    <string name="lp_enter_message">Napište zprávu</string>
+    <string name="lp_message_time_min_ago">Před %1$s min </string>
+    <string name="lp_message_time_now">Nyní</string>
+    <string name="lp_message_time_now_with_state">Nyní</string>
+    <string name="lp_no_network_toast_message">Chybí internetové připojení. Zkontrolujte prosím připojení a zkuste to znovu.</string>
+    <string name="lp_send">Odeslat</string>
+    <string name="lp_today">"Dnes"</string>
+    <string name="lp_yesterday">Včera</string>
+</resources>

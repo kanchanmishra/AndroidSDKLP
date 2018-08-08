@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Eklenti menüsü düğmesi çöktü</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Eklenti menüsü düğmesi genişletildi</string>
+    <string name="lp_accessibility_chat_message">Konuşma mesajı</string>
+    <string name="lp_accessibility_message_preview_close_description">Kapat</string>
+    <string name="lp_enter_message">Bir mesaj yaz</string>
+    <string name="lp_message_time_min_ago">%1$s dk önce</string>
+    <string name="lp_message_time_now">Şimdi</string>
+    <string name="lp_message_time_now_with_state">Şimdi</string>
+    <string name="lp_no_network_toast_message">Internet Bağlantısı Yok. Lütfen bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="lp_send">Gönder</string>
+    <string name="lp_today">"Bzugün"</string>
+    <string name="lp_yesterday">Dün</string>
+</resources>

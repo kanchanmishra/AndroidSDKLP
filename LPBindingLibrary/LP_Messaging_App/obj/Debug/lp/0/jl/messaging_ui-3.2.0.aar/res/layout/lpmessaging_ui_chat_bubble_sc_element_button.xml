@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liveperson.infra.ui.view.ui.CustomButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button_element"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:textColor="@color/lp_light_blue"
+    android:textAllCaps="false"
+    style="?android:attr/borderlessButtonStyle"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:lines="1"
+    android:ellipsize="end"
+    app:font_name="@string/custom_font_name_conversation_feed" />

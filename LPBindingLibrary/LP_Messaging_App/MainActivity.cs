@@ -34,8 +34,8 @@ namespace LP_Messaging_App
             RegisterToLivePersonEvents();
             MonitoringInitParams monitoringInitParams = new MonitoringInitParams(AppStorage.MAppinstallid);
 
-            var initLivePerson = new InitLivePersonCallBackStartActivity(ApplicationContext);
-            LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity()));
+            var initLivePerson = new InitLivePersonCallBackStartActivity(this);
+            LivePerson.Initialize(this, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity()));
            /*
             LivePerson.initialize(getApplicationContext(), new InitLivePersonProperties(mAccountIdEditText.getText().toString(), SampleAppStorage.SDK_SAMPLE_FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBack() {
 
@@ -81,9 +81,11 @@ namespace LP_Messaging_App
             {
                 return;
             }
-            var lPReceiver = new LPReceiver();
-            var lPReceiverNew = new LPReceiver(ApplicationContext, showToastOnCallback);
-            mLivePersonReceiver = lPReceiver;
+            Intent intent = new Intent(this,typeof(MainActivity));
+
+            var lPReceiverNew = new LPReceiver(this, showToastOnCallback, intent);
+          //  var lPReceiver = new LPReceiver();
+            mLivePersonReceiver = lPReceiverNew;
 
         }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Πλήκτρο Μενού Συνημμένων συνεπτυγμένο</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Πλήκτρο Μενού Συνημμένων ανεπτυγμένο</string>
+    <string name="lp_accessibility_chat_message">Μήνυμα συνομιλίας</string>
+    <string name="lp_accessibility_message_preview_close_description">Κλείσιμο</string>
+    <string name="lp_enter_message">Γράψτε ένα μήνυμα</string>
+    <string name="lp_message_time_min_ago">Πριν από %1$s λεπτό(ά)</string>
+    <string name="lp_message_time_now">Τώρα</string>
+    <string name="lp_message_time_now_with_state">Τώρα</string>
+    <string name="lp_no_network_toast_message">Δεν υπάρχει σύνδεση στο Internet. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.</string>
+    <string name="lp_send">Αποστολή</string>
+    <string name="lp_today">"Σημερα"</string>
+    <string name="lp_yesterday">Χθες</string>
+</resources>

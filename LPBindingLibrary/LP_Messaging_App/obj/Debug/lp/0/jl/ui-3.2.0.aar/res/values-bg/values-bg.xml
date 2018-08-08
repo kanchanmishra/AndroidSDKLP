@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Бутон за сливане на менюто за прикачвания</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Бутон за разширен изглед на менюто за прикачвания</string>
+    <string name="lp_accessibility_chat_message">Чат съобщение</string>
+    <string name="lp_accessibility_message_preview_close_description">Затваряне</string>
+    <string name="lp_enter_message">Напишете съобщение</string>
+    <string name="lp_message_time_min_ago">Преди %1$s минути</string>
+    <string name="lp_message_time_now">Сега</string>
+    <string name="lp_message_time_now_with_state">Сега</string>
+    <string name="lp_no_network_toast_message">Няма връзка с Интернет. Моля, проверете Вашата връзка и опитайте отново.</string>
+    <string name="lp_send">Изпрати</string>
+    <string name="lp_today">"Днес"</string>
+    <string name="lp_yesterday">Вчера</string>
+</resources>

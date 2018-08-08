@@ -4,5 +4,6 @@
     <SelectedDevice>5" Lollipop %285.0%29 XXHDPI Phone</SelectedDevice>
     <DefaultDevice>5" Lollipop %285.0%29 XXHDPI Phone</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>

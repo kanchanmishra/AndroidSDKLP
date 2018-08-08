@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Кнопку меню вкладень згорнуто</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Кнопку меню вкладень розгорнуто</string>
+    <string name="lp_accessibility_chat_message">Повідомлення чату</string>
+    <string name="lp_accessibility_message_preview_close_description">Закрити</string>
+    <string name="lp_enter_message">Написати повідомлення</string>
+    <string name="lp_message_time_min_ago">%1$s хв. тому</string>
+    <string name="lp_message_time_now">Зараз</string>
+    <string name="lp_message_time_now_with_state">Зараз</string>
+    <string name="lp_no_network_toast_message">Підключення до Інтернету відсутнє. Перевірте підключення та спробуйте ще раз.</string>
+    <string name="lp_send">Надіслати</string>
+    <string name="lp_today">"СЬОГОДНІ"</string>
+    <string name="lp_yesterday">Вчора</string>
+</resources>

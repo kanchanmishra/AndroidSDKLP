@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map_view_element"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:liteMode="true"
+    app:mapType="normal"
+    android:layout_gravity="center_vertical">
+
+</com.google.android.gms.maps.MapView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/lp_messaging_ui_ic_agent_typing_frame_00" android:duration="200" />
+    <item android:drawable="@drawable/lp_messaging_ui_ic_agent_typing_frame_01" android:duration="200" />
+    <item android:drawable="@drawable/lp_messaging_ui_ic_agent_typing_frame_02" android:duration="200" />
+    <item android:drawable="@drawable/lp_messaging_ui_ic_agent_typing_frame_03" android:duration="200" />
+</animation-list>

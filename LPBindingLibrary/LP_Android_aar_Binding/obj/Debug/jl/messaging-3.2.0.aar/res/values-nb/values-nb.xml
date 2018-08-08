@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lp_unread_message">
+               <item quantity="one">"%1$d ULEST MELDING"</item>
+               <item quantity="other">"%1$d ULESTE MELDINGER"</item>
+           </plurals>
+    <string name="downloading_image">Laster ned bilde ...</string>
+    <string name="lp_conversation_ended_by_agent_no_name">"Samtaler avsluttet av agent\n%1$s"</string>
+    <string name="lp_conversation_ended_by_agent_with_name">" Samtale løst av %1$s\n%2$s"</string>
+    <string name="lp_conversation_ended_by_you">Samtale avsluttet av deg\n%1$s"</string>
+    <string name="lp_date_time_format"/>
+    <string name="lp_failed_download_toast_message"> Kunne ikke laste ned filen </string>
+    <string name="lp_failed_upload_toast_message">Kunne ikke laste opp filen</string>
+    <string name="lp_first_message">Hvordan kan jeg hjelpe deg i dag?</string>
+    <string name="lp_loading_message">Laster inn...</string>
+    <string name="lp_resend_failed_conversation_closed">Denne samtalen er allerede avsluttet.</string>
+    <string name="lp_resend_failed_masked_message">Meldingen ble ikke sendt. Vennligst fyll inn beskjeden på nytt og send den igjen.</string>
+    <string name="lp_still_loading_message">Laster fortsatt inn samtalen…</string>
+    <string name="uploading_image">Laster opp bilde ...</string>
+</resources>

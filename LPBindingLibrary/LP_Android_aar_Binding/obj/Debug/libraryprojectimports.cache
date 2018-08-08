@@ -9,7 +9,6 @@
     <Jar>obj\Debug\lp\6\jl\arch-lifecycle-common.jar</Jar>
     <Jar>obj\Debug\lp\9\jl\support-annotations.jar</Jar>
     <Jar>obj\Debug\lp\12\jl\constraint-layout-solver.jar</Jar>
-    <Jar>obj\Debug\lp\28\jl\__reference__kotlin-stdlib.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\0\jl\okhttp-2.4.0.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\1\jl\okhttp3.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\10\jl\bin\classes.jar</Jar>
@@ -31,7 +30,6 @@
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\25\jl\classes.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\26\jl\classes.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\27\jl\classes.jar</Jar>
-    <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\28\jl\__reference__kotlin-stdlib.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\3\jl\picasso-2.5.2.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\5\jl\arch-core-common.jar</Jar>
     <Jar>C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\lp\6\jl\arch-lifecycle-common.jar</Jar>

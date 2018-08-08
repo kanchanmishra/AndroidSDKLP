@@ -16,7 +16,6 @@ namespace Com.Liveperson.Infra.UI.View.Utils.Picasso
 
     public partial class CircleTransform
     {
-        string ITransformation.Key => throw new NotImplementedException();
-
+        string ITransformation.Key => string.Empty;
     }
 }

@@ -100,22 +100,5 @@ namespace Com.Liveperson.Monitoring.Managers {
 			}
 		}
 
-		static IntPtr id_csdsDependantRequest_Landroid_content_Context_Lcom_liveperson_monitoring_Command_Lcom_liveperson_monitoring_sdk_callbacks_IMonitoringCallback_;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.liveperson.monitoring.managers']/class[@name='MonitoringRequestManager']/method[@name='csdsDependantRequest' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.liveperson.monitoring.Command'] and parameter[3][@type='com.liveperson.monitoring.sdk.callbacks.IMonitoringCallback&lt;? extends com.liveperson.monitoring.sdk.responses.LPSdeResponse, java.lang.Exception&gt;']]"
-		[Register ("csdsDependantRequest", "(Landroid/content/Context;Lcom/liveperson/monitoring/Command;Lcom/liveperson/monitoring/sdk/callbacks/IMonitoringCallback;)V", "")]
-		public unsafe void CsdsDependantRequest (global::Android.Content.Context p0, global::Com.Liveperson.Monitoring.ICommand p1, global::Com.Liveperson.Monitoring.Sdk.Callbacks.IMonitoringCallback p2)
-		{
-			if (id_csdsDependantRequest_Landroid_content_Context_Lcom_liveperson_monitoring_Command_Lcom_liveperson_monitoring_sdk_callbacks_IMonitoringCallback_ == IntPtr.Zero)
-				id_csdsDependantRequest_Landroid_content_Context_Lcom_liveperson_monitoring_Command_Lcom_liveperson_monitoring_sdk_callbacks_IMonitoringCallback_ = JNIEnv.GetMethodID (class_ref, "csdsDependantRequest", "(Landroid/content/Context;Lcom/liveperson/monitoring/Command;Lcom/liveperson/monitoring/sdk/callbacks/IMonitoringCallback;)V");
-			try {
-				JValue* __args = stackalloc JValue [3];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_csdsDependantRequest_Landroid_content_Context_Lcom_liveperson_monitoring_Command_Lcom_liveperson_monitoring_sdk_callbacks_IMonitoringCallback_, __args);
-			} finally {
-			}
-		}
-
 	}
 }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_photo_sharing">false</bool>
+    <bool name="enable_voice_sharing">false</bool>
+    <bool name="enter_message_divider_visible">false</bool>
+    <bool name="link_preview_enable_feature">true</bool>
+    <bool name="link_preview_enable_real_time_preview">true</bool>
+    <bool name="message_status_numeric_timestamp_only">false</bool>
+    <bool name="use_send_image_button">false</bool>
+    <color name="agent_bubble_background_color">#E20074</color>
+    <color name="agent_bubble_stroke_color">#E20074</color>
+    <color name="consumer_bubble_background_color">#CECECE</color>
+    <color name="consumer_bubble_stroke_color">#CECECE</color>
+    <color name="edit_text_underline_color">#90CAF9</color>
+    <color name="enter_message_top_separator_color">@android:color/darker_gray</color>
+    <color name="lp_blue">#004dc9</color>
+    <color name="lp_brand_header_text_color">@android:color/black</color>
+    <color name="lp_dark_blue">#0045b3</color>
+    <color name="lp_dark_gray_1">#46474a</color>
+    <color name="lp_dark_gray_2">#5b5c5e</color>
+    <color name="lp_disabled">#b7b8b9</color>
+    <color name="lp_enter_msg_hint">@android:color/darker_gray</color>
+    <color name="lp_enter_msg_text">@android:color/black</color>
+    <color name="lp_error">#de0a23</color>
+    <color name="lp_gray">#949596</color>
+    <color name="lp_green">#229a49</color>
+    <color name="lp_header_background_color">@android:color/white</color>
+    <color name="lp_header_text_color">@color/lp_dark_gray_1</color>
+    <color name="lp_light_blue">#007aff</color>
+    <color name="lp_light_gray_1">#ededed</color>
+    <color name="lp_light_gray_2">#f5f5f5</color>
+    <color name="lp_send_button_text_disable">#b7b8b9</color>
+    <color name="lp_send_button_text_enable">#004dc9</color>
+    <declare-styleable name="CustomButton"><attr name="font_name"/></declare-styleable>
+    <declare-styleable name="CustomEditText"><attr name="font_name"/></declare-styleable>
+    <declare-styleable name="CustomTextView"><attr format="string" name="font_name"/></declare-styleable>
+    <dimen name="agent_bubble_stroke_width">2px</dimen>
+    <dimen name="brand_bubble_padding_bottom">8dp</dimen>
+    <dimen name="brand_bubble_padding_left">8dp</dimen>
+    <dimen name="brand_bubble_padding_right">8dp</dimen>
+    <dimen name="brand_bubble_padding_top">8dp</dimen>
+    <dimen name="chat_bubble_padding_bottom">8dp</dimen>
+    <dimen name="chat_bubble_padding_left">8dp</dimen>
+    <dimen name="chat_bubble_padding_right">8dp</dimen>
+    <dimen name="chat_bubble_padding_top">8dp</dimen>
+    <dimen name="consumer_bubble_stroke_width">2dp</dimen>
+    <dimen name="end_bubble_bottom_left_radius">10dp</dimen>
+    <dimen name="end_bubble_bottom_right_radius">0dp</dimen>
+    <dimen name="end_bubble_top_left_radius">10dp</dimen>
+    <dimen name="end_bubble_top_right_radius">10dp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <dimen name="margin_divider">1dp</dimen>
+    <dimen name="margin_double">16dp</dimen>
+    <dimen name="margin_half">4dp</dimen>
+    <dimen name="margin_hexa">48dp</dimen>
+    <dimen name="margin_quadro">32dp</dimen>
+    <dimen name="margin_regular">8dp</dimen>
+    <dimen name="regular_text_size">14sp</dimen>
+    <dimen name="scroll_down_indicator_counter_radius">20dp</dimen>
+    <dimen name="scroll_down_indicator_radius">20dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="start_bubble_bottom_left_radius">0dp</dimen>
+    <dimen name="start_bubble_bottom_right_radius">10dp</dimen>
+    <dimen name="start_bubble_top_left_radius">10dp</dimen>
+    <dimen name="start_bubble_top_right_radius">10dp</dimen>
+    <dimen name="sticky_timestamp_margin_top">0dp</dimen>
+    <dimen name="sticky_timestamp_text_size">@dimen/small_text_size</dimen>
+    <dimen name="structured_content_bottom_left_radius">0dp</dimen>
+    <dimen name="structured_content_bottom_right_radius">0dp</dimen>
+    <dimen name="structured_content_top_left_radius">0dp</dimen>
+    <dimen name="structured_content_top_right_radius">0dp</dimen>
+    <dimen name="unread_indicator_bubble_radius">20dp</dimen>
+    <dimen name="xlarge_text_size">18sp</dimen>
+    <dimen name="xxlarge_text_size">20sp</dimen>
+    <integer name="lp_mic_tooltip_display_time_ms">3000</integer>
+    <integer name="lp_mic_tooltip_long_press_delay_ms">2000</integer>
+    <string name="custom_font_name_conversation_feed"/>
+    <string name="custom_font_name_non_conversation_feed"/>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Attachment menu button collapsed</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Attachment menu button expanded</string>
+    <string name="lp_accessibility_chat_message">Chat message</string>
+    <string name="lp_accessibility_message_preview_close_description">Close</string>
+    <string name="lp_bubble_email_links_regex"/>
+    <string name="lp_bubble_phone_links_regex"/>
+    <string name="lp_bubble_url_links_regex"/>
+    <string name="lp_date_format"/>
+    <string name="lp_enter_message">Write a message</string>
+    <string name="lp_message_time_min_ago">%1$s min ago</string>
+    <string name="lp_message_time_now">Now</string>
+    <string name="lp_message_time_now_with_state">Now</string>
+    <string name="lp_mic_tooltip_long_press">Long tap to record</string>
+    <string name="lp_mic_tooltip_max_recording">Recording limit has been reached, click to send</string>
+    <string name="lp_mic_tooltip_release">Release for recording</string>
+    <string name="lp_no_network_toast_message">No internet connection. Please check your connection and try again.</string>
+    <string name="lp_send">SEND</string>
+    <string name="lp_time_format"/>
+    <string name="lp_today">Today</string>
+    <string name="lp_yesterday">Yesterday</string>
+    <style name="InfraAppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="lp_enter_message_style" parent="InfraAppTheme">
+        <item name="colorControlActivated">@color/edit_text_underline_color</item>
+        <item name="android:textColor">@color/lp_enter_msg_text</item>
+        <item name="android:textColorHint">@color/lp_enter_msg_hint</item>
+        <item name="android:textCursorDrawable">@drawable/lpinfra_ui_cursor_white</item>
+    </style>
+</resources>

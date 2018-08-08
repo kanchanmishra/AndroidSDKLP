@@ -44,7 +44,6 @@
     <Jar>obj\Debug\lp\25\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\26\jl\classes.jar</Jar>
     <Jar>obj\Debug\lp\27\jl\classes.jar</Jar>
-    <Jar>obj\Debug\lp\28\jl\__reference__kotlin-stdlib.jar</Jar>
     <Jar>obj\Debug\lp\3\jl\picasso-2.5.2.jar</Jar>
     <Jar>obj\Debug\lp\5\jl\arch-core-common.jar</Jar>
     <Jar>obj\Debug\lp\6\jl\arch-lifecycle-common.jar</Jar>

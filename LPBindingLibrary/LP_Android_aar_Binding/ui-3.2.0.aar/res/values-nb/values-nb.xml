@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Vedleggsmenyknappen er skjult</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Vedleggsmenyknappen er synlig</string>
+    <string name="lp_accessibility_chat_message">Chattmelding</string>
+    <string name="lp_accessibility_message_preview_close_description">Lukk</string>
+    <string name="lp_enter_message">Skriv en melding</string>
+    <string name="lp_message_time_min_ago">%1$s min siden</string>
+    <string name="lp_message_time_now">Nå</string>
+    <string name="lp_message_time_now_with_state">Nå</string>
+    <string name="lp_no_network_toast_message">Ingen internettilkobling. Sjekk tilkoblingen og prøv igjen.</string>
+    <string name="lp_send">Send</string>
+    <string name="lp_today">”Idag”</string>
+    <string name="lp_yesterday">I går</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Butonul meniului atașamentului s-a restrâns</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Butonul meniului atașamentului s-a amplificat</string>
+    <string name="lp_accessibility_chat_message">Mesaj chat</string>
+    <string name="lp_accessibility_message_preview_close_description">Închide</string>
+    <string name="lp_enter_message">Scrieți mesaj</string>
+    <string name="lp_message_time_min_ago">acum %1$s minute</string>
+    <string name="lp_message_time_now">Acum</string>
+    <string name="lp_message_time_now_with_state">Acum</string>
+    <string name="lp_no_network_toast_message">Nu există conexiune internet. Vă rugăm verificați conexiunea și încercați din nou.</string>
+    <string name="lp_send">Trimite</string>
+    <string name="lp_today">"Astăzi"</string>
+    <string name="lp_yesterday">Ieri</string>
+</resources>

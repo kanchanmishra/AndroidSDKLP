@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"Gönderildi"</item>
+        <item>"Teslim Edildi"</item>
+        <item>"Oku"</item>
+        <item>"Teslim Edilmedi"</item>
+        <item>"Gönderiliyor"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s gün"</item>
+        <item quantity="other">" %1$s gün"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s saat"</item>
+        <item quantity="other">" %1$s saat"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s dakika"</item>
+        <item quantity="other">" %1$s dakika"</item>
+    </plurals>
+    <string name="brand_name">Markam</string>
+    <string name="lp_accessibility_agent">Ajan</string>
+    <string name="lp_accessibility_agent_icon">Ajan simgesi</string>
+    <string name="lp_accessibility_agent_is_typing">Temsilci mesaj yazıyor</string>
+    <string name="lp_accessibility_attachment_menu">Eklenti menüsü</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Tüm resim</string>
+    <string name="lp_accessibility_gallery">Galeri</string>
+    <string name="lp_accessibility_image">Resim</string>
+    <string name="lp_accessibility_image_caption">Resim yazısı</string>
+    <string name="lp_accessibility_is_typing">%1$s yazıyor</string>
+    <string name="lp_accessibility_new_agent_message">Yeni ajan mesajı: </string>
+    <string name="lp_accessibility_new_system_message">Yeni sistem mesajı: </string>
+    <string name="lp_accessibility_photo">fotoğraf</string>
+    <string name="lp_accessibility_photo_preview">Fotoğraf ön izleme</string>
+    <string name="lp_accessibility_received">alındı</string>
+    <string name="lp_accessibility_resend">Tekrar gönder</string>
+    <string name="lp_accessibility_sc_button">Düğme</string>
+    <string name="lp_accessibility_sc_image">Görüntü</string>
+    <string name="lp_accessibility_sc_map">Harita</string>
+    <string name="lp_accessibility_sc_text">Metin</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">aşağı kaydır</string>
+    <string name="lp_accessibility_selected">seçildi</string>
+    <string name="lp_accessibility_you">Sen</string>
+    <string name="lp_add_a_caption">Yazı ekleyin</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galeri</string>
+    <string name="lp_cancel">İptal</string>
+    <string name="lp_clear_history_dialog_message">Tüm mevcut görüşme geçmişiniz kaybedilecek. Emin misiniz?</string>
+    <string name="lp_clear_history_dialog_positive_button">Temizle</string>
+    <string name="lp_clear_history_dialog_title">Geçmişi temizle</string>
+    <string name="lp_clear_history_menu_text">Geçmişi temizle</string>
+    <string name="lp_connection_status_connecting">Bağlanıyor…</string>
+    <string name="lp_connection_status_failed_to_connect">Sunucuya bağlanılamadı. <u>Tekrar dene</u></string>
+    <string name="lp_connection_status_no_connection">Bağlantı yok. Lütfen bağlantınızı kontrol edin.</string>
+    <string name="lp_connection_status_trying_to_connect">Bağlanmaya çalışıyor…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Acil durumu iptal et</string>
+    <string name="lp_dismiss_as_urgent_two_lines">\n Acil durumu iptal et</string>
+    <string name="lp_dismiss_urgent_dialog_header">Bu görüşmeyi acil olmayan görüşme olarak işaretlemek istediğinizden emin misiniz?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Buna göre görüşmeniz normal önceliği alacaktır.</string>
+    <string name="lp_done">Tamam</string>
+    <string name="lp_end">Sonlandır</string>
+    <string name="lp_end_conversation">Görüşmeyi çözümle</string>
+    <string name="lp_end_conversation_first">Lütfen önce görüşmeyi çözümleyin.</string>
+    <string name="lp_failed_download_toast_message">Dosya indirmesi başarısız</string>
+    <string name="lp_failed_upload_toast_message">Dosya yüklenmesi başarısız</string>
+    <string name="lp_feedback_1">Çok memnuniyetsiz</string>
+    <string name="lp_feedback_2">Memnuniyetsiz</string>
+    <string name="lp_feedback_3">Hiçbiri</string>
+    <string name="lp_feedback_4">Memnun</string>
+    <string name="lp_feedback_5">Çok memnun</string>
+    <string name="lp_feedback_question">Temsilciniz ile bağlantıyı nasıl derecelendirirsiniz?</string>
+    <string name="lp_feedback_submit">Gönder</string>
+    <string name="lp_feedback_submit_message">Geri bildiriminiz size daha iyi hizmet sunmamıza yardımcı olur.\nHiçbir müşteri hizmetleri temsilcisiyle paylaşılmayacaktır.</string>
+    <string name="lp_feedback_thank_you">Anket başarıyla gönderildi.\nTeşekkür ederiz!</string>
+    <string name="lp_feedback_yesno_negative_title">Hayır</string>
+    <string name="lp_feedback_yesno_positive_title">Evet</string>
+    <string name="lp_feedback_yesno_question">Sorununuzu bugün çözebildik mi?</string>
+    <string name="lp_history_control_api_empty_state">Şu anda hiç görüşme yok</string>
+    <string name="lp_is_typing">yazılıyor...</string>
+    <string name="lp_mark_as_resolved_dialog_message">Bu konunun çözümlendiğinden emin misiniz?</string>
+    <string name="lp_mark_as_resolved_menu_text">Çözümlendi olarak işaretle</string>
+    <string name="lp_mark_as_urgent_dialog_header">Bu görüşmeyi acil olarak işaretlemek istediğinizden emin misiniz?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Buna göre görüşmeniz en yüksek önceliği alacaktır.</string>
+    <string name="lp_mark_as_urgent_menu_text">Acil olarak işaretle</string>
+    <string name="lp_menu_copy">Kopyala</string>
+    <string name="lp_menu_send_image">Gönder</string>
+    <string name="lp_new_messages">yeni mesaj</string>
+    <string name="lp_no_action_not_available_toast_message">Eylem kullanılamaz - açık görüşme yok</string>
+    <string name="lp_no_network_toast_message">Internet Bağlantısı Yok. Lütfen bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="lp_ok">TAMAM</string>
+    <string name="lp_send">Gönder</string>
+    <string name="lp_skip">Atla</string>
+    <string name="lp_structured_content_display_failed">İçerik görüntülenemedi</string>
+    <string name="lp_tap_to_add_a_caption">Yazı eklemek için dokunun</string>
+    <string name="lp_today">"Bzugün"</string>
+    <string name="lp_ttr_message_no_timestamp">Kısa süre sonra bir temsilci yanıt verecektir</string>
+    <string name="lp_ttr_message_off_hours_message">Mesajınız için teşekkürler. %1$s saat %2$s\'de tekrar çevrimiçi olacağız</string>
+    <string name="lp_ttr_message_off_hours_message_today">"Mesajınız için teşekkürler. Bugün saat %1$s'te tekrar çevrimiçi olacağız"</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">"Mesajınız için teşekkürler. Yarın saat %1$s'te tekrar çevrimiçi olacağız"</string>
+    <string name="lp_ttr_message_with_timestamp">Bir temsilci önümüzdeki %1$s içinde yanıt verecektir</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Formu doldur</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">KAL</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">TAMAM</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Güvenli formdan çıkarsanız, yeniden erişemeyeceksiniz.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Emin misiniz?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Bu form açılırken bir sorun oluştu. Yine formu göndermek için temsilcisine isteyin</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">Güvenli formun süresi doldu. Yine formu göndermek için temsilcisine isteyin</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Bu form gönderildi ve güvenlik gerekçeleriyle yeniden açılamaz.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Bu güvenli bir formdur. Buraya girilen bilgiler korumalıdır ve gönderildikten sonra bunlara erişilemez.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Bu form daha önce görüntülendi. Yine formu göndermek için temsilcisine isteyin</string>
+</resources>

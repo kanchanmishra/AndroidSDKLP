@@ -34,7 +34,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.RequestConversation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.SetUserProfile.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.SubscribeExConversations.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.SubscribeMessagingEvents.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.UnsubscribeExConversations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Request.UpdateConversationField.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Api.Response.AbstractResponse.cs" />
@@ -490,7 +489,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.MessageTimeoutQueue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.ExConversationChangeNotificationResponseHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.General_requests.ClockRequest.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.MessagingEventNotificationHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.BaseGetUrlRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.ChangeConversationTTRRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.ChatStateChangeRequest.cs" />
@@ -507,7 +505,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.SendMessageRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.SetUsersProfileRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.SubscribeExConversationsRequest.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.SubscribeMessagingEventsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Network.Socket.Requests.UnSubscribeExConversationsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Sdk.Api.Callbacks.ILogoutLivePersonCallback.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Messaging.Sdk.Api.Callbacks.IShutDownLivePersonCallback.cs" />
@@ -544,11 +541,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Cache.IParamsCache.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Cache.MonitoringParamsCache.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.ICommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.IMonitoring.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Managers.MonitoringRequestManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Model.EngagementDetails.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Model.EngagementWithSession.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Model.LPMonitoringIdentity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Model.ModelKeyNames.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Monitoring.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.MonitoringFactory.cs" />
@@ -557,20 +551,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Requests.SendSdeRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Api.LivepersonMonitoring.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Callbacks.IMonitoringCallback.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Callbacks.ISdeCallback.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Callbacks.MonitoringErrorType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Responses.LPEngagementResponse.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Sdk.Responses.LPSdeResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Utils.DomainBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Utils.IClearable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Utils.IShutDown.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Utils.LocalBroadcast.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Monitoring.Utils.ThreadPoolExecutor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Network.Http.Requests.GetEngagementRequest.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Sdk.Callbacks.IEngagementCallback.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Sdk.Callbacks.IMonitoringCallback.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Sdk.MonitoringInternalInitParams.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)\Com.Liveperson.Sdk.MonitoringParams.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
   </ItemGroup>

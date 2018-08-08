@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lp_accessibility_attachment_menu_button_collapsed">Tipka meni prilog propadel</string>
+    <string name="lp_accessibility_attachment_menu_button_expanded">Tipka meni prilog razširjena</string>
+    <string name="lp_accessibility_chat_message">Chat sporočilo</string>
+    <string name="lp_accessibility_message_preview_close_description">Zapri</string>
+    <string name="lp_enter_message">Napiši sporočilo</string>
+    <string name="lp_message_time_min_ago">Pred %1$s min</string>
+    <string name="lp_message_time_now">Zdaj</string>
+    <string name="lp_message_time_now_with_state">Zdaj</string>
+    <string name="lp_no_network_toast_message">Ni internetne povezave. Preverite svojo povezavo in poskusite znova.</string>
+    <string name="lp_send">Pošlji</string>
+    <string name="lp_today">»Danes«</string>
+    <string name="lp_yesterday">Včeraj</string>
+</resources>

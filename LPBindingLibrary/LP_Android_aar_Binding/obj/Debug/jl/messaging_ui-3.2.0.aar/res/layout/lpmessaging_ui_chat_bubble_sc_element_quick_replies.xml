@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.quickreplies.QuickRepliesControl
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quick_replies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/buttons_row_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</com.liveperson.infra.messaging_ui.uicomponents.structuredcontent.quickreplies.QuickRepliesControl>

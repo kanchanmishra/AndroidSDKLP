@@ -5,20 +5,6 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Messaging_App", "LP_Messaging_App\LP_Messaging_App.csproj", "{21634B19-7643-49C0-83FE-ED643395165C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Binding1_JustLP", "LP_Binding1_JustLP\LP_Binding1_JustLP.csproj", "{03D3ABAC-F455-458B-8BF9-AD6C9085484D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Infra_Binding", "LP_Infra_Binding\LP_Infra_Binding.csproj", "{EFFF87C9-200A-45E7-B893-F322A865E58F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Messaging_Binding", "LP_Messaging_Binding\LP_Messaging_Binding.csproj", "{A129AFD0-2C2B-4C61-9D3B-A78757902C6F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_MessagingSdk_Binding", "LP_MessagingSdk_Binding\LP_MessagingSdk_Binding.csproj", "{79771406-90C6-455A-A4CD-E63094A91B98}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_MessagingUI_Binding", "LP_MessagingUI_binding\LP_MessagingUI_Binding.csproj", "{FD5E16F6-6970-488B-A05A-50DB903B9944}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Monitoring_Binding", "LP_Monitoring_Binding\LP_Monitoring_Binding.csproj", "{93C73AC4-5B03-45D3-9824-28101D24285A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_UI_Binding", "LP_UI_Binding\LP_UI_Binding.csproj", "{6647B435-BA61-4E44-8AE7-19754EC6940F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP_Android_aar_Binding", "LP_Android_aar_Binding\LP_Android_aar_Binding.csproj", "{C2028559-6955-4E2D-B2C3-28454C4BECCA}"
 EndProject
 Global
@@ -33,34 +19,6 @@ Global
 		{21634B19-7643-49C0-83FE-ED643395165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21634B19-7643-49C0-83FE-ED643395165C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{21634B19-7643-49C0-83FE-ED643395165C}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{03D3ABAC-F455-458B-8BF9-AD6C9085484D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03D3ABAC-F455-458B-8BF9-AD6C9085484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03D3ABAC-F455-458B-8BF9-AD6C9085484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03D3ABAC-F455-458B-8BF9-AD6C9085484D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFFF87C9-200A-45E7-B893-F322A865E58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFFF87C9-200A-45E7-B893-F322A865E58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFFF87C9-200A-45E7-B893-F322A865E58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFFF87C9-200A-45E7-B893-F322A865E58F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A129AFD0-2C2B-4C61-9D3B-A78757902C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A129AFD0-2C2B-4C61-9D3B-A78757902C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A129AFD0-2C2B-4C61-9D3B-A78757902C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A129AFD0-2C2B-4C61-9D3B-A78757902C6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79771406-90C6-455A-A4CD-E63094A91B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79771406-90C6-455A-A4CD-E63094A91B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79771406-90C6-455A-A4CD-E63094A91B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79771406-90C6-455A-A4CD-E63094A91B98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD5E16F6-6970-488B-A05A-50DB903B9944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD5E16F6-6970-488B-A05A-50DB903B9944}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD5E16F6-6970-488B-A05A-50DB903B9944}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD5E16F6-6970-488B-A05A-50DB903B9944}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93C73AC4-5B03-45D3-9824-28101D24285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93C73AC4-5B03-45D3-9824-28101D24285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93C73AC4-5B03-45D3-9824-28101D24285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93C73AC4-5B03-45D3-9824-28101D24285A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6647B435-BA61-4E44-8AE7-19754EC6940F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6647B435-BA61-4E44-8AE7-19754EC6940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6647B435-BA61-4E44-8AE7-19754EC6940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6647B435-BA61-4E44-8AE7-19754EC6940F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2028559-6955-4E2D-B2C3-28454C4BECCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2028559-6955-4E2D-B2C3-28454C4BECCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2028559-6955-4E2D-B2C3-28454C4BECCA}.Release|Any CPU.ActiveCfg = Release|Any CPU

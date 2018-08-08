@@ -50,6 +50,15 @@
   <remove-node path="/api/package[@name='com.liveperson.infra.ui.view.adapter']/class[@name='BaseRecyclerViewCursorAdapter']/method[@name='onAccessibilityEventAvailable']" />
 
   <attr path="/api/package[@name='com.liveperson.infra.messaging_ui.uicomponents.list']/class[@name='MessagesAsListAdapter']/method[@name='onCreateViewHolder']" name="managedReturn">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
+  <remove-node path="/api/package[@name='com.liveperson.infra.messaging_ui.uicomponents.list']/class[@name='MessagesAsListAdapter']/method[@name='get']" />
+  
+  <!--delete onBindViewHolder as its already defind and creting issues for derived class-->
+  <remove-node path="/api/package[@name='android.support.v7.widget']/class[@name='RecyclerView.Adapter']/method[@name='onBindViewHolder']" />
+
+  <attr path="/api/package[@name='com.liveperson.infra.messaging_ui.uicomponents']/class[@name='ChatMessageRecyclerView.ListLoaderCallback']/method[@name='onCreateLoader']" name="managedReturn">Android.Support.V4.Content.Loader</attr>
+
+  
+
 
   <attr path="/api/package[@name='com.liveperson.api.request']/class[@name='AbstractRequest']/method[@name='getMessageType' and count(parameter)=0]"  name="visibility">public</attr>
 <!-- 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>Elküldve</item>
+        <item>Leadva</item>
+        <item>Elolvasták</item>
+        <item>Nincs leadva</item>
+        <item>Küldés</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s nap"</item>
+        <item quantity="other">" %1$s nap"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s óra"</item>
+        <item quantity="other">" %1$s óra"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s perc"</item>
+        <item quantity="other">" %1$s perc"</item>
+    </plurals>
+    <string name="brand_name">A márkám</string>
+    <string name="lp_accessibility_agent">Ügynök</string>
+    <string name="lp_accessibility_agent_icon">Ügynökikon</string>
+    <string name="lp_accessibility_agent_is_typing">Az ügyintéző éppen gépel</string>
+    <string name="lp_accessibility_attachment_menu">Csatolmányok menüje</string>
+    <string name="lp_accessibility_camera">Kamera</string>
+    <string name="lp_accessibility_full_image">Teljes kép</string>
+    <string name="lp_accessibility_gallery">Galéria</string>
+    <string name="lp_accessibility_image">Kép</string>
+    <string name="lp_accessibility_image_caption">Képaláírás</string>
+    <string name="lp_accessibility_is_typing">%1$s gépel</string>
+    <string name="lp_accessibility_new_agent_message">Új ügynöküzenet: </string>
+    <string name="lp_accessibility_new_system_message">Új rendszerüzenet: </string>
+    <string name="lp_accessibility_photo">fotó</string>
+    <string name="lp_accessibility_photo_preview">Fotó előnézete</string>
+    <string name="lp_accessibility_received">kézbesítve</string>
+    <string name="lp_accessibility_resend">Küldés újra</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">lefelé görgetés</string>
+    <string name="lp_accessibility_selected">kiválasztva</string>
+    <string name="lp_accessibility_you">Ön</string>
+    <string name="lp_add_a_caption">Képaláírás készítése</string>
+    <string name="lp_attachment_menu_camera_item_text">Kamera</string>
+    <string name="lp_attachment_menu_gallery_item_text">Galéria</string>
+    <string name="lp_cancel">Törlés</string>
+    <string name="lp_clear_history_dialog_message">A meglévő beszélgetés minden előznénye elvész. Biztos benne?</string>
+    <string name="lp_clear_history_dialog_positive_button">Törlés</string>
+    <string name="lp_clear_history_dialog_title">Előzmények törlése</string>
+    <string name="lp_clear_history_menu_text">Előzmények törlése</string>
+    <string name="lp_connection_status_connecting">Kapcsolódás…</string>
+    <string name="lp_connection_status_failed_to_connect">Nem sikerült kapcsolódni a szerverhez. <u>Retry</u></string>
+    <string name="lp_connection_status_no_connection">Nincs kapcsolat. Ellenőrizze a kapcsolatot.</string>
+    <string name="lp_connection_status_trying_to_connect">Kísérlet a kapcsolódásra…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">Sürgősség megszüntetése</string>
+    <string name="lp_dismiss_as_urgent_two_lines">Sürgősség\nmegszüntetése</string>
+    <string name="lp_dismiss_urgent_dialog_header">Biztosan szeretné ezt a beszélgetést sürgősként jelölni?</string>
+    <string name="lp_dismiss_urgent_dialog_message">Ez azt jelenti, hogy a beszélgetése normális elsőbbséget élvez.</string>
+    <string name="lp_done">Kész</string>
+    <string name="lp_end">Vége</string>
+    <string name="lp_end_conversation">Beszélgetés megoldása</string>
+    <string name="lp_end_conversation_first">Kérem, először oldja meg a beszélgetést.</string>
+    <string name="lp_failed_download_toast_message">Nem sikerült letölteni a fájlt </string>
+    <string name="lp_failed_upload_toast_message">Nem sikerült feltölteni a fájlt </string>
+    <string name="lp_feedback_1">Egyáltalán nem elégedett</string>
+    <string name="lp_feedback_2">Nem elégedett</string>
+    <string name="lp_feedback_3">Egyik sem</string>
+    <string name="lp_feedback_4">Elégedett</string>
+    <string name="lp_feedback_5">Nagyon elégedett</string>
+    <string name="lp_feedback_question">Hogyan értékelné aügynökkel való kapcsolatot?</string>
+    <string name="lp_feedback_submit">Beadás</string>
+    <string name="lp_feedback_submit_message">A visszajelzése segít a szolgáltatás javításában.\nNem osztjuk meg egy ügyfélszolgálati képviselővel sem.</string>
+    <string name="lp_feedback_thank_you">A felmérés beadása sikeresen megtörtént.\nKöszönöm!</string>
+    <string name="lp_feedback_yesno_negative_title">Nem</string>
+    <string name="lp_feedback_yesno_positive_title">Igen</string>
+    <string name="lp_feedback_yesno_question">Sikerült megoldani a mai problémáját?</string>
+    <string name="lp_is_typing">gépel…</string>
+    <string name="lp_mark_as_resolved_dialog_message">Biztos benne, hogy ezt a témát megoldotta?</string>
+    <string name="lp_mark_as_resolved_menu_text">Megoldottként jelzett</string>
+    <string name="lp_mark_as_urgent_dialog_header">Biztosan szeretné ezt a beszélgetést sürgősként jelölni?</string>
+    <string name="lp_mark_as_urgent_dialog_message">Ez azt jelenti, hogy a beszélgetése teljes elsőbbséget élvez.</string>
+    <string name="lp_mark_as_urgent_menu_text">Jelzés sürgősként</string>
+    <string name="lp_menu_copy">Másolás</string>
+    <string name="lp_menu_send_image">Küldés </string>
+    <string name="lp_new_messages">új üzenetek</string>
+    <string name="lp_no_action_not_available_toast_message">A művelet nem elérhető - nincs nyitott beszélgetés</string>
+    <string name="lp_no_network_toast_message">Nincs internetkapcsolat. Kérem, ellenőrizze a kapcsolatát és próbálja újra.</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">Küldés</string>
+    <string name="lp_skip">Kihagy</string>
+    <string name="lp_tap_to_add_a_caption">Koppintson ide a képaláíráshoz </string>
+    <string name="lp_today">Ma</string>
+    <string name="lp_ttr_message_no_timestamp">Egy munkatársunk hamarosan válaszol</string>
+    <string name="lp_ttr_message_off_hours_message">Köszönjük az üzenetét. %1$s-on, %2$s órakor ismét itt vagyunk</string>
+    <string name="lp_ttr_message_off_hours_message_today">Köszönjük az üzenetét. Ma, %1$s órakor ismét itt vagyunk</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">Köszönjük az üzenetét. Holnap, %1$s órakor ismét itt vagyunk</string>
+    <string name="lp_ttr_message_with_timestamp">Az elkövetkezendő %1$s lejárta előtt egy munkatársunk válaszolni fog</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">Töltse ki az űrlapot</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">MARAD</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">Miután elhagyja a biztonságos űrlapot, a hozzáférése megszűnik.</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">Biztos benne?</string>
+    <string name="lpmessaging_ui_secure_form_error_message">Hiba történt az űrlap megnyitása közben. Kérje meg a kapcsolattartót az űrlap visszaküldésére.</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">A biztonságos űrlap ideje lejárt. Kérje meg a kapcsolattartót az űrlap visszaküldésére.</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">Ezt az űrlapot már elküldte és biztonsági okokból nem nyithatja meg újra.</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">Ez egy biztonságos űrlap. Az itt megadott információ védett és az elküldése után nem hozzáférhető.</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">Ez az űrlap csak megtekinthető. Kérje meg a kapcsolattartót az űrlap visszaküldésére.</string>
+</resources>

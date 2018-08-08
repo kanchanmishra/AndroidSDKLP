@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lp_feedback_array">
+        <item>@string/lp_feedback_1</item>
+        <item>@string/lp_feedback_2</item>
+        <item>@string/lp_feedback_3</item>
+        <item>@string/lp_feedback_4</item>
+        <item>@string/lp_feedback_5</item>
+    </string-array>
+    <string-array name="message_receive_text">
+        <item>"送信日"</item>
+        <item>"配信済み"</item>
+        <item>"既読"</item>
+        <item>"未配信"</item>
+        <item>"送信中"</item>
+    </string-array>
+    <plurals name="lp_ttr_message_days">
+        <item quantity="one">" %1$s 日"</item>
+        <item quantity="other">" %1$s 日"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_hours">
+        <item quantity="one">" %1$s 時間"</item>
+        <item quantity="other">" %1$s 時間"</item>
+    </plurals>
+    <plurals name="lp_ttr_message_minutes">
+        <item quantity="one">" %1$s 分"</item>
+        <item quantity="other">" %1$s 分"</item>
+    </plurals>
+    <string name="brand_name">名前</string>
+    <string name="lp_accessibility_agent">送信者</string>
+    <string name="lp_accessibility_agent_icon">送信者のアイコン</string>
+    <string name="lp_accessibility_agent_is_typing">オペレーターが入力中です</string>
+    <string name="lp_accessibility_attachment_menu">添付メニュー</string>
+    <string name="lp_accessibility_camera">カメラ</string>
+    <string name="lp_accessibility_full_image">フルサイズの画像</string>
+    <string name="lp_accessibility_gallery">ギャラリー</string>
+    <string name="lp_accessibility_image">画像</string>
+    <string name="lp_accessibility_image_caption">画像のキャプション</string>
+    <string name="lp_accessibility_is_typing">%1$sが入力中です</string>
+    <string name="lp_accessibility_new_agent_message">新しいメッセージ： </string>
+    <string name="lp_accessibility_new_system_message">新しいシステムメッセージ：</string>
+    <string name="lp_accessibility_photo">写真</string>
+    <string name="lp_accessibility_photo_preview">写真のプレビュー</string>
+    <string name="lp_accessibility_received">受信</string>
+    <string name="lp_accessibility_resend">再送信</string>
+    <string name="lp_accessibility_sc_button">ボタン</string>
+    <string name="lp_accessibility_sc_image">画像</string>
+    <string name="lp_accessibility_sc_map">地図</string>
+    <string name="lp_accessibility_sc_text">テキスト</string>
+    <string name="lp_accessibility_scroll_down_indicator_description">下にスクロール</string>
+    <string name="lp_accessibility_selected">選択</string>
+    <string name="lp_accessibility_you">お客様</string>
+    <string name="lp_add_a_caption">キャプションを追加</string>
+    <string name="lp_attachment_menu_camera_item_text">カメラ</string>
+    <string name="lp_attachment_menu_gallery_item_text">ギャラリー</string>
+    <string name="lp_cancel">キャンセル</string>
+    <string name="lp_clear_history_dialog_message">会話履歴を全て消去しますか？</string>
+    <string name="lp_clear_history_dialog_positive_button">消去</string>
+    <string name="lp_clear_history_dialog_title">履歴の消去</string>
+    <string name="lp_clear_history_menu_text">履歴の消去</string>
+    <string name="lp_connection_status_connecting">接続しています…</string>
+    <string name="lp_connection_status_failed_to_connect">サーバーに接続できませんでした。<u>もう一度お試しください。</u></string>
+    <string name="lp_connection_status_no_connection">切断されています。接続状況をご確認ください。</string>
+    <string name="lp_connection_status_trying_to_connect">接続を試みています…</string>
+    <string name="lp_dismiss_as_urgent_menu_text">緊急指定の解除</string>
+    <string name="lp_dismiss_as_urgent_two_lines">緊急指定\nの解除</string>
+    <string name="lp_dismiss_urgent_dialog_header">緊急指定を解除しますか?</string>
+    <string name="lp_dismiss_urgent_dialog_message">会話の対応優先度は普通に戻ります。</string>
+    <string name="lp_done">完了</string>
+    <string name="lp_end">終了</string>
+    <string name="lp_end_conversation">会話を終了</string>
+    <string name="lp_end_conversation_first">消去する履歴はありません。</string>
+    <string name="lp_failed_download_toast_message">ファイルをダウンロードできませんでした。</string>
+    <string name="lp_failed_upload_toast_message">ファイルをアップロードできませんでした。</string>
+    <string name="lp_feedback_1">非常に不満</string>
+    <string name="lp_feedback_2">不満</string>
+    <string name="lp_feedback_3">普通</string>
+    <string name="lp_feedback_4">満足</string>
+    <string name="lp_feedback_5">非常に満足</string>
+    <string name="lp_feedback_question">今回の対応はいかがでしたか?</string>
+    <string name="lp_feedback_submit">送信</string>
+    <string name="lp_feedback_submit_message">お客様からいただいた情報は\n 今後のサービス向上のため活用させていただきます。</string>
+    <string name="lp_feedback_thank_you">アンケートは送信されました。\n </string>
+    <string name="lp_feedback_yesno_negative_title">いいえ</string>
+    <string name="lp_feedback_yesno_positive_title">はい</string>
+    <string name="lp_feedback_yesno_question">本日、問題は解決しましたか?</string>
+    <string name="lp_history_control_api_empty_state">現在表示する会話がありません</string>
+    <string name="lp_is_typing">入力中....</string>
+    <string name="lp_mark_as_resolved_dialog_message">会話を終了しますか?</string>
+    <string name="lp_mark_as_resolved_menu_text">終了</string>
+    <string name="lp_mark_as_urgent_dialog_header">この会話を緊急に指定しますか?</string>
+    <string name="lp_mark_as_urgent_dialog_message">会話の対応優先度があがります。</string>
+    <string name="lp_mark_as_urgent_menu_text">緊急に指定</string>
+    <string name="lp_menu_copy">コピー</string>
+    <string name="lp_menu_send_image">送信</string>
+    <string name="lp_new_messages">新しいメッセージ</string>
+    <string name="lp_no_action_not_available_toast_message">ご利用できません。</string>
+    <string name="lp_no_network_toast_message">インターネットに接続できません。</string>
+    <string name="lp_ok">OK</string>
+    <string name="lp_send">送信</string>
+    <string name="lp_skip">スキップ</string>
+    <string name="lp_structured_content_display_failed">コンテンツの表示中にエラー</string>
+    <string name="lp_tap_to_add_a_caption">タップしてキャプションを追加</string>
+    <string name="lp_today">"今日"</string>
+    <string name="lp_ttr_message_no_timestamp">担当者が間もなく応答します</string>
+    <string name="lp_ttr_message_off_hours_message">メッセージをいただき、ありがとうございます。担当者が %1$s 以降、返信させていただきます。</string>
+    <string name="lp_ttr_message_off_hours_message_today">メッセージをいただき、ありがとうございます。本日 %1$s 以降、返信させていただきます。</string>
+    <string name="lp_ttr_message_off_hours_message_tomorrow">メッセージをいただき、ありがとうございます。明日 %1$s 以降、返信させていただきます。</string>
+    <string name="lp_ttr_message_with_timestamp">担当者が %1$s 分以内に対応します</string>
+    <string name="lpmessaging_ui_fill_in_form_text_button">フォームに入力する</string>
+    <string name="lpmessaging_ui_fill_in_form_text_empty"/>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_negative">キャンセル</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_btn_positive">OK</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_description">フォームを閉じると再度アクセスできません。</string>
+    <string name="lpmessaging_ui_pci_leave_dialog_title">実行しますか？</string>
+    <string name="lpmessaging_ui_secure_form_error_message">問題が発生し、フォームを開けませんでした。フォームの再送をリクエストしてください。</string>
+    <string name="lpmessaging_ui_secure_form_expired_message">時間切れになり、フォームを開けませんでした。フォームの再送をリクエストしてください。</string>
+    <string name="lpmessaging_ui_secure_form_submitted_message">このフォームは送信済です。セキュリティ上の理由により、送信済のフォームを開くことはできません。</string>
+    <string name="lpmessaging_ui_secure_form_to_fill_in_message">このフォームはセキュリティ上保護されています。入力情報は保護され、送信後はアクセスできません。</string>
+    <string name="lpmessaging_ui_secure_form_viewed_message">このフォームは閲覧済です。フォームの再送をリクエストしてください。</string>
+</resources>

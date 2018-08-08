@@ -1,0 +1,2 @@
+android.app.Application
+LP_Messaging_App.LP_Messaging_App

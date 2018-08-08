@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lpui_feedbackLayoutRootView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feedback_fragment_background_color">
+
+    <WebView
+        android:layout_margin="2dp"
+        android:id="@+id/lpmessaging_ui_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark">
+    </WebView>
+</LinearLayout>

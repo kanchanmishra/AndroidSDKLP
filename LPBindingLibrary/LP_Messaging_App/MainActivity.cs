@@ -20,10 +20,10 @@ namespace LP_Messaging_App
     [Activity(Label = "LP_Messaging_App", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        private LivePersonCallbackImpl livePersonCallback;
-        private BroadcastReceiver mLivePersonReceiver;
-        private bool showToastOnCallback = true;
-        public static MainActivity Instance;
+        //private LivePersonCallbackImpl livePersonCallback;
+        //private BroadcastReceiver mLivePersonReceiver;
+        //private bool showToastOnCallback = true;
+        //public static MainActivity Instance;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -31,86 +31,35 @@ namespace LP_Messaging_App
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            RegisterToLivePersonEvents();
+            // RegisterToLivePersonEvents();
             MonitoringInitParams monitoringInitParams = new MonitoringInitParams(AppStorage.MAppinstallid);
 
             var initLivePerson = new InitLivePersonCallBackStartActivity(this);
-            LivePerson.Initialize(this, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity()));
-           /*
-            LivePerson.initialize(getApplicationContext(), new InitLivePersonProperties(mAccountIdEditText.getText().toString(), SampleAppStorage.SDK_SAMPLE_FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBack() {
+            LivePerson.Initialize(ApplicationContext, new InitLivePersonProperties(AppStorage.BrandID, AppStorage.FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBackStartActivity()));
+            /*
+             LivePerson.initialize(getApplicationContext(), new InitLivePersonProperties(mAccountIdEditText.getText().toString(), SampleAppStorage.SDK_SAMPLE_FCM_APP_ID, monitoringInitParams, new InitLivePersonCallBack() {
 
-                    @Override
+                     @Override
 
-                    public void onInitSucceed()
-                {
-                    enableLogoutButton(true);
+                     public void onInitSucceed()
+                 {
+                     enableLogoutButton(true);
 
-                    Intent messagingIntent = new Intent(IntroActivity.this, MessagingActivity.class);
-						    startActivity(messagingIntent);
-                }
+                     Intent messagingIntent = new Intent(IntroActivity.this, MessagingActivity.class);
+                             startActivity(messagingIntent);
+                 }
 
-                @Override
-                                public void onInitFailed(Exception e)
-                {
-                    Toast.makeText(IntroActivity.this, "Init failed", Toast.LENGTH_SHORT).show();
-                }
-            }));
+                 @Override
+                                 public void onInitFailed(Exception e)
+                 {
+                     Toast.makeText(IntroActivity.this, "Init failed", Toast.LENGTH_SHORT).show();
+                 }
+             }));
 
-    */
-
-        }
-        public static MainActivity GetInstance()
-        {
-            return Instance;
-        }
-        /// <summary>
-        /// RegisterToLivePersonEvents
-        /// </summary>
-        protected void RegisterToLivePersonEvents()
-        {
-            CreateLivePersonReceiver();
-            LocalBroadcastManager.GetInstance(ApplicationContext)
-                    .RegisterReceiver(mLivePersonReceiver, LivePersonIntents.IntentFilterForAllEvents);
-        }
-        /// <summary>
-        /// CreateLivePersonReceiver
-        /// </summary>
-        private void CreateLivePersonReceiver()
-        {
-            if (mLivePersonReceiver != null)
-            {
-                return;
-            }
-            Intent intent = new Intent(this,typeof(MainActivity));
-
-            var lPReceiverNew = new LPReceiver(this, showToastOnCallback, intent);
-          //  var lPReceiver = new LPReceiver();
-            mLivePersonReceiver = lPReceiverNew;
+     */
 
         }
-
-        public void SetShowToastOnCallback(bool showToastOnCallback)
-        {
-            this.showToastOnCallback = showToastOnCallback;
-        }
-        /// <summary>
-        /// RegisterToLivePersonCallbacks
-        /// </summary>
-        public void RegisterToLivePersonCallbacks()
-        {
-            CreateLivePersonCallback();
-            LivePerson.SetCallback(livePersonCallback);
-        }
-
-        public void CreateLivePersonCallback()
-        {
-            if (livePersonCallback != null)
-            {
-                return;
-            }
-            livePersonCallback = new LivePersonCallback(ApplicationContext);
-        }
-
     }
+       
 }
 

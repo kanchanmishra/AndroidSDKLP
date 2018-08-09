@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activity_Message.cs" />
+    <Compile Include="MainApplication.cs" />
     <Compile Include="RequiredClasses\InitLivePersonCallBackSupportClasses.cs" />
     <Compile Include="RequiredClasses\IntentActionMethods.cs" />
     <Compile Include="RequiredClasses\LivePersonCallback.cs" />

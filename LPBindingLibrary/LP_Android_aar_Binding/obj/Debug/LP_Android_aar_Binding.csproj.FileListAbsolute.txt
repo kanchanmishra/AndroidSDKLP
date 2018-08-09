@@ -27,7 +27,6 @@ C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\b
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\bin\Debug\Xamarin.GooglePlayServices.Tasks.dll
-C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\LP_Android_aar_Binding.csprojResolveAssemblyReference.cache
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
 C:\Xamarin\Projects\Android\LivePerson\LPBindingLibrary\LP_Android_aar_Binding\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp

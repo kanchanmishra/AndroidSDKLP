@@ -1,10 +1,7 @@
 ﻿using System;
-
-
 using Android.App;
 using Android.Content;
 using Android.OS;
-
 using Android.Support.V7.App;
 using Android.Support.V4.App;
 using Android.Util;
@@ -23,7 +20,7 @@ namespace LP_Messaging_App
 {
 
     
-    public class InitLivePersonCallBackStartActivity : AppCompatActivity, IInitLivePersonCallBack
+    public class InitLivePersonCallBackStartActivity : Java.Lang.Object, IInitLivePersonCallBack
     {
          static Context contextStartActivity;
         public InitLivePersonCallBackStartActivity() {
@@ -91,15 +88,11 @@ namespace LP_Messaging_App
             {
                 OnInitSucceed();
             }
-            catch (System.Exception var1)
+            catch (Java.Lang.Exception var1)
             {
-                OnInitFailed((Java.Lang.Exception)var1);
+                OnInitFailed(var1);
             }
-            //catch (Java.Lang.Exception var1)
-            //{
-            //    OnInitFailed(var1);
-            //}
-           
+
         }
 
         public void OnInitFailed(Java.Lang.Exception p0)
@@ -112,13 +105,17 @@ namespace LP_Messaging_App
             Log.Info(Tag, "onInitSucceed");
             var runnableHelper = new RunnableHelper(Tag, LivepersonFragment, CallBackInFragmentcontext);
 
-            //RunOnUiThread(() =>
-            //{
-            //    var runnableHelperInside = new RunnableHelper();
-            //    runnableHelperInside.Run();
-            //});
+            /*
+            RunOnUiThread(() =>
+                //{
+                // Run()
+                InitFragment()
+            // }
+            );
 
-            RunOnUiThread(new RunnableHelper());
+            */
+
+             RunOnUiThread(new RunnableHelper());
 
             /* original Android implementaion
             runOnUiThread(new Runnable() {
@@ -152,7 +149,7 @@ namespace LP_Messaging_App
         private void SetCallBack()
         {
             //register via callback, also available to listen via BroadCastReceiver in Main Application
-            MainActivity.GetInstance().RegisterToLivePersonCallbacks();
+            MainApplication.Instance.RegisterToLivePersonCallbacks();
         }
     }
 
@@ -160,14 +157,14 @@ namespace LP_Messaging_App
     {
         private static ConversationFragment mConversationFragment;
         private static Context CallBackInFragmentcontext;
-        public static string TAG;
-        public static string LIVEPERSON_FRAGMENT;
-        
+        public static string Tag;
+        public static string LivepersonFragment;
+
         public RunnableHelper(string tag, string livepersonFragment, Context context)
         {
             CallBackInFragmentcontext = context;
-            TAG = tag;
-            LIVEPERSON_FRAGMENT = livepersonFragment;
+            Tag = tag;
+            LivepersonFragment = livepersonFragment;
         }
         public RunnableHelper()
         {
@@ -180,8 +177,8 @@ namespace LP_Messaging_App
 
         private void InitFragment()
         {
-            mConversationFragment = (ConversationFragment)SupportFragmentManager.FindFragmentByTag(LIVEPERSON_FRAGMENT);
-            Log.Debug(TAG, "initFragment. mConversationFragment = " + mConversationFragment);
+            mConversationFragment = (ConversationFragment)SupportFragmentManager.FindFragmentByTag(LivepersonFragment);
+            Log.Debug(Tag, "initFragment. mConversationFragment = " + mConversationFragment);
 
             try
             {
@@ -229,7 +226,7 @@ namespace LP_Messaging_App
                         LivePerson.SetImageServiceDownloadNotificationBuilder(downloadBuilder);
 
                         var ft = SupportFragmentManager.BeginTransaction();
-                        ft.Add(Resource.Id.frameLayout1, mConversationFragment, LIVEPERSON_FRAGMENT).CommitAllowingStateLoss();
+                        ft.Add(Resource.Id.frameLayout1, mConversationFragment, LivepersonFragment).CommitAllowingStateLoss();
                     }
                 }
                 else
@@ -237,7 +234,7 @@ namespace LP_Messaging_App
                     AttachFragment();
                 }
             }
-            catch(System.Exception e) { throw e; }
+            catch(Java.Lang.Exception e) { throw e; }
         }
 
         private bool isReadOnly()
@@ -263,7 +260,7 @@ namespace LP_Messaging_App
         {
             if (mConversationFragment.IsDetached)
             {
-                Log.Debug(TAG, "initFragment. attaching fragment");
+                Log.Debug(Tag, "initFragment. attaching fragment");
                 if (isValidState())
                 {
                     var ft = SupportFragmentManager.BeginTransaction();

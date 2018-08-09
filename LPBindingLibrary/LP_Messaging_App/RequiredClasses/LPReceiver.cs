@@ -22,25 +22,24 @@ using Com.Liveperson.Messaging.Sdk.Api;
 
 namespace LP_Messaging_App
 {
-    //[BroadcastReceiver(Enabled = true, Exported = false)]
+    [BroadcastReceiver(Enabled = true, Exported = false)]
+    [IntentFilter(new[] { "LP_Messaging_App.LP_Messaging_App" })]
     public class LPReceiver : BroadcastReceiver
     {
         private static String TAG = "MainActivity";
         
         private static Context contextRecever;
-        private static Intent intentRecever;
+       // private static Intent intentRecever;
 
-        //public LPReceiver()
-        //{
-        //    OnReceive(contextRecever, intentRecever);
-        //}
-        public LPReceiver(Context appContext,bool showToastOnCallback, Intent intent)
+        public LPReceiver()
+        {
+           // OnReceive(contextRecever, intentRecever);
+        }
+        public LPReceiver(Context appContext, bool showToastOnCallback)
         {
             contextRecever = appContext;
             IntentActionMethods.ShowToastOnCallback = showToastOnCallback;
             IntentActionMethods.Tag = TAG;
-            intentRecever = intent;
-            OnReceive(contextRecever, intentRecever);
         }
 
         public override void OnReceive(Context context, Intent intent)
